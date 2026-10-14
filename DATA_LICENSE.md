@@ -1,22 +1,23 @@
 # Licence of the test sets
 
-`data/e2.jsonl` (zh-pii-ctx-heldout) and `data/fresh.jsonl` (zh-pii-fresh) are released under **CC BY-SA 4.0**,
+`data/e2.jsonl` (zh-pii-ctx-heldout), `data/fresh.jsonl` (zh-pii-fresh) and `data/fresh2.jsonl` (zh-pii-fresh-2)
+are released under **CC BY-SA 4.0**,
 because part of their text comes from Wikipedia (the 20231101 dump; Wikipedia text has been licensed under
 CC BY-SA 4.0 since June 2023).
 
 ## Contexts
 
-- **LCCC**: the base *test* split for e2, the base *valid* split for fresh (thu-coai, via `silver/lccc` on
+- **LCCC**: the base *test* split for e2, the base *valid* split for fresh and fresh2 (thu-coai, via `silver/lccc` on
   Hugging Face). MIT License; see the notice below.
 - **Chinese Wikipedia**: `wikimedia/wikipedia`, config 20231101.zh, CC BY-SA 4.0. Attribution: Wikipedia
-  contributors. fresh uses articles that e2 did not use; their ids are in the `wiki_id` field of each
-  record.
+  contributors. fresh and fresh2 use articles that e2 did not use (and fresh2 none that fresh used); their ids
+  are in the `wiki_id` field of each record.
 
 ## Inserted entities
 
 - All inserted entities are synthetic. No real personal data was added on purpose.
   - e2: names, addresses, phone numbers and emails made by `pools.py` and `build_e2.py`.
-  - fresh: names and addresses made by Faker 40.43.0 (MIT), through `confirm/gen_fresh.py`.
+  - fresh and fresh2: names and addresses made by Faker 40.43.0 (MIT), through `confirm/gen_fresh.py`.
 - The original contexts were filtered with jieba to drop text that looks like it contains names, but a few real
   names in the original text may remain. They are unlabelled.
 

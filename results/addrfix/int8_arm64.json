@@ -1,0 +1,153 @@
+{
+ "machine": "arm64",
+ "processor": "arm",
+ "new_int8_sha256": "f9e733a962d6d2f6dc41749b2d635062497b6330eea08995134134471d16f88d",
+ "rows": {
+  "fresh2|D1|person|strict": [
+   0.9171,
+   0.9358
+  ],
+  "fresh2|D1|person|overlap": [
+   0.9584,
+   0.9635
+  ],
+  "fresh2|D1|address|strict": [
+   0.7403,
+   0.941
+  ],
+  "fresh2|D1|address|overlap": [
+   0.9495,
+   0.9671
+  ],
+  "fresh2|D2|person|strict": [
+   0.9283,
+   0.9401
+  ],
+  "fresh2|D2|person|overlap": [
+   0.9584,
+   0.969
+  ],
+  "fresh2|D2|address|strict": [
+   0.748,
+   0.9475
+  ],
+  "fresh2|D2|address|overlap": [
+   0.9577,
+   0.9704
+  ],
+  "msra_train_5k|D1|person|strict": [
+   0.5579,
+   0.6196
+  ],
+  "msra_train_5k|D1|person|overlap": [
+   0.6804,
+   0.7208
+  ],
+  "msra_train_5k|D1|address|strict": [
+   0.0,
+   0.0
+  ],
+  "msra_train_5k|D1|address|overlap": [
+   0.0,
+   0.0
+  ],
+  "msra_train_5k|D2|person|strict": [
+   0.6057,
+   0.6532
+  ],
+  "msra_train_5k|D2|person|overlap": [
+   0.676,
+   0.7218
+  ],
+  "msra_train_5k|D2|address|strict": [
+   0.0,
+   0.0
+  ],
+  "msra_train_5k|D2|address|overlap": [
+   0.0,
+   0.0
+  ],
+  "pii_bench|D1|person|strict": [
+   0.9693,
+   0.974
+  ],
+  "pii_bench|D1|person|overlap": [
+   0.9941,
+   0.9975
+  ],
+  "pii_bench|D1|address|strict": [
+   0.9707,
+   0.9991
+  ],
+  "pii_bench|D1|address|overlap": [
+   0.9991,
+   0.9997
+  ],
+  "pii_bench|D2|person|strict": [
+   0.9764,
+   0.9681
+  ],
+  "pii_bench|D2|person|overlap": [
+   0.993,
+   0.9957
+  ],
+  "pii_bench|D2|address|strict": [
+   0.9605,
+   0.9994
+  ],
+  "pii_bench|D2|address|overlap": [
+   0.9997,
+   1.0
+  ],
+  "e2|D1|person|strict": [
+   0.6967,
+   0.7271
+  ],
+  "e2|D1|person|overlap": [
+   0.8323,
+   0.849
+  ],
+  "e2|D1|address|strict": [
+   0.2637,
+   0.8796
+  ],
+  "e2|D1|address|overlap": [
+   0.9604,
+   0.9679
+  ],
+  "e2|D2|person|strict": [
+   0.7535,
+   0.7738
+  ],
+  "e2|D2|person|overlap": [
+   0.8184,
+   0.848
+  ],
+  "e2|D2|address|strict": [
+   0.3014,
+   0.8939
+  ],
+  "e2|D2|address|overlap": [
+   0.9712,
+   0.9804
+  ]
+ },
+ "numaddr": {
+  "seatbelt|fresh2|D1": 113,
+  "new|fresh2|D1": 3,
+  "seatbelt|fresh2|D2": 132,
+  "new|fresh2|D2": 2,
+  "seatbelt|msra_train_5k|D1": 81,
+  "new|msra_train_5k|D1": 0,
+  "seatbelt|msra_train_5k|D2": 75,
+  "new|msra_train_5k|D2": 0,
+  "seatbelt|pii_bench|D1": 0,
+  "new|pii_bench|D1": 0,
+  "seatbelt|pii_bench|D2": 8,
+  "new|pii_bench|D2": 0,
+  "seatbelt|e2|D1": 92,
+  "new|e2|D1": 3,
+  "seatbelt|e2|D2": 52,
+  "new|e2|D2": 1
+ }
+}

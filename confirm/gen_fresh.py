@@ -22,7 +22,13 @@ import jieba.posseg as pseg
 from faker import Faker
 from faker.providers.person.zh_CN import Provider as ZhPersonProvider
 
-SEED = 20261014
+import os
+SEED = int(os.environ.get("FRESH_SEED", "20261014"))   # fresh-2: 20261015
+# fresh-2: lines of a previous output (FRESH_EXCLUDE=<jsonl>) mark LCCC dialogues that must not be reused
+EXCLUDE_LINES = set()
+if os.environ.get("FRESH_EXCLUDE"):
+    for _l in open(os.environ["FRESH_EXCLUDE"], encoding="utf-8"):
+        EXCLUDE_LINES.update(x for x in json.loads(_l)["text"].split("\n") if len(x) >= 8)
 N_LCCC = 1300
 N_WIKI = 700
 MAX_LEN = 400
@@ -155,6 +161,8 @@ def load_lccc(path, rng, n):
         seen += 1
         turns = [clean_lccc_turn(t) for t in dialogs[i]]
         turns = [t for t in turns if t]
+        if EXCLUDE_LINES and any(t in EXCLUDE_LINES for t in turns):
+            continue
         kept, total = [], 0
         for t in turns:
             if total + len(t) + 1 > CTX_BUDGET:

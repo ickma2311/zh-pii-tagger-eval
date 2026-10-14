@@ -127,6 +127,12 @@ def collate(batch):
             "labels": torch.tensor(pad("labels", -100))}
 
 # ---------------------------------------------------------------- data
+NUM_ADDR = re.compile(r"[\d\s.,，．%°]+号?")  # --addr-clean: a base-model "address" that is only a number is not an address
+
+def clean_number_addresses(text, spans):
+    """Drop base-model address spans whose text is only digits / spaces / .,% (optionally one trailing 号)."""
+    return [(s, e, t) for s, e, t in spans if not (t == "address" and NUM_ADDR.fullmatch(text[s:e]))]
+
 def cjk_ratio(s): return sum("一" <= c <= "鿿" for c in s) / max(1, len(s))
 
 def stream_jsonl(url, max_bytes):
@@ -244,6 +250,8 @@ def main():
     ap.add_argument("--data", default=os.path.join(HERE, "data"))
     ap.add_argument("--recipe", default="v1", choices=["v1", "v2"])
     ap.add_argument("--trim-punct", action="store_true", help="strip leading/trailing punctuation from decoded spans (released setting)")
+    ap.add_argument("--addr-clean", action="store_true", help="v1.1: base-model number-only addresses become O")
+    ap.add_argument("--cfgs", default="", help="comma list of configs to train (default by mode)")
     a = ap.parse_args(); seeds = [int(s) for s in a.seeds.split(",")]
     t_start = time.time()
     log("device", DEV, torch.cuda.get_device_name(0) if DEV == "cuda" else "")
@@ -262,6 +270,10 @@ def main():
     rtexts = replay_texts(*((300, 200, 200, 200) if a.mode == "smoke" else sizes))
     if a.mode == "smoke": n_rows = n_rows[:800]
     sl_n = predict(sb_model, sb_tok, labels, [r["text"] for r in n_rows])
+    n_clean = 0
+    if a.addr_clean:
+        before = sum(len(p) for p in sl_n)
+        sl_n = [clean_number_addresses(r["text"], p) for r, p in zip(n_rows, sl_n)]; n_clean += before - sum(len(p) for p in sl_n)
     for r, p in zip(n_rows, sl_n):
         gold = [(e["start"], e["end"]) for e in r["entities"]]
         for s, e, t in p:
@@ -272,6 +284,10 @@ def main():
             ents = [(e["start"], e["end"]) for e in r["entities"]]
             r["ignore"] = [[s, e] for s, e in r.get("ignore", []) if not any(s < b and a_ < e for a_, b in ents)]
     sl_r = predict(sb_model, sb_tok, labels, [t for _, t in rtexts])
+    if a.addr_clean:
+        before = sum(len(p) for p in sl_r)
+        sl_r = [clean_number_addresses(t, p) for (_, t), p in zip(rtexts, sl_r)]; n_clean += before - sum(len(p) for p in sl_r)
+        log("addr-clean: number-only base-model addresses dropped", n_clean)
     replay_rows = [{"text": t, "entities": [{"start": s, "end": e, "type": ty} for s, e, ty in p], "src": src}
                    for (src, t), p in zip(rtexts, sl_r)]
     log("selflabel done", len(n_rows), len(replay_rows))
@@ -282,7 +298,8 @@ def main():
     n_tr, n_va = split(n_rows); r_tr, r_va = split(replay_rows)
     meta = {"n_train": len(n_tr), "replay_train": len(r_tr), "seeds": seeds, "mode": a.mode, "recipe": a.recipe,
             "ignore_spans": sum(len(r.get("ignore", [])) for r in n_rows),
-            "ctx_selflabel_person": sum(1 for r in n_rows for e in r["entities"] if "text" not in e and e["type"] == "person")}
+            "ctx_selflabel_person": sum(1 for r in n_rows for e in r["entities"] if "text" not in e and e["type"] == "person"),
+            "addr_clean": a.addr_clean, "addr_clean_dropped": n_clean}
     log("meta", meta)
 
     if a.mode in ("smoke", "main"):
@@ -297,10 +314,11 @@ def main():
     steps_M = (len(n_tr) + len(r_tr)) // bs  # one epoch of N+R
     if a.mode == "smoke": steps_M = 200
     cfgs = ["M", "A"] if a.mode in ("smoke", "main") else ["F2"]
+    if a.cfgs: cfgs = a.cfgs.split(",")
     if a.mode == "smoke": seeds = seeds[:1]
     for cfg in cfgs:
         for seed in seeds:
-            tag = f"{cfg}{'3' if TRIM else ('2' if v2 else '')}_s{seed}"
+            tag = f"{cfg}{'3' if TRIM else ('2' if v2 else '')}{'a' if a.addr_clean else ''}_s{seed}"
             if cfg == "F2":
                 tok, model = load_rbt3(labels); lr = 5e-5
             else:

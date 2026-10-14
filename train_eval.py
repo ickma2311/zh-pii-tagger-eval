@@ -15,7 +15,7 @@ from metrics import read_conll, counts, f1_from, TYPES
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.environ.get("OUT_DIR", os.path.join(HERE, "out")); os.makedirs(OUT, exist_ok=True)
 DEV = "cuda" if torch.cuda.is_available() else "cpu"
-SB = "cjhwong/seatbelt-pii-tagger"; SB_REV = "main"
+SB = "cjhwong/seatbelt-pii-tagger"; SB_REV = os.environ.get("SB_REV", "main")  # pin with SB_REV=c2ca0cd7d1c2f93092dfa6bac8e4c74ad82aad18
 
 def log(*a):
     print("[progress]", time.strftime("%H:%M:%S"), *a, flush=True)
@@ -25,11 +25,11 @@ def load_seatbelt():
     from huggingface_hub import hf_hub_download
     from transformers import BertForTokenClassification, PreTrainedTokenizerFast
     from tokenizers import Tokenizer
-    tok = PreTrainedTokenizerFast(tokenizer_object=Tokenizer.from_file(hf_hub_download(SB, "tokenizer.json")),
+    tok = PreTrainedTokenizerFast(tokenizer_object=Tokenizer.from_file(hf_hub_download(SB, "tokenizer.json", revision=SB_REV)),
                                   bos_token="<s>", cls_token="<s>", eos_token="</s>", sep_token="</s>",
                                   pad_token="<pad>", unk_token="<unk>", mask_token="<mask>")
-    labels = json.load(open(hf_hub_download(SB, "labels.json")))
-    model = BertForTokenClassification.from_pretrained(SB)
+    labels = json.load(open(hf_hub_download(SB, "labels.json", revision=SB_REV)))
+    model = BertForTokenClassification.from_pretrained(SB, revision=SB_REV)
     return tok, model, labels
 
 def load_rbt3(labels):
@@ -299,7 +299,7 @@ def main():
     meta = {"n_train": len(n_tr), "replay_train": len(r_tr), "seeds": seeds, "mode": a.mode, "recipe": a.recipe,
             "ignore_spans": sum(len(r.get("ignore", [])) for r in n_rows),
             "ctx_selflabel_person": sum(1 for r in n_rows for e in r["entities"] if "text" not in e and e["type"] == "person"),
-            "addr_clean": a.addr_clean, "addr_clean_dropped": n_clean}
+            "addr_clean": a.addr_clean, "addr_clean_dropped": n_clean, "sb_rev": SB_REV}
     log("meta", meta)
 
     if a.mode in ("smoke", "main"):

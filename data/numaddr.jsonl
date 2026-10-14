@@ -1,0 +1,1200 @@
+{"id": "numaddr_00001", "kind": "mixed", "pattern": "M06_qa_bus", "text": "A：你家具体在哪？B：西安市未央区丰收街161号绿城小区23栋404，坐14路公交到终点站下车。", "entities": [{"start": 11, "end": 34, "type": "address", "text": "西安市未央区丰收街161号绿城小区23栋404"}]}
+{"id": "numaddr_00002", "kind": "pos", "pattern": "P50_qa_dash", "text": "A：送哪儿？B：３３-７０３，放门口就行。", "entities": [{"start": 8, "end": 14, "type": "address", "text": "３３-７０３"}]}
+{"id": "numaddr_00003", "kind": "pos", "pattern": "P28_company_dong", "text": "我们公司在5栋，进园区左转第二栋就是。", "entities": [{"start": 5, "end": 7, "type": "address", "text": "5栋"}]}
+{"id": "numaddr_00004", "kind": "pos", "pattern": "P54_doorno_bare", "text": "门牌号 126，院门没锁，直接推门进来。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "126"}]}
+{"id": "numaddr_00005", "kind": "neg", "pattern": "N16_meeting_cap", "text": "会议室能坐 10 人，周会够用了。", "entities": []}
+{"id": "numaddr_00006", "kind": "pos", "pattern": "P32_duty_room", "text": "这周轮到211倒垃圾，别忘了啊。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "211"}]}
+{"id": "numaddr_00007", "kind": "neg", "pattern": "N01_price_yuan", "text": "这件外套才7740元，比商场便宜一半。", "entities": []}
+{"id": "numaddr_00008", "kind": "neg", "pattern": "N40_run_time", "text": "这次五公里用时11分46秒，配速还行。", "entities": []}
+{"id": "numaddr_00009", "kind": "pos", "pattern": "P25_upstairs_room", "text": "我就住你楼上，208，有事喊一声就行。", "entities": [{"start": 7, "end": 10, "type": "address", "text": "208"}]}
+{"id": "numaddr_00010", "kind": "pos", "pattern": "P34_neighbor_aunt", "text": "楼下1403的阿姨又来借梯子了，借了三回都没还。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "1403"}]}
+{"id": "numaddr_00011", "kind": "mixed", "pattern": "M08_visit_time", "text": "家访地址：广西壮族自治区南宁市江南区胜利南路267号怡景新村35幢603室；时间：8月17号下午2点。", "entities": [{"start": 5, "end": 37, "type": "address", "text": "广西壮族自治区南宁市江南区胜利南路267号怡景新村35幢603室"}]}
+{"id": "numaddr_00012", "kind": "pos", "pattern": "P47_form_two", "text": "入住登记｜楼栋：25栋｜房号：611｜入住人数：两人", "entities": [{"start": 8, "end": 11, "type": "address", "text": "25栋"}, {"start": 15, "end": 18, "type": "address", "text": "611"}]}
+{"id": "numaddr_00013", "kind": "neg", "pattern": "N03_year_grad", "text": "我2018年毕业，之后换了三份工作。", "entities": []}
+{"id": "numaddr_00014", "kind": "pos", "pattern": "P28_company_dong", "text": "我们公司在23栋，进园区左转第二栋就是。", "entities": [{"start": 5, "end": 8, "type": "address", "text": "23栋"}]}
+{"id": "numaddr_00015", "kind": "neg", "pattern": "N53_grade_cohort", "text": "他是2020级的学长，现在在读研。", "entities": []}
+{"id": "numaddr_00016", "kind": "neg", "pattern": "N56_room_price", "text": "486元一晚的房间，性价比还挺高。", "entities": []}
+{"id": "numaddr_00017", "kind": "pos", "pattern": "P44_pickup_wait", "text": "到了给我发消息，我下来接你，我在6号楼。", "entities": [{"start": 16, "end": 19, "type": "address", "text": "6号楼"}]}
+{"id": "numaddr_00018", "kind": "neg", "pattern": "N60_chart_rank", "text": "这首歌在榜单上排第260位，比上周升了不少。", "entities": []}
+{"id": "numaddr_00019", "kind": "pos", "pattern": "P55_live_dong_room", "text": "现在住１６栋２５０３，比之前那间大一点。", "entities": [{"start": 3, "end": 10, "type": "address", "text": "１６栋２５０３"}]}
+{"id": "numaddr_00020", "kind": "pos", "pattern": "P49_repair", "text": "上门维修预约：４单元１１０８室，空调不制冷，周末都在家。", "entities": [{"start": 7, "end": 15, "type": "address", "text": "４单元１１０８室"}]}
+{"id": "numaddr_00021", "kind": "pos", "pattern": "P56_qa_moved", "text": "A：你们搬哪去了？B：就隔壁，10号。", "entities": [{"start": 15, "end": 18, "type": "address", "text": "10号"}]}
+{"id": "numaddr_00022", "kind": "neg", "pattern": "N02_price_symbol", "text": "￥3978，包邮，今晚下单明天就到。", "entities": []}
+{"id": "numaddr_00023", "kind": "pos", "pattern": "P16_dong_unit_ask", "text": "已经到楼下了，28栋1单元是哪个门啊？", "entities": [{"start": 7, "end": 13, "type": "address", "text": "28栋1单元"}]}
+{"id": "numaddr_00024", "kind": "neg", "pattern": "N24_contestant", "text": "第 31 号选手请到后台准备。", "entities": []}
+{"id": "numaddr_00025", "kind": "pos", "pattern": "P45_old_place", "text": "老地方，6号，晚上七点不见不散。", "entities": [{"start": 4, "end": 6, "type": "address", "text": "6号"}]}
+{"id": "numaddr_00026", "kind": "pos", "pattern": "P14_yard", "text": "我在9号院，进胡同左手第三个门就是。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "9号院"}]}
+{"id": "numaddr_00027", "kind": "pos", "pattern": "P47_form_two", "text": "入住登记｜楼栋：30栋｜房号：502｜入住人数：两人", "entities": [{"start": 8, "end": 11, "type": "address", "text": "30栋"}, {"start": 15, "end": 18, "type": "address", "text": "502"}]}
+{"id": "numaddr_00028", "kind": "neg", "pattern": "N54_cinema_seat", "text": "电影晚上11点开场，我买的是 19 排 6 座。", "entities": []}
+{"id": "numaddr_00029", "kind": "pos", "pattern": "P55_live_dong_room", "text": "现在住36栋908，比之前那间大一点。", "entities": [{"start": 3, "end": 9, "type": "address", "text": "36栋908"}]}
+{"id": "numaddr_00030", "kind": "neg", "pattern": "N47_classroom_cap", "text": "这间阶梯教室能容纳20人，讲座放这里吧。", "entities": []}
+{"id": "numaddr_00031", "kind": "pos", "pattern": "P51_ask_guard_yard", "text": "找不到路就问门口保安4号院怎么走，他们都知道。", "entities": [{"start": 10, "end": 13, "type": "address", "text": "4号院"}]}
+{"id": "numaddr_00032", "kind": "pos", "pattern": "P43_rent_listing", "text": "转租：10栋朝南单间，拎包入住，有意私聊。", "entities": [{"start": 3, "end": 6, "type": "address", "text": "10栋"}]}
+{"id": "numaddr_00033", "kind": "pos", "pattern": "P26_fetch_key", "text": "下班顺路的话去24号楼帮我拿一下钥匙，我妈在家。", "entities": [{"start": 7, "end": 11, "type": "address", "text": "24号楼"}]}
+{"id": "numaddr_00034", "kind": "pos", "pattern": "P52_door_renamed", "text": "地址改为１７号了，原来那块旧门牌已经拆掉。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "１７号"}]}
+{"id": "numaddr_00035", "kind": "neg", "pattern": "N37_doc_pages", "text": "这份文件一共 105 页，记得双面打印。", "entities": []}
+{"id": "numaddr_00036", "kind": "pos", "pattern": "P10_unit_room", "text": "地址就写6单元508，小区门卫都知道。", "entities": [{"start": 4, "end": 10, "type": "address", "text": "6单元508"}]}
+{"id": "numaddr_00037", "kind": "mixed", "pattern": "M03_sender_fee", "text": "寄件人地址重庆市南岸区建设西路23号，运费10元已付。", "entities": [{"start": 5, "end": 18, "type": "address", "text": "重庆市南岸区建设西路23号"}]}
+{"id": "numaddr_00038", "kind": "neg", "pattern": "N62_discount", "text": "店庆全场7.5折，满743减6，算下来挺划算。", "entities": []}
+{"id": "numaddr_00039", "kind": "pos", "pattern": "P35_stall_fruit", "text": "我在95号摊位，过来尝尝新到的西瓜。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "95号"}]}
+{"id": "numaddr_00040", "kind": "pos", "pattern": "P34_neighbor_aunt", "text": "楼下305的阿姨又来借梯子了，借了三回都没还。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "305"}]}
+{"id": "numaddr_00041", "kind": "neg", "pattern": "N06_time", "text": "会议改到明天上午9点20分，大家记一下。", "entities": []}
+{"id": "numaddr_00042", "kind": "mixed", "pattern": "M09_listing", "text": "石家庄市裕华区银杏大街28号这套房，3室1厅，挂牌608万，有兴趣可以约看。", "entities": [{"start": 0, "end": 14, "type": "address", "text": "石家庄市裕华区银杏大街28号"}]}
+{"id": "numaddr_00043", "kind": "neg", "pattern": "N29_queue", "text": "叫号叫到 C068 了，前面还有十几个人。", "entities": []}
+{"id": "numaddr_00044", "kind": "neg", "pattern": "N19_rank", "text": "期末全年级排第179名，比上次进步了。", "entities": []}
+{"id": "numaddr_00045", "kind": "mixed", "pattern": "M03_sender_fee", "text": "寄件人地址浙江省温州市龙湾区朝阳南路320号书香门第9栋102，运费8元已付。", "entities": [{"start": 5, "end": 31, "type": "address", "text": "浙江省温州市龙湾区朝阳南路320号书香门第9栋102"}]}
+{"id": "numaddr_00046", "kind": "pos", "pattern": "P45_old_place", "text": "老地方，14号，晚上七点不见不散。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "14号"}]}
+{"id": "numaddr_00047", "kind": "neg", "pattern": "N38_birthday", "text": "1月20号是我生日，别忘了。", "entities": []}
+{"id": "numaddr_00048", "kind": "mixed", "pattern": "M03_sender_fee", "text": "寄件人地址宁波市海曙区长安东路356号，运费10元已付。", "entities": [{"start": 5, "end": 19, "type": "address", "text": "宁波市海曙区长安东路356号"}]}
+{"id": "numaddr_00049", "kind": "neg", "pattern": "N53_grade_cohort", "text": "他是2015级的学长，现在在读研。", "entities": []}
+{"id": "numaddr_00050", "kind": "pos", "pattern": "P48_two_dong", "text": "我在２６栋，她在２４栋，中间就隔一个小花园。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "２６栋"}, {"start": 8, "end": 11, "type": "address", "text": "２４栋"}]}
+{"id": "numaddr_00051", "kind": "neg", "pattern": "N15_bus_route", "text": "坐 １５ 路车到终点站，再走五分钟就到。", "entities": []}
+{"id": "numaddr_00052", "kind": "pos", "pattern": "P01_live_room", "text": "我住1106，到了直接上来敲门就行。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "1106"}]}
+{"id": "numaddr_00053", "kind": "mixed", "pattern": "M07_order_fix", "text": "订单7622998的收货地址填错了，麻烦改成北京市西城区长江南路275号34号楼2单元110。", "entities": [{"start": 22, "end": 46, "type": "address", "text": "北京市西城区长江南路275号34号楼2单元110"}]}
+{"id": "numaddr_00054", "kind": "pos", "pattern": "P54_doorno_bare", "text": "门牌号 96，院门没锁，直接推门进来。", "entities": [{"start": 4, "end": 6, "type": "address", "text": "96"}]}
+{"id": "numaddr_00055", "kind": "neg", "pattern": "N15_bus_route", "text": "坐 27 路车到终点站，再走五分钟就到。", "entities": []}
+{"id": "numaddr_00056", "kind": "pos", "pattern": "P53_share_room", "text": "我和覃姐合租，住2208，有空过来吃火锅。", "entities": [{"start": 8, "end": 12, "type": "address", "text": "2208"}]}
+{"id": "numaddr_00057", "kind": "pos", "pattern": "P27_qinshi", "text": "他现在住436寝室，你直接上去找他吧。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "436"}]}
+{"id": "numaddr_00058", "kind": "mixed", "pattern": "M01_delivery_date", "text": "收货地址：青岛市崂山区学府东路216号，请30号之前送到，谢谢。", "entities": [{"start": 5, "end": 19, "type": "address", "text": "青岛市崂山区学府东路216号"}]}
+{"id": "numaddr_00059", "kind": "neg", "pattern": "N04_date_home", "text": "14号回家，票已经买好了。", "entities": []}
+{"id": "numaddr_00060", "kind": "neg", "pattern": "N42_parking_fee", "text": "停车费每小时 １２ 元，停了 ３ 小时。", "entities": []}
+{"id": "numaddr_00061", "kind": "neg", "pattern": "N47_classroom_cap", "text": "这间阶梯教室能容纳16人，讲座放这里吧。", "entities": []}
+{"id": "numaddr_00062", "kind": "pos", "pattern": "P54_doorno_bare", "text": "门牌号 １０５，院门没锁，直接推门进来。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "１０５"}]}
+{"id": "numaddr_00063", "kind": "pos", "pattern": "P36_zhuang", "text": "车停在路边，你到20幢门口等我五分钟。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "20幢"}]}
+{"id": "numaddr_00064", "kind": "neg", "pattern": "N46_floor_count", "text": "整栋楼一共12层，居然没有电梯。", "entities": []}
+{"id": "numaddr_00065", "kind": "pos", "pattern": "P21_pickup_change", "text": "取件地址改成32栋1203吧，之前那个已经不住了。", "entities": [{"start": 6, "end": 13, "type": "address", "text": "32栋1203"}]}
+{"id": "numaddr_00066", "kind": "pos", "pattern": "P44_pickup_wait", "text": "到了给我发消息，我下来接你，我在５号楼。", "entities": [{"start": 16, "end": 19, "type": "address", "text": "５号楼"}]}
+{"id": "numaddr_00067", "kind": "pos", "pattern": "P08_go_dong", "text": "明天下午去 13栋 找王老师拿资料。", "entities": [{"start": 6, "end": 9, "type": "address", "text": "13栋"}]}
+{"id": "numaddr_00068", "kind": "pos", "pattern": "P05_moved_door_sp", "text": "我搬到了 6 号，周末有空来坐坐呗。", "entities": [{"start": 5, "end": 8, "type": "address", "text": "6 号"}]}
+{"id": "numaddr_00069", "kind": "pos", "pattern": "P52_door_renamed", "text": "地址改为199号了，原来那块旧门牌已经拆掉。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "199号"}]}
+{"id": "numaddr_00070", "kind": "neg", "pattern": "N44_draw_lot", "text": "抽签抽到 23 号，第三个上场，好紧张。", "entities": []}
+{"id": "numaddr_00071", "kind": "pos", "pattern": "P27_qinshi", "text": "他现在住606寝室，你直接上去找他吧。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "606"}]}
+{"id": "numaddr_00072", "kind": "pos", "pattern": "P09_dash_combo", "text": "我家是14-3304，电梯坏了，麻烦走楼梯上来。", "entities": [{"start": 3, "end": 10, "type": "address", "text": "14-3304"}]}
+{"id": "numaddr_00073", "kind": "neg", "pattern": "N45_bld_count", "text": "这个小区一共 39 栋楼，绿化做得不错。", "entities": []}
+{"id": "numaddr_00074", "kind": "pos", "pattern": "P24_village_door", "text": "住址一栏我只填了43号，村里人都认识我家。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "43号"}]}
+{"id": "numaddr_00075", "kind": "pos", "pattern": "P10_unit_room", "text": "地址就写6单元407，小区门卫都知道。", "entities": [{"start": 4, "end": 10, "type": "address", "text": "6单元407"}]}
+{"id": "numaddr_00076", "kind": "pos", "pattern": "P45_old_place", "text": "老地方，238号，晚上七点不见不散。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "238号"}]}
+{"id": "numaddr_00077", "kind": "neg", "pattern": "N62_discount", "text": "店庆全场六折，满70减10，算下来挺划算。", "entities": []}
+{"id": "numaddr_00078", "kind": "neg", "pattern": "N35_train_delay", "text": "K1511次列车晚点 31 分钟，大家别着急。", "entities": []}
+{"id": "numaddr_00079", "kind": "neg", "pattern": "N34_dining_car", "text": "5号车厢是餐车，饿了可以去那边买盒饭。", "entities": []}
+{"id": "numaddr_00080", "kind": "pos", "pattern": "P32_duty_room", "text": "这周轮到204倒垃圾，别忘了啊。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "204"}]}
+{"id": "numaddr_00081", "kind": "pos", "pattern": "P21_pickup_change", "text": "取件地址改成7栋101吧，之前那个已经不住了。", "entities": [{"start": 6, "end": 11, "type": "address", "text": "7栋101"}]}
+{"id": "numaddr_00082", "kind": "mixed", "pattern": "M02_metro", "text": "我家在深圳市宝安区春晖西路307号12号楼6单元408，坐8号线过来，出站再走6分钟。", "entities": [{"start": 3, "end": 27, "type": "address", "text": "深圳市宝安区春晖西路307号12号楼6单元408"}]}
+{"id": "numaddr_00083", "kind": "pos", "pattern": "P53_share_room", "text": "我和崔姐合租，住2611，有空过来吃火锅。", "entities": [{"start": 8, "end": 12, "type": "address", "text": "2611"}]}
+{"id": "numaddr_00084", "kind": "neg", "pattern": "N27_exam_score", "text": "高考考了 678 分，够不够上一本线？", "entities": []}
+{"id": "numaddr_00085", "kind": "pos", "pattern": "P43_rent_listing", "text": "转租：12栋朝南单间，拎包入住，有意私聊。", "entities": [{"start": 3, "end": 6, "type": "address", "text": "12栋"}]}
+{"id": "numaddr_00086", "kind": "pos", "pattern": "P58_courier_note", "text": "快递备注：送1310，家里没人就放隔壁魏阿姨那。", "entities": [{"start": 6, "end": 10, "type": "address", "text": "1310"}]}
+{"id": "numaddr_00087", "kind": "pos", "pattern": "P13_takeout_door", "text": "外卖小哥你好，放111门口就行，别敲门，孩子在睡觉。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "111"}]}
+{"id": "numaddr_00088", "kind": "neg", "pattern": "N53_grade_cohort", "text": "他是2018级的学长，现在在读研。", "entities": []}
+{"id": "numaddr_00089", "kind": "neg", "pattern": "N31_shoe_size", "text": "鞋码42，这款偏大半码，建议拍小一码。", "entities": []}
+{"id": "numaddr_00090", "kind": "neg", "pattern": "N01_price_yuan", "text": "这件外套才492元，比商场便宜一半。", "entities": []}
+{"id": "numaddr_00091", "kind": "pos", "pattern": "P34_neighbor_aunt", "text": "楼下1012的阿姨又来借梯子了，借了三回都没还。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "1012"}]}
+{"id": "numaddr_00092", "kind": "pos", "pattern": "P48_two_dong", "text": "我在25栋，她在27栋，中间就隔一个小花园。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "25栋"}, {"start": 8, "end": 11, "type": "address", "text": "27栋"}]}
+{"id": "numaddr_00093", "kind": "pos", "pattern": "P15_stall", "text": "摊位在 ５号，卖酱菜的就是我，来了喊一声。", "entities": [{"start": 4, "end": 6, "type": "address", "text": "５号"}]}
+{"id": "numaddr_00094", "kind": "pos", "pattern": "P55_live_dong_room", "text": "现在住7栋1508，比之前那间大一点。", "entities": [{"start": 3, "end": 9, "type": "address", "text": "7栋1508"}]}
+{"id": "numaddr_00095", "kind": "pos", "pattern": "P38_new_full_combo", "text": "新地址发你：２４号楼６单元２２０８，记得在软件里改一下。", "entities": [{"start": 6, "end": 17, "type": "address", "text": "２４号楼６单元２２０８"}]}
+{"id": "numaddr_00096", "kind": "neg", "pattern": "N12_page_question", "text": "这道题在第１０５页，第５题，我也不会。", "entities": []}
+{"id": "numaddr_00097", "kind": "neg", "pattern": "N02_price_symbol", "text": "￥19，包邮，今晚下单明天就到。", "entities": []}
+{"id": "numaddr_00098", "kind": "neg", "pattern": "N58_layout", "text": "这套房子4室1厅，56平米，采光很好。", "entities": []}
+{"id": "numaddr_00099", "kind": "pos", "pattern": "P33_notice_unit", "text": "物业通知：9号楼1单元明天上午停水，请住户提前储水。", "entities": [{"start": 5, "end": 11, "type": "address", "text": "9号楼1单元"}]}
+{"id": "numaddr_00100", "kind": "pos", "pattern": "P39_hotel_room", "text": "酒店给我们分到106，推开窗就是海，太值了！", "entities": [{"start": 7, "end": 10, "type": "address", "text": "106"}]}
+{"id": "numaddr_00101", "kind": "neg", "pattern": "N53_grade_cohort", "text": "他是2025级的学长，现在在读研。", "entities": []}
+{"id": "numaddr_00102", "kind": "mixed", "pattern": "M08_visit_time", "text": "家访地址：温州市鹿城区朝阳南路367号；时间：3月24号下午4点。", "entities": [{"start": 5, "end": 19, "type": "address", "text": "温州市鹿城区朝阳南路367号"}]}
+{"id": "numaddr_00103", "kind": "pos", "pattern": "P57_dorm_roommate", "text": "室友说他今晚不回603了，门别反锁。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "603"}]}
+{"id": "numaddr_00104", "kind": "neg", "pattern": "N62_discount", "text": "店庆全场六折，满7909减6，算下来挺划算。", "entities": []}
+{"id": "numaddr_00105", "kind": "neg", "pattern": "N45_bld_count", "text": "这个小区一共 45 栋楼，绿化做得不错。", "entities": []}
+{"id": "numaddr_00106", "kind": "pos", "pattern": "P51_ask_guard_yard", "text": "找不到路就问门口保安3号院怎么走，他们都知道。", "entities": [{"start": 10, "end": 13, "type": "address", "text": "3号院"}]}
+{"id": "numaddr_00107", "kind": "neg", "pattern": "N64_line_date_mix", "text": "21号那天10号线停运，记得提前出门。", "entities": []}
+{"id": "numaddr_00108", "kind": "neg", "pattern": "N38_birthday", "text": "10月1号是我生日，别忘了。", "entities": []}
+{"id": "numaddr_00109", "kind": "pos", "pattern": "P20_newdoor_party", "text": "新家门牌65号，乔迁宴定在周六中午，都来啊。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "65号"}]}
+{"id": "numaddr_00110", "kind": "pos", "pattern": "P08_go_dong", "text": "明天下午去 7栋 找蔡老师拿资料。", "entities": [{"start": 6, "end": 8, "type": "address", "text": "7栋"}]}
+{"id": "numaddr_00111", "kind": "pos", "pattern": "P33_notice_unit", "text": "物业通知：20号楼6单元明天上午停水，请住户提前储水。", "entities": [{"start": 5, "end": 12, "type": "address", "text": "20号楼6单元"}]}
+{"id": "numaddr_00112", "kind": "pos", "pattern": "P08_go_dong", "text": "明天下午去 24栋 找张老师拿资料。", "entities": [{"start": 6, "end": 9, "type": "address", "text": "24栋"}]}
+{"id": "numaddr_00113", "kind": "mixed", "pattern": "M09_listing", "text": "福州市仓山区胜利南路226号怡景新村25幢1103室这套房，1室1厅，挂牌300万，有兴趣可以约看。", "entities": [{"start": 0, "end": 26, "type": "address", "text": "福州市仓山区胜利南路226号怡景新村25幢1103室"}]}
+{"id": "numaddr_00114", "kind": "neg", "pattern": "N28_weight", "text": "体重 52 公斤，这个月瘦了两斤。", "entities": []}
+{"id": "numaddr_00115", "kind": "pos", "pattern": "P44_pickup_wait", "text": "到了给我发消息，我下来接你，我在19号楼。", "entities": [{"start": 16, "end": 20, "type": "address", "text": "19号楼"}]}
+{"id": "numaddr_00116", "kind": "pos", "pattern": "P28_company_dong", "text": "我们公司在17栋，进园区左转第二栋就是。", "entities": [{"start": 5, "end": 8, "type": "address", "text": "17栋"}]}
+{"id": "numaddr_00117", "kind": "neg", "pattern": "N33_phone_spec", "text": "这款手机8G内存，588元能入手吗？", "entities": []}
+{"id": "numaddr_00118", "kind": "pos", "pattern": "P37_form_recipient", "text": "收件人：付女士；地址：27栋2507；放门卫室也可以。", "entities": [{"start": 11, "end": 18, "type": "address", "text": "27栋2507"}]}
+{"id": "numaddr_00119", "kind": "mixed", "pattern": "M09_listing", "text": "杭州市余杭区丰收中路379号这套房，4室2厅，挂牌587万，有兴趣可以约看。", "entities": [{"start": 0, "end": 14, "type": "address", "text": "杭州市余杭区丰收中路379号"}]}
+{"id": "numaddr_00120", "kind": "pos", "pattern": "P02_roomno_is", "text": "房间号是1311，前台说刷卡就能上去。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "1311"}]}
+{"id": "numaddr_00121", "kind": "neg", "pattern": "N50_class_size", "text": "我们班 43 个人，男生比女生多。", "entities": []}
+{"id": "numaddr_00122", "kind": "neg", "pattern": "N20_age", "text": "我今年78岁，身体还算硬朗。", "entities": []}
+{"id": "numaddr_00123", "kind": "pos", "pattern": "P40_office_moved", "text": "范老师的办公室搬到1104了，交作业去那儿。", "entities": [{"start": 9, "end": 13, "type": "address", "text": "1104"}]}
+{"id": "numaddr_00124", "kind": "pos", "pattern": "P11_qa_door", "text": "A：你家几号？B：54号，铁门刷了白漆的那个。", "entities": [{"start": 9, "end": 12, "type": "address", "text": "54号"}]}
+{"id": "numaddr_00125", "kind": "neg", "pattern": "N37_doc_pages", "text": "这份文件一共 294 页，记得双面打印。", "entities": []}
+{"id": "numaddr_00126", "kind": "pos", "pattern": "P48_two_dong", "text": "我在16栋，她在33栋，中间就隔一个小花园。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "16栋"}, {"start": 8, "end": 11, "type": "address", "text": "33栋"}]}
+{"id": "numaddr_00127", "kind": "pos", "pattern": "P57_dorm_roommate", "text": "室友说他今晚不回４０６了，门别反锁。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "４０６"}]}
+{"id": "numaddr_00128", "kind": "mixed", "pattern": "M03_sender_fee", "text": "寄件人地址湖北省武汉市汉阳区延安大道295号新世纪花园31幢410室，运费3元已付。", "entities": [{"start": 5, "end": 34, "type": "address", "text": "湖北省武汉市汉阳区延安大道295号新世纪花园31幢410室"}]}
+{"id": "numaddr_00129", "kind": "pos", "pattern": "P03_dorm_prefix", "text": "536宿舍的同学，晚上十点前把水卡还回来哈。", "entities": [{"start": 0, "end": 3, "type": "address", "text": "536"}]}
+{"id": "numaddr_00130", "kind": "pos", "pattern": "P24_village_door", "text": "住址一栏我只填了22号，村里人都认识我家。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "22号"}]}
+{"id": "numaddr_00131", "kind": "pos", "pattern": "P48_two_dong", "text": "我在19栋，她在24栋，中间就隔一个小花园。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "19栋"}, {"start": 8, "end": 11, "type": "address", "text": "24栋"}]}
+{"id": "numaddr_00132", "kind": "neg", "pattern": "N25_http_code", "text": "打开网页一直显示 500，服务器是不是挂了？", "entities": []}
+{"id": "numaddr_00133", "kind": "neg", "pattern": "N57_pickup_code", "text": "取件码 ２５-３-５９１３，到驿站报这个就行。", "entities": []}
+{"id": "numaddr_00134", "kind": "mixed", "pattern": "M03_sender_fee", "text": "寄件人地址上海市闵行区金桥南路375号书香门第4幢607室，运费3元已付。", "entities": [{"start": 5, "end": 29, "type": "address", "text": "上海市闵行区金桥南路375号书香门第4幢607室"}]}
+{"id": "numaddr_00135", "kind": "neg", "pattern": "N19_rank", "text": "期末全年级排第177名，比上次进步了。", "entities": []}
+{"id": "numaddr_00136", "kind": "neg", "pattern": "N09_order_no", "text": "订单号 924486383，麻烦帮我查一下物流到哪了。", "entities": []}
+{"id": "numaddr_00137", "kind": "neg", "pattern": "N23_holiday_date", "text": "28号放假，公司提前一天下班。", "entities": []}
+{"id": "numaddr_00138", "kind": "pos", "pattern": "P34_neighbor_aunt", "text": "楼下2911的阿姨又来借梯子了，借了三回都没还。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "2911"}]}
+{"id": "numaddr_00139", "kind": "neg", "pattern": "N51_distance", "text": "今天跑了33公里，腿都软了。", "entities": []}
+{"id": "numaddr_00140", "kind": "pos", "pattern": "P57_dorm_roommate", "text": "室友说他今晚不回516了，门别反锁。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "516"}]}
+{"id": "numaddr_00141", "kind": "pos", "pattern": "P58_courier_note", "text": "快递备注：送1010，家里没人就放隔壁莫阿姨那。", "entities": [{"start": 6, "end": 10, "type": "address", "text": "1010"}]}
+{"id": "numaddr_00142", "kind": "pos", "pattern": "P24_village_door", "text": "住址一栏我只填了17号，村里人都认识我家。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "17号"}]}
+{"id": "numaddr_00143", "kind": "mixed", "pattern": "M02_metro", "text": "我家在辽宁省大连市沙河口区东风西路43号，坐9号线过来，出站再走60分钟。", "entities": [{"start": 3, "end": 20, "type": "address", "text": "辽宁省大连市沙河口区东风西路43号"}]}
+{"id": "numaddr_00144", "kind": "neg", "pattern": "N26_glue", "text": "两根手指被502胶水粘住了，于师傅说用热水泡一泡，管用吗？", "entities": []}
+{"id": "numaddr_00145", "kind": "pos", "pattern": "P14_yard", "text": "我在34号院，进胡同左手第三个门就是。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "34号院"}]}
+{"id": "numaddr_00146", "kind": "mixed", "pattern": "M05_year_moved", "text": "1999年我们搬到了浙江省温州市龙湾区春晖西路143号1号楼4单元801，一住就是好多年。", "entities": [{"start": 10, "end": 36, "type": "address", "text": "浙江省温州市龙湾区春晖西路143号1号楼4单元801"}]}
+{"id": "numaddr_00147", "kind": "pos", "pattern": "P47_form_two", "text": "入住登记｜楼栋：22栋｜房号：1701｜入住人数：两人", "entities": [{"start": 8, "end": 11, "type": "address", "text": "22栋"}, {"start": 15, "end": 19, "type": "address", "text": "1701"}]}
+{"id": "numaddr_00148", "kind": "pos", "pattern": "P49_repair", "text": "上门维修预约：4单元312室，空调不制冷，周末都在家。", "entities": [{"start": 7, "end": 14, "type": "address", "text": "4单元312室"}]}
+{"id": "numaddr_00149", "kind": "neg", "pattern": "N52_exam_seat", "text": "考试座位号 35，进场前看清楚别坐错。", "entities": []}
+{"id": "numaddr_00150", "kind": "pos", "pattern": "P47_form_two", "text": "入住登记｜楼栋：21栋｜房号：1106｜入住人数：两人", "entities": [{"start": 8, "end": 11, "type": "address", "text": "21栋"}, {"start": 15, "end": 19, "type": "address", "text": "1106"}]}
+{"id": "numaddr_00151", "kind": "pos", "pattern": "P27_qinshi", "text": "他现在住128寝室，你直接上去找他吧。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "128"}]}
+{"id": "numaddr_00152", "kind": "pos", "pattern": "P47_form_two", "text": "入住登记｜楼栋：24栋｜房号：310｜入住人数：两人", "entities": [{"start": 8, "end": 11, "type": "address", "text": "24栋"}, {"start": 15, "end": 18, "type": "address", "text": "310"}]}
+{"id": "numaddr_00153", "kind": "pos", "pattern": "P18_cs_roomno", "text": "客服：请问您的房号是多少？用户：1007，卫生间水管漏水了。", "entities": [{"start": 16, "end": 20, "type": "address", "text": "1007"}]}
+{"id": "numaddr_00154", "kind": "pos", "pattern": "P40_office_moved", "text": "谢老师的办公室搬到3008了，交作业去那儿。", "entities": [{"start": 9, "end": 13, "type": "address", "text": "3008"}]}
+{"id": "numaddr_00155", "kind": "mixed", "pattern": "M09_listing", "text": "贵州省贵阳市南明区黄河大街237号15号楼4单元304这套房，3室2厅，挂牌516万，有兴趣可以约看。", "entities": [{"start": 0, "end": 27, "type": "address", "text": "贵州省贵阳市南明区黄河大街237号15号楼4单元304"}]}
+{"id": "numaddr_00156", "kind": "pos", "pattern": "P38_new_full_combo", "text": "新地址发你：29号楼6单元2910，记得在软件里改一下。", "entities": [{"start": 6, "end": 17, "type": "address", "text": "29号楼6单元2910"}]}
+{"id": "numaddr_00157", "kind": "pos", "pattern": "P37_form_recipient", "text": "收件人：马女士；地址：18栋2104；放门卫室也可以。", "entities": [{"start": 11, "end": 18, "type": "address", "text": "18栋2104"}]}
+{"id": "numaddr_00158", "kind": "pos", "pattern": "P29_qa_dong", "text": "A：你住哪栋？B：36栋，最靠东边那栋。", "entities": [{"start": 9, "end": 12, "type": "address", "text": "36栋"}]}
+{"id": "numaddr_00159", "kind": "neg", "pattern": "N43_flight", "text": "航班 CA2844 延误了，登机时间待定。", "entities": []}
+{"id": "numaddr_00160", "kind": "neg", "pattern": "N11_train_seat", "text": "座位是1车厢10D，靠窗，挺好。", "entities": []}
+{"id": "numaddr_00161", "kind": "neg", "pattern": "N65_qa_date", "text": "A：你几号到？B：14号，下午的车。", "entities": []}
+{"id": "numaddr_00162", "kind": "neg", "pattern": "N62_discount", "text": "店庆全场8.5折，满599减4，算下来挺划算。", "entities": []}
+{"id": "numaddr_00163", "kind": "pos", "pattern": "P06_door_reddoor", "text": "就在 30号，绿门那家，门口有棵石榴树。", "entities": [{"start": 3, "end": 6, "type": "address", "text": "30号"}]}
+{"id": "numaddr_00164", "kind": "neg", "pattern": "N11_train_seat", "text": "座位是13车厢6D，靠窗，挺好。", "entities": []}
+{"id": "numaddr_00165", "kind": "pos", "pattern": "P25_upstairs_room", "text": "我就住你楼上，205，有事喊一声就行。", "entities": [{"start": 7, "end": 10, "type": "address", "text": "205"}]}
+{"id": "numaddr_00166", "kind": "pos", "pattern": "P15_stall", "text": "摊位在 126号，卖酱菜的就是我，来了喊一声。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "126号"}]}
+{"id": "numaddr_00167", "kind": "pos", "pattern": "P28_company_dong", "text": "我们公司在22栋，进园区左转第二栋就是。", "entities": [{"start": 5, "end": 8, "type": "address", "text": "22栋"}]}
+{"id": "numaddr_00168", "kind": "pos", "pattern": "P41_door_upstairs", "text": "我住61号二楼，楼梯在院子里面，别走错。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "61号"}]}
+{"id": "numaddr_00169", "kind": "pos", "pattern": "P17_forum_upstairs", "text": "求助帖：楼主住21号楼1806，楼上天天半夜拖椅子，有同样遭遇的吗？", "entities": [{"start": 7, "end": 15, "type": "address", "text": "21号楼1806"}]}
+{"id": "numaddr_00170", "kind": "mixed", "pattern": "M10_gather_count", "text": "团建集合点在兰州市安宁区复兴路381号，人到齐55个就发车。", "entities": [{"start": 6, "end": 19, "type": "address", "text": "兰州市安宁区复兴路381号"}]}
+{"id": "numaddr_00171", "kind": "neg", "pattern": "N31_shoe_size", "text": "鞋码44，这款偏大半码，建议拍小一码。", "entities": []}
+{"id": "numaddr_00172", "kind": "neg", "pattern": "N11_train_seat", "text": "座位是9车厢8A，靠窗，挺好。", "entities": []}
+{"id": "numaddr_00173", "kind": "neg", "pattern": "N22_metro_line", "text": "坐8号线地铁，中间换乘一次就到。", "entities": []}
+{"id": "numaddr_00174", "kind": "pos", "pattern": "P56_qa_moved", "text": "A：你们搬哪去了？B：就隔壁，118号。", "entities": [{"start": 15, "end": 19, "type": "address", "text": "118号"}]}
+{"id": "numaddr_00175", "kind": "pos", "pattern": "P27_qinshi", "text": "他现在住219寝室，你直接上去找他吧。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "219"}]}
+{"id": "numaddr_00176", "kind": "pos", "pattern": "P39_hotel_room", "text": "酒店给我们分到809，推开窗就是海，太值了！", "entities": [{"start": 7, "end": 10, "type": "address", "text": "809"}]}
+{"id": "numaddr_00177", "kind": "pos", "pattern": "P55_live_dong_room", "text": "现在住17栋205，比之前那间大一点。", "entities": [{"start": 3, "end": 9, "type": "address", "text": "17栋205"}]}
+{"id": "numaddr_00178", "kind": "neg", "pattern": "N36_households_vote", "text": "共12户参加了这次投票，赞成的占多数。", "entities": []}
+{"id": "numaddr_00179", "kind": "pos", "pattern": "P21_pickup_change", "text": "取件地址改成26栋1504吧，之前那个已经不住了。", "entities": [{"start": 6, "end": 13, "type": "address", "text": "26栋1504"}]}
+{"id": "numaddr_00180", "kind": "pos", "pattern": "P18_cs_roomno", "text": "客服：请问您的房号是多少？用户：904，卫生间水管漏水了。", "entities": [{"start": 16, "end": 19, "type": "address", "text": "904"}]}
+{"id": "numaddr_00181", "kind": "neg", "pattern": "N21_game_floor", "text": "这游戏我打到第76层就卡住了，boss 太难打。", "entities": []}
+{"id": "numaddr_00182", "kind": "pos", "pattern": "P40_office_moved", "text": "金老师的办公室搬到602了，交作业去那儿。", "entities": [{"start": 9, "end": 12, "type": "address", "text": "602"}]}
+{"id": "numaddr_00183", "kind": "pos", "pattern": "P23_shi_suffix", "text": "麻烦师傅送到1112室，出电梯右转第二间。", "entities": [{"start": 6, "end": 11, "type": "address", "text": "1112室"}]}
+{"id": "numaddr_00184", "kind": "pos", "pattern": "P25_upstairs_room", "text": "我就住你楼上，905，有事喊一声就行。", "entities": [{"start": 7, "end": 10, "type": "address", "text": "905"}]}
+{"id": "numaddr_00185", "kind": "neg", "pattern": "N01_price_yuan", "text": "这件外套才34元，比商场便宜一半。", "entities": []}
+{"id": "numaddr_00186", "kind": "pos", "pattern": "P05_moved_door_sp", "text": "我搬到了 22 号，周末有空来坐坐呗。", "entities": [{"start": 5, "end": 9, "type": "address", "text": "22 号"}]}
+{"id": "numaddr_00187", "kind": "neg", "pattern": "N48_gather_time", "text": "27号上午九点半集合，别睡过头。", "entities": []}
+{"id": "numaddr_00188", "kind": "neg", "pattern": "N36_households_vote", "text": "共１１户参加了这次投票，赞成的占多数。", "entities": []}
+{"id": "numaddr_00189", "kind": "pos", "pattern": "P31_homevisit", "text": "家访安排：宋同学家在106号，我们下午三点到。", "entities": [{"start": 10, "end": 14, "type": "address", "text": "106号"}]}
+{"id": "numaddr_00190", "kind": "neg", "pattern": "N26_glue", "text": "大拇指被502胶水粘住了，秦师傅说用热水泡一泡，管用吗？", "entities": []}
+{"id": "numaddr_00191", "kind": "pos", "pattern": "P53_share_room", "text": "我和方姐合租，住207，有空过来吃火锅。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "207"}]}
+{"id": "numaddr_00192", "kind": "pos", "pattern": "P07_bld_locker", "text": "快递放11号楼楼下的柜子就行，谢谢师傅。", "entities": [{"start": 3, "end": 7, "type": "address", "text": "11号楼"}]}
+{"id": "numaddr_00193", "kind": "neg", "pattern": "N39_chapter", "text": "第152章写得太拖了，看不下去，弃了。", "entities": []}
+{"id": "numaddr_00194", "kind": "pos", "pattern": "P53_share_room", "text": "我和史姐合租，住1109，有空过来吃火锅。", "entities": [{"start": 8, "end": 12, "type": "address", "text": "1109"}]}
+{"id": "numaddr_00195", "kind": "mixed", "pattern": "M04_office_move", "text": "新公司地址：北京市海淀区复兴西路44号29号楼4单元1703，1号正式搬过去，到时请大家吃饭。", "entities": [{"start": 6, "end": 30, "type": "address", "text": "北京市海淀区复兴西路44号29号楼4单元1703"}]}
+{"id": "numaddr_00196", "kind": "mixed", "pattern": "M09_listing", "text": "广东省广州市越秀区体育大街367号12号楼4单元303这套房，1室2厅，挂牌588万，有兴趣可以约看。", "entities": [{"start": 0, "end": 27, "type": "address", "text": "广东省广州市越秀区体育大街367号12号楼4单元303"}]}
+{"id": "numaddr_00197", "kind": "neg", "pattern": "N18_percent", "text": "这次通过率只有76%，比去年低不少。", "entities": []}
+{"id": "numaddr_00198", "kind": "pos", "pattern": "P31_homevisit", "text": "家访安排：丁同学家在243号，我们下午三点到。", "entities": [{"start": 10, "end": 14, "type": "address", "text": "243号"}]}
+{"id": "numaddr_00199", "kind": "neg", "pattern": "N43_flight", "text": "航班 CA8515 延误了，登机时间待定。", "entities": []}
+{"id": "numaddr_00200", "kind": "neg", "pattern": "N64_line_date_mix", "text": "16号那天11号线停运，记得提前出门。", "entities": []}
+{"id": "numaddr_00201", "kind": "mixed", "pattern": "M06_qa_bus", "text": "A：你家具体在哪？B：南宁市青秀区公园大道7号，坐1路公交到终点站下车。", "entities": [{"start": 11, "end": 23, "type": "address", "text": "南宁市青秀区公园大道7号"}]}
+{"id": "numaddr_00202", "kind": "neg", "pattern": "N06_time", "text": "会议改到明天上午１０点２０分，大家记一下。", "entities": []}
+{"id": "numaddr_00203", "kind": "pos", "pattern": "P11_qa_door", "text": "A：你家几号？B：36号，铁门刷了蓝漆的那个。", "entities": [{"start": 9, "end": 12, "type": "address", "text": "36号"}]}
+{"id": "numaddr_00204", "kind": "pos", "pattern": "P31_homevisit", "text": "家访安排：薛同学家在160号，我们下午三点到。", "entities": [{"start": 10, "end": 14, "type": "address", "text": "160号"}]}
+{"id": "numaddr_00205", "kind": "pos", "pattern": "P42_where_room", "text": "地址？就1808啊，你上次来过的，忘啦？", "entities": [{"start": 4, "end": 8, "type": "address", "text": "1808"}]}
+{"id": "numaddr_00206", "kind": "mixed", "pattern": "M09_listing", "text": "济南市历下区长安西路205号这套房，2室1厅，挂牌235万，有兴趣可以约看。", "entities": [{"start": 0, "end": 14, "type": "address", "text": "济南市历下区长安西路205号"}]}
+{"id": "numaddr_00207", "kind": "pos", "pattern": "P10_unit_room", "text": "地址就写2单元503，小区门卫都知道。", "entities": [{"start": 4, "end": 10, "type": "address", "text": "2单元503"}]}
+{"id": "numaddr_00208", "kind": "pos", "pattern": "P20_newdoor_party", "text": "新家门牌5号，乔迁宴定在周六中午，都来啊。", "entities": [{"start": 4, "end": 6, "type": "address", "text": "5号"}]}
+{"id": "numaddr_00209", "kind": "neg", "pattern": "N14_app_version", "text": "App 更新到 2.6.2 以后老是闪退，有人遇到吗？", "entities": []}
+{"id": "numaddr_00210", "kind": "mixed", "pattern": "M06_qa_bus", "text": "A：你家具体在哪？B：黑龙江省哈尔滨市道外区园林中路209号新世纪花园22栋1911，坐22路公交到终点站下车。", "entities": [{"start": 11, "end": 42, "type": "address", "text": "黑龙江省哈尔滨市道外区园林中路209号新世纪花园22栋1911"}]}
+{"id": "numaddr_00211", "kind": "pos", "pattern": "P25_upstairs_room", "text": "我就住你楼上，405，有事喊一声就行。", "entities": [{"start": 7, "end": 10, "type": "address", "text": "405"}]}
+{"id": "numaddr_00212", "kind": "neg", "pattern": "N30_battery", "text": "帮我买两节5号电池，挂钟没电了。", "entities": []}
+{"id": "numaddr_00213", "kind": "neg", "pattern": "N25_http_code", "text": "打开网页一直显示 404，服务器是不是挂了？", "entities": []}
+{"id": "numaddr_00214", "kind": "neg", "pattern": "N19_rank", "text": "期末全年级排第16名，比上次进步了。", "entities": []}
+{"id": "numaddr_00215", "kind": "neg", "pattern": "N08_people_count", "text": "昨天聚会来了 13 个人，菜点少了。", "entities": []}
+{"id": "numaddr_00216", "kind": "pos", "pattern": "P40_office_moved", "text": "毛老师的办公室搬到310了，交作业去那儿。", "entities": [{"start": 9, "end": 12, "type": "address", "text": "310"}]}
+{"id": "numaddr_00217", "kind": "neg", "pattern": "N23_holiday_date", "text": "6号放假，公司提前一天下班。", "entities": []}
+{"id": "numaddr_00218", "kind": "neg", "pattern": "N56_room_price", "text": "582元一晚的房间，性价比还挺高。", "entities": []}
+{"id": "numaddr_00219", "kind": "neg", "pattern": "N44_draw_lot", "text": "抽签抽到 35 号，第三个上场，好紧张。", "entities": []}
+{"id": "numaddr_00220", "kind": "mixed", "pattern": "M06_qa_bus", "text": "A：你家具体在哪？B：甘肃省兰州市安宁区长安北路20号，坐255路公交到终点站下车。", "entities": [{"start": 11, "end": 27, "type": "address", "text": "甘肃省兰州市安宁区长安北路20号"}]}
+{"id": "numaddr_00221", "kind": "pos", "pattern": "P42_where_room", "text": "地址？就1007啊，你上次来过的，忘啦？", "entities": [{"start": 4, "end": 8, "type": "address", "text": "1007"}]}
+{"id": "numaddr_00222", "kind": "pos", "pattern": "P12_qa_room", "text": "问：送到哪个房间？答：611。", "entities": [{"start": 11, "end": 14, "type": "address", "text": "611"}]}
+{"id": "numaddr_00223", "kind": "pos", "pattern": "P02_roomno_is", "text": "房间号是９０６，前台说刷卡就能上去。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "９０６"}]}
+{"id": "numaddr_00224", "kind": "neg", "pattern": "N40_run_time", "text": "这次五公里用时39分41秒，配速还行。", "entities": []}
+{"id": "numaddr_00225", "kind": "pos", "pattern": "P01_live_room", "text": "我住607，到了直接上来敲门就行。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "607"}]}
+{"id": "numaddr_00226", "kind": "pos", "pattern": "P11_qa_door", "text": "A：你家几号？B：10号，铁门刷了黑漆的那个。", "entities": [{"start": 9, "end": 12, "type": "address", "text": "10号"}]}
+{"id": "numaddr_00227", "kind": "mixed", "pattern": "M05_year_moved", "text": "2025年我们搬到了广东省佛山市顺德区振兴巷200号，一住就是好多年。", "entities": [{"start": 10, "end": 26, "type": "address", "text": "广东省佛山市顺德区振兴巷200号"}]}
+{"id": "numaddr_00228", "kind": "pos", "pattern": "P11_qa_door", "text": "A：你家几号？B：２号，铁门刷了绿漆的那个。", "entities": [{"start": 9, "end": 11, "type": "address", "text": "２号"}]}
+{"id": "numaddr_00229", "kind": "pos", "pattern": "P06_door_reddoor", "text": "就在 282号，黑门那家，门口有棵石榴树。", "entities": [{"start": 3, "end": 7, "type": "address", "text": "282号"}]}
+{"id": "numaddr_00230", "kind": "neg", "pattern": "N25_http_code", "text": "打开网页一直显示 302，服务器是不是挂了？", "entities": []}
+{"id": "numaddr_00231", "kind": "mixed", "pattern": "M03_sender_fee", "text": "寄件人地址湖北省武汉市洪山区翠竹巷275号，运费14元已付。", "entities": [{"start": 5, "end": 21, "type": "address", "text": "湖北省武汉市洪山区翠竹巷275号"}]}
+{"id": "numaddr_00232", "kind": "neg", "pattern": "N65_qa_date", "text": "A：你几号到？B：5号，下午的车。", "entities": []}
+{"id": "numaddr_00233", "kind": "pos", "pattern": "P08_go_dong", "text": "明天下午去 36栋 找潘老师拿资料。", "entities": [{"start": 6, "end": 9, "type": "address", "text": "36栋"}]}
+{"id": "numaddr_00234", "kind": "pos", "pattern": "P34_neighbor_aunt", "text": "楼下3305的阿姨又来借梯子了，借了三回都没还。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "3305"}]}
+{"id": "numaddr_00235", "kind": "neg", "pattern": "N18_percent", "text": "这次通过率只有51%，比去年低不少。", "entities": []}
+{"id": "numaddr_00236", "kind": "pos", "pattern": "P52_door_renamed", "text": "地址改为15号了，原来那块旧门牌已经拆掉。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "15号"}]}
+{"id": "numaddr_00237", "kind": "pos", "pattern": "P49_repair", "text": "上门维修预约：1单元1104室，空调不制冷，周末都在家。", "entities": [{"start": 7, "end": 15, "type": "address", "text": "1单元1104室"}]}
+{"id": "numaddr_00238", "kind": "pos", "pattern": "P23_shi_suffix", "text": "麻烦师傅送到509室，出电梯右转第二间。", "entities": [{"start": 6, "end": 10, "type": "address", "text": "509室"}]}
+{"id": "numaddr_00239", "kind": "neg", "pattern": "N16_meeting_cap", "text": "会议室能坐 50 人，周会够用了。", "entities": []}
+{"id": "numaddr_00240", "kind": "pos", "pattern": "P31_homevisit", "text": "家访安排：程同学家在21号，我们下午三点到。", "entities": [{"start": 10, "end": 13, "type": "address", "text": "21号"}]}
+{"id": "numaddr_00241", "kind": "neg", "pattern": "N45_bld_count", "text": "这个小区一共 47 栋楼，绿化做得不错。", "entities": []}
+{"id": "numaddr_00242", "kind": "pos", "pattern": "P11_qa_door", "text": "A：你家几号？B：32号，铁门刷了灰漆的那个。", "entities": [{"start": 9, "end": 12, "type": "address", "text": "32号"}]}
+{"id": "numaddr_00243", "kind": "pos", "pattern": "P55_live_dong_room", "text": "现在住21栋607，比之前那间大一点。", "entities": [{"start": 3, "end": 9, "type": "address", "text": "21栋607"}]}
+{"id": "numaddr_00244", "kind": "pos", "pattern": "P23_shi_suffix", "text": "麻烦师傅送到112室，出电梯右转第二间。", "entities": [{"start": 6, "end": 10, "type": "address", "text": "112室"}]}
+{"id": "numaddr_00245", "kind": "pos", "pattern": "P20_newdoor_party", "text": "新家门牌261号，乔迁宴定在周六中午，都来啊。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "261号"}]}
+{"id": "numaddr_00246", "kind": "pos", "pattern": "P20_newdoor_party", "text": "新家门牌16号，乔迁宴定在周六中午，都来啊。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "16号"}]}
+{"id": "numaddr_00247", "kind": "pos", "pattern": "P42_where_room", "text": "地址？就212啊，你上次来过的，忘啦？", "entities": [{"start": 4, "end": 7, "type": "address", "text": "212"}]}
+{"id": "numaddr_00248", "kind": "pos", "pattern": "P08_go_dong", "text": "明天下午去 14栋 找马老师拿资料。", "entities": [{"start": 6, "end": 9, "type": "address", "text": "14栋"}]}
+{"id": "numaddr_00249", "kind": "neg", "pattern": "N34_dining_car", "text": "11号车厢是餐车，饿了可以去那边买盒饭。", "entities": []}
+{"id": "numaddr_00250", "kind": "mixed", "pattern": "M07_order_fix", "text": "订单946718658的收货地址填错了，麻烦改成上海市杨浦区光明大道271号。", "entities": [{"start": 24, "end": 38, "type": "address", "text": "上海市杨浦区光明大道271号"}]}
+{"id": "numaddr_00251", "kind": "pos", "pattern": "P32_duty_room", "text": "这周轮到1902倒垃圾，别忘了啊。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "1902"}]}
+{"id": "numaddr_00252", "kind": "pos", "pattern": "P47_form_two", "text": "入住登记｜楼栋：28栋｜房号：1802｜入住人数：两人", "entities": [{"start": 8, "end": 11, "type": "address", "text": "28栋"}, {"start": 15, "end": 19, "type": "address", "text": "1802"}]}
+{"id": "numaddr_00253", "kind": "pos", "pattern": "P37_form_recipient", "text": "收件人：梁女士；地址：12栋1304；放门卫室也可以。", "entities": [{"start": 11, "end": 18, "type": "address", "text": "12栋1304"}]}
+{"id": "numaddr_00254", "kind": "pos", "pattern": "P56_qa_moved", "text": "A：你们搬哪去了？B：就隔壁，22号。", "entities": [{"start": 15, "end": 18, "type": "address", "text": "22号"}]}
+{"id": "numaddr_00255", "kind": "neg", "pattern": "N55_doc_number", "text": "第14号文件已经下发，各部门照办。", "entities": []}
+{"id": "numaddr_00256", "kind": "pos", "pattern": "P17_forum_upstairs", "text": "求助帖：楼主住23号楼603，楼上天天半夜拖椅子，有同样遭遇的吗？", "entities": [{"start": 7, "end": 14, "type": "address", "text": "23号楼603"}]}
+{"id": "numaddr_00257", "kind": "pos", "pattern": "P05_moved_door_sp", "text": "我搬到了 ２１６ 号，周末有空来坐坐呗。", "entities": [{"start": 5, "end": 10, "type": "address", "text": "２１６ 号"}]}
+{"id": "numaddr_00258", "kind": "pos", "pattern": "P42_where_room", "text": "地址？就106啊，你上次来过的，忘啦？", "entities": [{"start": 4, "end": 7, "type": "address", "text": "106"}]}
+{"id": "numaddr_00259", "kind": "neg", "pattern": "N02_price_symbol", "text": "￥6230，包邮，今晚下单明天就到。", "entities": []}
+{"id": "numaddr_00260", "kind": "neg", "pattern": "N45_bld_count", "text": "这个小区一共 29 栋楼，绿化做得不错。", "entities": []}
+{"id": "numaddr_00261", "kind": "pos", "pattern": "P25_upstairs_room", "text": "我就住你楼上，407，有事喊一声就行。", "entities": [{"start": 7, "end": 10, "type": "address", "text": "407"}]}
+{"id": "numaddr_00262", "kind": "neg", "pattern": "N02_price_symbol", "text": "￥84，包邮，今晚下单明天就到。", "entities": []}
+{"id": "numaddr_00263", "kind": "pos", "pattern": "P42_where_room", "text": "地址？就６０７啊，你上次来过的，忘啦？", "entities": [{"start": 4, "end": 7, "type": "address", "text": "６０７"}]}
+{"id": "numaddr_00264", "kind": "neg", "pattern": "N10_jersey", "text": "他穿 50 号球衣，场上跑得最快的那个。", "entities": []}
+{"id": "numaddr_00265", "kind": "pos", "pattern": "P44_pickup_wait", "text": "到了给我发消息，我下来接你，我在29号楼。", "entities": [{"start": 16, "end": 20, "type": "address", "text": "29号楼"}]}
+{"id": "numaddr_00266", "kind": "pos", "pattern": "P51_ask_guard_yard", "text": "找不到路就问门口保安31号院怎么走，他们都知道。", "entities": [{"start": 10, "end": 14, "type": "address", "text": "31号院"}]}
+{"id": "numaddr_00267", "kind": "neg", "pattern": "N26_glue", "text": "手指被502胶水粘住了，杜师傅说用热水泡一泡，管用吗？", "entities": []}
+{"id": "numaddr_00268", "kind": "neg", "pattern": "N15_bus_route", "text": "坐 8 路车到终点站，再走五分钟就到。", "entities": []}
+{"id": "numaddr_00269", "kind": "pos", "pattern": "P15_stall", "text": "摊位在 16号，卖酱菜的就是我，来了喊一声。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "16号"}]}
+{"id": "numaddr_00270", "kind": "neg", "pattern": "N61_size_height", "text": "身高171，穿 L 码还是 XL 码合适？", "entities": []}
+{"id": "numaddr_00271", "kind": "neg", "pattern": "N30_battery", "text": "帮我买四节5号电池，遥控器没电了。", "entities": []}
+{"id": "numaddr_00272", "kind": "mixed", "pattern": "M09_listing", "text": "成都市武侯区金桥北路77号1号楼2单元107这套房，3室2厅，挂牌350万，有兴趣可以约看。", "entities": [{"start": 0, "end": 22, "type": "address", "text": "成都市武侯区金桥北路77号1号楼2单元107"}]}
+{"id": "numaddr_00273", "kind": "neg", "pattern": "N51_distance", "text": "今天跑了16公里，腿都软了。", "entities": []}
+{"id": "numaddr_00274", "kind": "pos", "pattern": "P10_unit_room", "text": "地址就写５单元１６１２，小区门卫都知道。", "entities": [{"start": 4, "end": 11, "type": "address", "text": "５单元１６１２"}]}
+{"id": "numaddr_00275", "kind": "neg", "pattern": "N54_cinema_seat", "text": "电影晚上5点开场，我买的是 19 排 8 座。", "entities": []}
+{"id": "numaddr_00276", "kind": "neg", "pattern": "N17_model_no", "text": "我的笔记本型号是 X6666，用了五年还没坏。", "entities": []}
+{"id": "numaddr_00277", "kind": "neg", "pattern": "N05_weekday_date", "text": "下周三 27 号开家长会，别迟到啊。", "entities": []}
+{"id": "numaddr_00278", "kind": "pos", "pattern": "P52_door_renamed", "text": "地址改为287号了，原来那块旧门牌已经拆掉。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "287号"}]}
+{"id": "numaddr_00279", "kind": "neg", "pattern": "N05_weekday_date", "text": "下周三 22 号开家长会，别迟到啊。", "entities": []}
+{"id": "numaddr_00280", "kind": "pos", "pattern": "P16_dong_unit_ask", "text": "已经到楼下了，16栋6单元是哪个门啊？", "entities": [{"start": 7, "end": 13, "type": "address", "text": "16栋6单元"}]}
+{"id": "numaddr_00281", "kind": "pos", "pattern": "P24_village_door", "text": "住址一栏我只填了9号，村里人都认识我家。", "entities": [{"start": 8, "end": 10, "type": "address", "text": "9号"}]}
+{"id": "numaddr_00282", "kind": "neg", "pattern": "N27_exam_score", "text": "高考考了 541 分，够不够上一本线？", "entities": []}
+{"id": "numaddr_00283", "kind": "neg", "pattern": "N50_class_size", "text": "我们班 48 个人，男生比女生多。", "entities": []}
+{"id": "numaddr_00284", "kind": "pos", "pattern": "P11_qa_door", "text": "A：你家几号？B：10号，铁门刷了白漆的那个。", "entities": [{"start": 9, "end": 12, "type": "address", "text": "10号"}]}
+{"id": "numaddr_00285", "kind": "neg", "pattern": "N30_battery", "text": "帮我买六节7号电池，手电筒没电了。", "entities": []}
+{"id": "numaddr_00286", "kind": "pos", "pattern": "P44_pickup_wait", "text": "到了给我发消息，我下来接你，我在15号楼。", "entities": [{"start": 16, "end": 20, "type": "address", "text": "15号楼"}]}
+{"id": "numaddr_00287", "kind": "neg", "pattern": "N41_temperature", "text": "明天气温 16 度，出门记得多穿点。", "entities": []}
+{"id": "numaddr_00288", "kind": "pos", "pattern": "P31_homevisit", "text": "家访安排：石同学家在278号，我们下午三点到。", "entities": [{"start": 10, "end": 14, "type": "address", "text": "278号"}]}
+{"id": "numaddr_00289", "kind": "neg", "pattern": "N31_shoe_size", "text": "鞋码35，这款偏大半码，建议拍小一码。", "entities": []}
+{"id": "numaddr_00290", "kind": "neg", "pattern": "N60_chart_rank", "text": "这首歌在榜单上排第214位，比上周升了不少。", "entities": []}
+{"id": "numaddr_00291", "kind": "pos", "pattern": "P51_ask_guard_yard", "text": "找不到路就问门口保安４２号院怎么走，他们都知道。", "entities": [{"start": 10, "end": 14, "type": "address", "text": "４２号院"}]}
+{"id": "numaddr_00292", "kind": "neg", "pattern": "N63_room_count_hotel", "text": "这家酒店有133间客房，旺季基本订满。", "entities": []}
+{"id": "numaddr_00293", "kind": "mixed", "pattern": "M01_delivery_date", "text": "收货地址：天津市和平区青年东路39号绿城小区24幢1811室，请11号之前送到，谢谢。", "entities": [{"start": 5, "end": 30, "type": "address", "text": "天津市和平区青年东路39号绿城小区24幢1811室"}]}
+{"id": "numaddr_00294", "kind": "neg", "pattern": "N49_stock", "text": "库存还剩5件，卖完就下架了。", "entities": []}
+{"id": "numaddr_00295", "kind": "pos", "pattern": "P08_go_dong", "text": "明天下午去 35栋 找邹老师拿资料。", "entities": [{"start": 6, "end": 9, "type": "address", "text": "35栋"}]}
+{"id": "numaddr_00296", "kind": "pos", "pattern": "P16_dong_unit_ask", "text": "已经到楼下了，11栋4单元是哪个门啊？", "entities": [{"start": 7, "end": 13, "type": "address", "text": "11栋4单元"}]}
+{"id": "numaddr_00297", "kind": "pos", "pattern": "P18_cs_roomno", "text": "客服：请问您的房号是多少？用户：104，卫生间水管漏水了。", "entities": [{"start": 16, "end": 19, "type": "address", "text": "104"}]}
+{"id": "numaddr_00298", "kind": "neg", "pattern": "N05_weekday_date", "text": "下周三 21 号开家长会，别迟到啊。", "entities": []}
+{"id": "numaddr_00299", "kind": "neg", "pattern": "N02_price_symbol", "text": "￥626，包邮，今晚下单明天就到。", "entities": []}
+{"id": "numaddr_00300", "kind": "neg", "pattern": "N40_run_time", "text": "这次五公里用时55分04秒，配速还行。", "entities": []}
+{"id": "numaddr_00301", "kind": "neg", "pattern": "N33_phone_spec", "text": "这款手机16G内存，87元能入手吗？", "entities": []}
+{"id": "numaddr_00302", "kind": "pos", "pattern": "P53_share_room", "text": "我和范姐合租，住408，有空过来吃火锅。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "408"}]}
+{"id": "numaddr_00303", "kind": "neg", "pattern": "N34_dining_car", "text": "9号车厢是餐车，饿了可以去那边买盒饭。", "entities": []}
+{"id": "numaddr_00304", "kind": "pos", "pattern": "P05_moved_door_sp", "text": "我搬到了 122 号，周末有空来坐坐呗。", "entities": [{"start": 5, "end": 10, "type": "address", "text": "122 号"}]}
+{"id": "numaddr_00305", "kind": "pos", "pattern": "P43_rent_listing", "text": "转租：14栋朝南单间，拎包入住，有意私聊。", "entities": [{"start": 3, "end": 6, "type": "address", "text": "14栋"}]}
+{"id": "numaddr_00306", "kind": "neg", "pattern": "N06_time", "text": "会议改到明天上午8点50分，大家记一下。", "entities": []}
+{"id": "numaddr_00307", "kind": "pos", "pattern": "P22_three_dash", "text": "备注：5-5-812，放门口鞋柜上，谢谢。", "entities": [{"start": 3, "end": 10, "type": "address", "text": "5-5-812"}]}
+{"id": "numaddr_00308", "kind": "neg", "pattern": "N62_discount", "text": "店庆全场五折，满8145减11，算下来挺划算。", "entities": []}
+{"id": "numaddr_00309", "kind": "neg", "pattern": "N36_households_vote", "text": "共14户参加了这次投票，赞成的占多数。", "entities": []}
+{"id": "numaddr_00310", "kind": "neg", "pattern": "N08_people_count", "text": "昨天聚会来了 56 个人，菜点少了。", "entities": []}
+{"id": "numaddr_00311", "kind": "neg", "pattern": "N40_run_time", "text": "这次五公里用时35分17秒，配速还行。", "entities": []}
+{"id": "numaddr_00312", "kind": "pos", "pattern": "P14_yard", "text": "我在48号院，进胡同左手第三个门就是。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "48号院"}]}
+{"id": "numaddr_00313", "kind": "pos", "pattern": "P18_cs_roomno", "text": "客服：请问您的房号是多少？用户：1307，卫生间水管漏水了。", "entities": [{"start": 16, "end": 20, "type": "address", "text": "1307"}]}
+{"id": "numaddr_00314", "kind": "pos", "pattern": "P35_stall_fruit", "text": "我在157号摊位，过来尝尝新到的芒果。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "157号"}]}
+{"id": "numaddr_00315", "kind": "pos", "pattern": "P40_office_moved", "text": "熊老师的办公室搬到802了，交作业去那儿。", "entities": [{"start": 9, "end": 12, "type": "address", "text": "802"}]}
+{"id": "numaddr_00316", "kind": "pos", "pattern": "P02_roomno_is", "text": "房间号是３１０，前台说刷卡就能上去。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "３１０"}]}
+{"id": "numaddr_00317", "kind": "neg", "pattern": "N05_weekday_date", "text": "下周三 6 号开家长会，别迟到啊。", "entities": []}
+{"id": "numaddr_00318", "kind": "pos", "pattern": "P06_door_reddoor", "text": "就在 177号，红门那家，门口有棵石榴树。", "entities": [{"start": 3, "end": 7, "type": "address", "text": "177号"}]}
+{"id": "numaddr_00319", "kind": "pos", "pattern": "P41_door_upstairs", "text": "我住１４号二楼，楼梯在院子里面，别走错。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "１４号"}]}
+{"id": "numaddr_00320", "kind": "neg", "pattern": "N29_queue", "text": "叫号叫到 C044 了，前面还有十几个人。", "entities": []}
+{"id": "numaddr_00321", "kind": "neg", "pattern": "N42_parking_fee", "text": "停车费每小时 4 元，停了 3 小时。", "entities": []}
+{"id": "numaddr_00322", "kind": "neg", "pattern": "N51_distance", "text": "今天跑了38公里，腿都软了。", "entities": []}
+{"id": "numaddr_00323", "kind": "pos", "pattern": "P44_pickup_wait", "text": "到了给我发消息，我下来接你，我在1号楼。", "entities": [{"start": 16, "end": 19, "type": "address", "text": "1号楼"}]}
+{"id": "numaddr_00324", "kind": "neg", "pattern": "N60_chart_rank", "text": "这首歌在榜单上排第184位，比上周升了不少。", "entities": []}
+{"id": "numaddr_00325", "kind": "neg", "pattern": "N58_layout", "text": "这套房子4室1厅，85平米，采光很好。", "entities": []}
+{"id": "numaddr_00326", "kind": "neg", "pattern": "N52_exam_seat", "text": "考试座位号 26，进场前看清楚别坐错。", "entities": []}
+{"id": "numaddr_00327", "kind": "pos", "pattern": "P53_share_room", "text": "我和龙姐合租，住１０５，有空过来吃火锅。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "１０５"}]}
+{"id": "numaddr_00328", "kind": "pos", "pattern": "P16_dong_unit_ask", "text": "已经到楼下了，17栋5单元是哪个门啊？", "entities": [{"start": 7, "end": 13, "type": "address", "text": "17栋5单元"}]}
+{"id": "numaddr_00329", "kind": "neg", "pattern": "N34_dining_car", "text": "16号车厢是餐车，饿了可以去那边买盒饭。", "entities": []}
+{"id": "numaddr_00330", "kind": "pos", "pattern": "P03_dorm_prefix", "text": "611宿舍的同学，晚上十点前把水卡还回来哈。", "entities": [{"start": 0, "end": 3, "type": "address", "text": "611"}]}
+{"id": "numaddr_00331", "kind": "neg", "pattern": "N29_queue", "text": "叫号叫到 A181 了，前面还有十几个人。", "entities": []}
+{"id": "numaddr_00332", "kind": "pos", "pattern": "P02_roomno_is", "text": "房间号是110，前台说刷卡就能上去。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "110"}]}
+{"id": "numaddr_00333", "kind": "pos", "pattern": "P37_form_recipient", "text": "收件人：任女士；地址：33栋1206；放门卫室也可以。", "entities": [{"start": 11, "end": 18, "type": "address", "text": "33栋1206"}]}
+{"id": "numaddr_00334", "kind": "pos", "pattern": "P38_new_full_combo", "text": "新地址发你：27号楼5单元1907，记得在软件里改一下。", "entities": [{"start": 6, "end": 17, "type": "address", "text": "27号楼5单元1907"}]}
+{"id": "numaddr_00335", "kind": "neg", "pattern": "N10_jersey", "text": "他穿 77 号球衣，场上跑得最快的那个。", "entities": []}
+{"id": "numaddr_00336", "kind": "neg", "pattern": "N28_weight", "text": "体重 82 公斤，这个月瘦了两斤。", "entities": []}
+{"id": "numaddr_00337", "kind": "pos", "pattern": "P29_qa_dong", "text": "A：你住哪栋？B：9栋，最靠东边那栋。", "entities": [{"start": 9, "end": 11, "type": "address", "text": "9栋"}]}
+{"id": "numaddr_00338", "kind": "neg", "pattern": "N39_chapter", "text": "第104章写得太拖了，看不下去，弃了。", "entities": []}
+{"id": "numaddr_00339", "kind": "pos", "pattern": "P10_unit_room", "text": "地址就写2单元601，小区门卫都知道。", "entities": [{"start": 4, "end": 10, "type": "address", "text": "2单元601"}]}
+{"id": "numaddr_00340", "kind": "pos", "pattern": "P08_go_dong", "text": "明天下午去 10栋 找陶老师拿资料。", "entities": [{"start": 6, "end": 9, "type": "address", "text": "10栋"}]}
+{"id": "numaddr_00341", "kind": "pos", "pattern": "P06_door_reddoor", "text": "就在 37号，白门那家，门口有棵石榴树。", "entities": [{"start": 3, "end": 6, "type": "address", "text": "37号"}]}
+{"id": "numaddr_00342", "kind": "neg", "pattern": "N35_train_delay", "text": "K377次列车晚点 41 分钟，大家别着急。", "entities": []}
+{"id": "numaddr_00343", "kind": "neg", "pattern": "N17_model_no", "text": "我的笔记本型号是 X715，用了五年还没坏。", "entities": []}
+{"id": "numaddr_00344", "kind": "pos", "pattern": "P16_dong_unit_ask", "text": "已经到楼下了，35栋3单元是哪个门啊？", "entities": [{"start": 7, "end": 13, "type": "address", "text": "35栋3单元"}]}
+{"id": "numaddr_00345", "kind": "neg", "pattern": "N22_metro_line", "text": "坐15号线地铁，中间换乘一次就到。", "entities": []}
+{"id": "numaddr_00346", "kind": "neg", "pattern": "N51_distance", "text": "今天跑了5公里，腿都软了。", "entities": []}
+{"id": "numaddr_00347", "kind": "pos", "pattern": "P22_three_dash", "text": "备注：23-3-1501，放门口鞋柜上，谢谢。", "entities": [{"start": 3, "end": 12, "type": "address", "text": "23-3-1501"}]}
+{"id": "numaddr_00348", "kind": "neg", "pattern": "N45_bld_count", "text": "这个小区一共 13 栋楼，绿化做得不错。", "entities": []}
+{"id": "numaddr_00349", "kind": "pos", "pattern": "P54_doorno_bare", "text": "门牌号 216，院门没锁，直接推门进来。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "216"}]}
+{"id": "numaddr_00350", "kind": "pos", "pattern": "P02_roomno_is", "text": "房间号是1911，前台说刷卡就能上去。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "1911"}]}
+{"id": "numaddr_00351", "kind": "pos", "pattern": "P36_zhuang", "text": "车停在路边，你到14幢门口等我五分钟。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "14幢"}]}
+{"id": "numaddr_00352", "kind": "pos", "pattern": "P48_two_dong", "text": "我在19栋，她在32栋，中间就隔一个小花园。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "19栋"}, {"start": 8, "end": 11, "type": "address", "text": "32栋"}]}
+{"id": "numaddr_00353", "kind": "neg", "pattern": "N39_chapter", "text": "第206章写得太拖了，看不下去，弃了。", "entities": []}
+{"id": "numaddr_00354", "kind": "neg", "pattern": "N19_rank", "text": "期末全年级排第10名，比上次进步了。", "entities": []}
+{"id": "numaddr_00355", "kind": "neg", "pattern": "N25_http_code", "text": "打开网页一直显示 403，服务器是不是挂了？", "entities": []}
+{"id": "numaddr_00356", "kind": "pos", "pattern": "P17_forum_upstairs", "text": "求助帖：楼主住12号楼911，楼上天天半夜拖椅子，有同样遭遇的吗？", "entities": [{"start": 7, "end": 14, "type": "address", "text": "12号楼911"}]}
+{"id": "numaddr_00357", "kind": "pos", "pattern": "P41_door_upstairs", "text": "我住146号二楼，楼梯在院子里面，别走错。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "146号"}]}
+{"id": "numaddr_00358", "kind": "neg", "pattern": "N41_temperature", "text": "明天气温 24 度，出门记得多穿点。", "entities": []}
+{"id": "numaddr_00359", "kind": "pos", "pattern": "P22_three_dash", "text": "备注：12-1-107，放门口鞋柜上，谢谢。", "entities": [{"start": 3, "end": 11, "type": "address", "text": "12-1-107"}]}
+{"id": "numaddr_00360", "kind": "pos", "pattern": "P33_notice_unit", "text": "物业通知：32号楼5单元明天上午停水，请住户提前储水。", "entities": [{"start": 5, "end": 12, "type": "address", "text": "32号楼5单元"}]}
+{"id": "numaddr_00361", "kind": "neg", "pattern": "N41_temperature", "text": "明天气温 20 度，出门记得多穿点。", "entities": []}
+{"id": "numaddr_00362", "kind": "pos", "pattern": "P52_door_renamed", "text": "地址改为９７号了，原来那块旧门牌已经拆掉。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "９７号"}]}
+{"id": "numaddr_00363", "kind": "neg", "pattern": "N04_date_home", "text": "6号回家，票已经买好了。", "entities": []}
+{"id": "numaddr_00364", "kind": "pos", "pattern": "P05_moved_door_sp", "text": "我搬到了 ７５ 号，周末有空来坐坐呗。", "entities": [{"start": 5, "end": 9, "type": "address", "text": "７５ 号"}]}
+{"id": "numaddr_00365", "kind": "mixed", "pattern": "M02_metro", "text": "我家在山东省济南市天桥区文化南路113号19号楼4单元802，坐9号线过来，出站再走25分钟。", "entities": [{"start": 3, "end": 30, "type": "address", "text": "山东省济南市天桥区文化南路113号19号楼4单元802"}]}
+{"id": "numaddr_00366", "kind": "pos", "pattern": "P35_stall_fruit", "text": "我在45号摊位，过来尝尝新到的荔枝。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "45号"}]}
+{"id": "numaddr_00367", "kind": "neg", "pattern": "N36_households_vote", "text": "共59户参加了这次投票，赞成的占多数。", "entities": []}
+{"id": "numaddr_00368", "kind": "neg", "pattern": "N21_game_floor", "text": "这游戏我打到第69层就卡住了，boss 太难打。", "entities": []}
+{"id": "numaddr_00369", "kind": "pos", "pattern": "P57_dorm_roommate", "text": "室友说他今晚不回404了，门别反锁。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "404"}]}
+{"id": "numaddr_00370", "kind": "neg", "pattern": "N15_bus_route", "text": "坐 271 路车到终点站，再走五分钟就到。", "entities": []}
+{"id": "numaddr_00371", "kind": "neg", "pattern": "N27_exam_score", "text": "高考考了 618 分，够不够上一本线？", "entities": []}
+{"id": "numaddr_00372", "kind": "neg", "pattern": "N23_holiday_date", "text": "15号放假，公司提前一天下班。", "entities": []}
+{"id": "numaddr_00373", "kind": "neg", "pattern": "N32_episode", "text": "第130期节目太好笑了，笑到肚子疼。", "entities": []}
+{"id": "numaddr_00374", "kind": "pos", "pattern": "P37_form_recipient", "text": "收件人：孔女士；地址：11栋411；放门卫室也可以。", "entities": [{"start": 11, "end": 17, "type": "address", "text": "11栋411"}]}
+{"id": "numaddr_00375", "kind": "neg", "pattern": "N15_bus_route", "text": "坐 10 路车到终点站，再走五分钟就到。", "entities": []}
+{"id": "numaddr_00376", "kind": "pos", "pattern": "P39_hotel_room", "text": "酒店给我们分到211，推开窗就是海，太值了！", "entities": [{"start": 7, "end": 10, "type": "address", "text": "211"}]}
+{"id": "numaddr_00377", "kind": "mixed", "pattern": "M04_office_move", "text": "新公司地址：广西壮族自治区南宁市兴宁区望江中路390号翠湖小区15幢211室，2号正式搬过去，到时请大家吃饭。", "entities": [{"start": 6, "end": 38, "type": "address", "text": "广西壮族自治区南宁市兴宁区望江中路390号翠湖小区15幢211室"}]}
+{"id": "numaddr_00378", "kind": "neg", "pattern": "N47_classroom_cap", "text": "这间阶梯教室能容纳12人，讲座放这里吧。", "entities": []}
+{"id": "numaddr_00379", "kind": "neg", "pattern": "N39_chapter", "text": "第460章写得太拖了，看不下去，弃了。", "entities": []}
+{"id": "numaddr_00380", "kind": "neg", "pattern": "N09_order_no", "text": "订单号 854443679，麻烦帮我查一下物流到哪了。", "entities": []}
+{"id": "numaddr_00381", "kind": "neg", "pattern": "N14_app_version", "text": "App 更新到 4.1.3 以后老是闪退，有人遇到吗？", "entities": []}
+{"id": "numaddr_00382", "kind": "pos", "pattern": "P45_old_place", "text": "老地方，3号，晚上七点不见不散。", "entities": [{"start": 4, "end": 6, "type": "address", "text": "3号"}]}
+{"id": "numaddr_00383", "kind": "pos", "pattern": "P45_old_place", "text": "老地方，24号，晚上七点不见不散。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "24号"}]}
+{"id": "numaddr_00384", "kind": "pos", "pattern": "P42_where_room", "text": "地址？就508啊，你上次来过的，忘啦？", "entities": [{"start": 4, "end": 7, "type": "address", "text": "508"}]}
+{"id": "numaddr_00385", "kind": "neg", "pattern": "N13_score", "text": "最后比分0比4，看得我心脏都受不了。", "entities": []}
+{"id": "numaddr_00386", "kind": "pos", "pattern": "P19_dorm_welcome", "text": "我们宿舍是319，欢迎学弟学妹来串门。", "entities": [{"start": 5, "end": 8, "type": "address", "text": "319"}]}
+{"id": "numaddr_00387", "kind": "pos", "pattern": "P20_newdoor_party", "text": "新家门牌70号，乔迁宴定在周六中午，都来啊。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "70号"}]}
+{"id": "numaddr_00388", "kind": "pos", "pattern": "P29_qa_dong", "text": "A：你住哪栋？B：１３栋，最靠东边那栋。", "entities": [{"start": 9, "end": 12, "type": "address", "text": "１３栋"}]}
+{"id": "numaddr_00389", "kind": "neg", "pattern": "N63_room_count_hotel", "text": "这家酒店有167间客房，旺季基本订满。", "entities": []}
+{"id": "numaddr_00390", "kind": "pos", "pattern": "P09_dash_combo", "text": "我家是34-2909，电梯坏了，麻烦走楼梯上来。", "entities": [{"start": 3, "end": 10, "type": "address", "text": "34-2909"}]}
+{"id": "numaddr_00391", "kind": "pos", "pattern": "P55_live_dong_room", "text": "现在住14栋1808，比之前那间大一点。", "entities": [{"start": 3, "end": 10, "type": "address", "text": "14栋1808"}]}
+{"id": "numaddr_00392", "kind": "pos", "pattern": "P18_cs_roomno", "text": "客服：请问您的房号是多少？用户：610，卫生间水管漏水了。", "entities": [{"start": 16, "end": 19, "type": "address", "text": "610"}]}
+{"id": "numaddr_00393", "kind": "neg", "pattern": "N58_layout", "text": "这套房子2室2厅，111平米，采光很好。", "entities": []}
+{"id": "numaddr_00394", "kind": "neg", "pattern": "N57_pickup_code", "text": "取件码 22-6-6431，到驿站报这个就行。", "entities": []}
+{"id": "numaddr_00395", "kind": "pos", "pattern": "P06_door_reddoor", "text": "就在 １０４号，绿门那家，门口有棵石榴树。", "entities": [{"start": 3, "end": 7, "type": "address", "text": "１０４号"}]}
+{"id": "numaddr_00396", "kind": "neg", "pattern": "N59_elevator_press", "text": "电梯按钮按了9下都没反应，物业快来看看。", "entities": []}
+{"id": "numaddr_00397", "kind": "pos", "pattern": "P07_bld_locker", "text": "快递放7号楼楼下的柜子就行，谢谢师傅。", "entities": [{"start": 3, "end": 6, "type": "address", "text": "7号楼"}]}
+{"id": "numaddr_00398", "kind": "neg", "pattern": "N59_elevator_press", "text": "电梯按钮按了6下都没反应，物业快来看看。", "entities": []}
+{"id": "numaddr_00399", "kind": "pos", "pattern": "P11_qa_door", "text": "A：你家几号？B：９１号，铁门刷了白漆的那个。", "entities": [{"start": 9, "end": 12, "type": "address", "text": "９１号"}]}
+{"id": "numaddr_00400", "kind": "neg", "pattern": "N23_holiday_date", "text": "11号放假，公司提前一天下班。", "entities": []}
+{"id": "numaddr_00401", "kind": "neg", "pattern": "N51_distance", "text": "今天跑了14公里，腿都软了。", "entities": []}
+{"id": "numaddr_00402", "kind": "pos", "pattern": "P06_door_reddoor", "text": "就在 42号，红门那家，门口有棵石榴树。", "entities": [{"start": 3, "end": 6, "type": "address", "text": "42号"}]}
+{"id": "numaddr_00403", "kind": "pos", "pattern": "P20_newdoor_party", "text": "新家门牌12号，乔迁宴定在周六中午，都来啊。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "12号"}]}
+{"id": "numaddr_00404", "kind": "neg", "pattern": "N24_contestant", "text": "第 7 号选手请到后台准备。", "entities": []}
+{"id": "numaddr_00405", "kind": "pos", "pattern": "P50_qa_dash", "text": "A：送哪儿？B：36-2706，放门口就行。", "entities": [{"start": 8, "end": 15, "type": "address", "text": "36-2706"}]}
+{"id": "numaddr_00406", "kind": "neg", "pattern": "N17_model_no", "text": "我的笔记本型号是 X6844，用了五年还没坏。", "entities": []}
+{"id": "numaddr_00407", "kind": "neg", "pattern": "N64_line_date_mix", "text": "23号那天16号线停运，记得提前出门。", "entities": []}
+{"id": "numaddr_00408", "kind": "neg", "pattern": "N19_rank", "text": "期末全年级排第79名，比上次进步了。", "entities": []}
+{"id": "numaddr_00409", "kind": "neg", "pattern": "N13_score", "text": "最后比分4比2，看得我心脏都受不了。", "entities": []}
+{"id": "numaddr_00410", "kind": "pos", "pattern": "P03_dorm_prefix", "text": "535宿舍的同学，晚上十点前把水卡还回来哈。", "entities": [{"start": 0, "end": 3, "type": "address", "text": "535"}]}
+{"id": "numaddr_00411", "kind": "neg", "pattern": "N32_episode", "text": "第200期节目太好笑了，笑到肚子疼。", "entities": []}
+{"id": "numaddr_00412", "kind": "neg", "pattern": "N25_http_code", "text": "打开网页一直显示 503，服务器是不是挂了？", "entities": []}
+{"id": "numaddr_00413", "kind": "neg", "pattern": "N37_doc_pages", "text": "这份文件一共 301 页，记得双面打印。", "entities": []}
+{"id": "numaddr_00414", "kind": "neg", "pattern": "N60_chart_rank", "text": "这首歌在榜单上排第14位，比上周升了不少。", "entities": []}
+{"id": "numaddr_00415", "kind": "neg", "pattern": "N42_parking_fee", "text": "停车费每小时 5 元，停了 7 小时。", "entities": []}
+{"id": "numaddr_00416", "kind": "pos", "pattern": "P38_new_full_combo", "text": "新地址发你：5号楼1单元301，记得在软件里改一下。", "entities": [{"start": 6, "end": 15, "type": "address", "text": "5号楼1单元301"}]}
+{"id": "numaddr_00417", "kind": "mixed", "pattern": "M09_listing", "text": "天津市河东区梧桐路281号金色港湾30幢106室这套房，4室1厅，挂牌433万，有兴趣可以约看。", "entities": [{"start": 0, "end": 24, "type": "address", "text": "天津市河东区梧桐路281号金色港湾30幢106室"}]}
+{"id": "numaddr_00418", "kind": "neg", "pattern": "N50_class_size", "text": "我们班 41 个人，男生比女生多。", "entities": []}
+{"id": "numaddr_00419", "kind": "neg", "pattern": "N64_line_date_mix", "text": "10号那天11号线停运，记得提前出门。", "entities": []}
+{"id": "numaddr_00420", "kind": "pos", "pattern": "P01_live_room", "text": "我住608，到了直接上来敲门就行。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "608"}]}
+{"id": "numaddr_00421", "kind": "mixed", "pattern": "M06_qa_bus", "text": "A：你家具体在哪？B：海口市龙华区东风北路161号，坐203路公交到终点站下车。", "entities": [{"start": 11, "end": 25, "type": "address", "text": "海口市龙华区东风北路161号"}]}
+{"id": "numaddr_00422", "kind": "pos", "pattern": "P49_repair", "text": "上门维修预约：3单元112室，空调不制冷，周末都在家。", "entities": [{"start": 7, "end": 14, "type": "address", "text": "3单元112室"}]}
+{"id": "numaddr_00423", "kind": "pos", "pattern": "P11_qa_door", "text": "A：你家几号？B：136号，铁门刷了绿漆的那个。", "entities": [{"start": 9, "end": 13, "type": "address", "text": "136号"}]}
+{"id": "numaddr_00424", "kind": "neg", "pattern": "N03_year_grad", "text": "我2011年毕业，之后换了三份工作。", "entities": []}
+{"id": "numaddr_00425", "kind": "neg", "pattern": "N09_order_no", "text": "订单号 5639817，麻烦帮我查一下物流到哪了。", "entities": []}
+{"id": "numaddr_00426", "kind": "pos", "pattern": "P22_three_dash", "text": "备注：1-3-704，放门口鞋柜上，谢谢。", "entities": [{"start": 3, "end": 10, "type": "address", "text": "1-3-704"}]}
+{"id": "numaddr_00427", "kind": "neg", "pattern": "N18_percent", "text": "这次通过率只有23%，比去年低不少。", "entities": []}
+{"id": "numaddr_00428", "kind": "neg", "pattern": "N57_pickup_code", "text": "取件码 19-3-5493，到驿站报这个就行。", "entities": []}
+{"id": "numaddr_00429", "kind": "neg", "pattern": "N63_room_count_hotel", "text": "这家酒店有80间客房，旺季基本订满。", "entities": []}
+{"id": "numaddr_00430", "kind": "neg", "pattern": "N57_pickup_code", "text": "取件码 3-1-2313，到驿站报这个就行。", "entities": []}
+{"id": "numaddr_00431", "kind": "neg", "pattern": "N32_episode", "text": "第２４４期节目太好笑了，笑到肚子疼。", "entities": []}
+{"id": "numaddr_00432", "kind": "neg", "pattern": "N18_percent", "text": "这次通过率只有58%，比去年低不少。", "entities": []}
+{"id": "numaddr_00433", "kind": "mixed", "pattern": "M10_gather_count", "text": "团建集合点在江西省南昌市东湖区紫荆中路166号，人到齐44个就发车。", "entities": [{"start": 6, "end": 23, "type": "address", "text": "江西省南昌市东湖区紫荆中路166号"}]}
+{"id": "numaddr_00434", "kind": "neg", "pattern": "N56_room_price", "text": "456元一晚的房间，性价比还挺高。", "entities": []}
+{"id": "numaddr_00435", "kind": "neg", "pattern": "N05_weekday_date", "text": "下周三 １ 号开家长会，别迟到啊。", "entities": []}
+{"id": "numaddr_00436", "kind": "pos", "pattern": "P01_live_room", "text": "我住1408，到了直接上来敲门就行。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "1408"}]}
+{"id": "numaddr_00437", "kind": "pos", "pattern": "P55_live_dong_room", "text": "现在住19栋401，比之前那间大一点。", "entities": [{"start": 3, "end": 9, "type": "address", "text": "19栋401"}]}
+{"id": "numaddr_00438", "kind": "neg", "pattern": "N37_doc_pages", "text": "这份文件一共 25 页，记得双面打印。", "entities": []}
+{"id": "numaddr_00439", "kind": "pos", "pattern": "P43_rent_listing", "text": "转租：9栋朝南单间，拎包入住，有意私聊。", "entities": [{"start": 3, "end": 5, "type": "address", "text": "9栋"}]}
+{"id": "numaddr_00440", "kind": "neg", "pattern": "N31_shoe_size", "text": "鞋码43，这款偏大半码，建议拍小一码。", "entities": []}
+{"id": "numaddr_00441", "kind": "neg", "pattern": "N16_meeting_cap", "text": "会议室能坐 12 人，周会够用了。", "entities": []}
+{"id": "numaddr_00442", "kind": "pos", "pattern": "P05_moved_door_sp", "text": "我搬到了 264 号，周末有空来坐坐呗。", "entities": [{"start": 5, "end": 10, "type": "address", "text": "264 号"}]}
+{"id": "numaddr_00443", "kind": "neg", "pattern": "N37_doc_pages", "text": "这份文件一共 275 页，记得双面打印。", "entities": []}
+{"id": "numaddr_00444", "kind": "neg", "pattern": "N21_game_floor", "text": "这游戏我打到第28层就卡住了，boss 太难打。", "entities": []}
+{"id": "numaddr_00445", "kind": "mixed", "pattern": "M04_office_move", "text": "新公司地址：广州市番禺区望江巷192号翠湖小区1栋107，30号正式搬过去，到时请大家吃饭。", "entities": [{"start": 6, "end": 28, "type": "address", "text": "广州市番禺区望江巷192号翠湖小区1栋107"}]}
+{"id": "numaddr_00446", "kind": "neg", "pattern": "N55_doc_number", "text": "第12号文件已经下发，各部门照办。", "entities": []}
+{"id": "numaddr_00447", "kind": "mixed", "pattern": "M10_gather_count", "text": "团建集合点在福州市晋安区延安北路293号金色港湾34幢3005室，人到齐51个就发车。", "entities": [{"start": 6, "end": 32, "type": "address", "text": "福州市晋安区延安北路293号金色港湾34幢3005室"}]}
+{"id": "numaddr_00448", "kind": "neg", "pattern": "N02_price_symbol", "text": "￥2054，包邮，今晚下单明天就到。", "entities": []}
+{"id": "numaddr_00449", "kind": "pos", "pattern": "P13_takeout_door", "text": "外卖小哥你好，放2107门口就行，别敲门，孩子在睡觉。", "entities": [{"start": 8, "end": 12, "type": "address", "text": "2107"}]}
+{"id": "numaddr_00450", "kind": "neg", "pattern": "N13_score", "text": "最后比分4比0，看得我心脏都受不了。", "entities": []}
+{"id": "numaddr_00451", "kind": "neg", "pattern": "N46_floor_count", "text": "整栋楼一共9层，居然没有电梯。", "entities": []}
+{"id": "numaddr_00452", "kind": "pos", "pattern": "P52_door_renamed", "text": "地址改为4号了，原来那块旧门牌已经拆掉。", "entities": [{"start": 4, "end": 6, "type": "address", "text": "4号"}]}
+{"id": "numaddr_00453", "kind": "neg", "pattern": "N21_game_floor", "text": "这游戏我打到第7层就卡住了，boss 太难打。", "entities": []}
+{"id": "numaddr_00454", "kind": "neg", "pattern": "N47_classroom_cap", "text": "这间阶梯教室能容纳60人，讲座放这里吧。", "entities": []}
+{"id": "numaddr_00455", "kind": "neg", "pattern": "N10_jersey", "text": "他穿 3 号球衣，场上跑得最快的那个。", "entities": []}
+{"id": "numaddr_00456", "kind": "pos", "pattern": "P07_bld_locker", "text": "快递放34号楼楼下的柜子就行，谢谢师傅。", "entities": [{"start": 3, "end": 7, "type": "address", "text": "34号楼"}]}
+{"id": "numaddr_00457", "kind": "pos", "pattern": "P26_fetch_key", "text": "下班顺路的话去4号楼帮我拿一下钥匙，我妈在家。", "entities": [{"start": 7, "end": 10, "type": "address", "text": "4号楼"}]}
+{"id": "numaddr_00458", "kind": "neg", "pattern": "N26_glue", "text": "指甲被502胶水粘住了，龚师傅说用热水泡一泡，管用吗？", "entities": []}
+{"id": "numaddr_00459", "kind": "neg", "pattern": "N58_layout", "text": "这套房子4室1厅，123平米，采光很好。", "entities": []}
+{"id": "numaddr_00460", "kind": "neg", "pattern": "N22_metro_line", "text": "坐13号线地铁，中间换乘一次就到。", "entities": []}
+{"id": "numaddr_00461", "kind": "mixed", "pattern": "M03_sender_fee", "text": "寄件人地址浙江省杭州市萧山区园林中路67号，运费3元已付。", "entities": [{"start": 5, "end": 21, "type": "address", "text": "浙江省杭州市萧山区园林中路67号"}]}
+{"id": "numaddr_00462", "kind": "mixed", "pattern": "M02_metro", "text": "我家在重庆市渝北区振兴南路386号，坐14号线过来，出站再走56分钟。", "entities": [{"start": 3, "end": 17, "type": "address", "text": "重庆市渝北区振兴南路386号"}]}
+{"id": "numaddr_00463", "kind": "pos", "pattern": "P12_qa_room", "text": "问：送到哪个房间？答：2608。", "entities": [{"start": 11, "end": 15, "type": "address", "text": "2608"}]}
+{"id": "numaddr_00464", "kind": "neg", "pattern": "N40_run_time", "text": "这次五公里用时26分13秒，配速还行。", "entities": []}
+{"id": "numaddr_00465", "kind": "neg", "pattern": "N63_room_count_hotel", "text": "这家酒店有14间客房，旺季基本订满。", "entities": []}
+{"id": "numaddr_00466", "kind": "neg", "pattern": "N12_page_question", "text": "这道题在第177页，第9题，我也不会。", "entities": []}
+{"id": "numaddr_00467", "kind": "neg", "pattern": "N20_age", "text": "我今年61岁，身体还算硬朗。", "entities": []}
+{"id": "numaddr_00468", "kind": "neg", "pattern": "N65_qa_date", "text": "A：你几号到？B：10号，下午的车。", "entities": []}
+{"id": "numaddr_00469", "kind": "mixed", "pattern": "M10_gather_count", "text": "团建集合点在江苏省南京市玄武区青年大街155号1号楼3单元1110，人到齐59个就发车。", "entities": [{"start": 6, "end": 33, "type": "address", "text": "江苏省南京市玄武区青年大街155号1号楼3单元1110"}]}
+{"id": "numaddr_00470", "kind": "pos", "pattern": "P23_shi_suffix", "text": "麻烦师傅送到612室，出电梯右转第二间。", "entities": [{"start": 6, "end": 10, "type": "address", "text": "612室"}]}
+{"id": "numaddr_00471", "kind": "neg", "pattern": "N17_model_no", "text": "我的笔记本型号是 X5709，用了五年还没坏。", "entities": []}
+{"id": "numaddr_00472", "kind": "neg", "pattern": "N23_holiday_date", "text": "31号放假，公司提前一天下班。", "entities": []}
+{"id": "numaddr_00473", "kind": "pos", "pattern": "P42_where_room", "text": "地址？就909啊，你上次来过的，忘啦？", "entities": [{"start": 4, "end": 7, "type": "address", "text": "909"}]}
+{"id": "numaddr_00474", "kind": "neg", "pattern": "N22_metro_line", "text": "坐18号线地铁，中间换乘一次就到。", "entities": []}
+{"id": "numaddr_00475", "kind": "neg", "pattern": "N44_draw_lot", "text": "抽签抽到 6 号，第三个上场，好紧张。", "entities": []}
+{"id": "numaddr_00476", "kind": "pos", "pattern": "P56_qa_moved", "text": "A：你们搬哪去了？B：就隔壁，115号。", "entities": [{"start": 15, "end": 19, "type": "address", "text": "115号"}]}
+{"id": "numaddr_00477", "kind": "neg", "pattern": "N40_run_time", "text": "这次五公里用时53分02秒，配速还行。", "entities": []}
+{"id": "numaddr_00478", "kind": "neg", "pattern": "N54_cinema_seat", "text": "电影晚上1点开场，我买的是 3 排 8 座。", "entities": []}
+{"id": "numaddr_00479", "kind": "pos", "pattern": "P41_door_upstairs", "text": "我住17号二楼，楼梯在院子里面，别走错。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "17号"}]}
+{"id": "numaddr_00480", "kind": "pos", "pattern": "P50_qa_dash", "text": "A：送哪儿？B：13-612，放门口就行。", "entities": [{"start": 8, "end": 14, "type": "address", "text": "13-612"}]}
+{"id": "numaddr_00481", "kind": "neg", "pattern": "N65_qa_date", "text": "A：你几号到？B：22号，下午的车。", "entities": []}
+{"id": "numaddr_00482", "kind": "pos", "pattern": "P15_stall", "text": "摊位在 89号，卖酱菜的就是我，来了喊一声。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "89号"}]}
+{"id": "numaddr_00483", "kind": "neg", "pattern": "N41_temperature", "text": "明天气温 15 度，出门记得多穿点。", "entities": []}
+{"id": "numaddr_00484", "kind": "pos", "pattern": "P26_fetch_key", "text": "下班顺路的话去22号楼帮我拿一下钥匙，我妈在家。", "entities": [{"start": 7, "end": 11, "type": "address", "text": "22号楼"}]}
+{"id": "numaddr_00485", "kind": "mixed", "pattern": "M01_delivery_date", "text": "收货地址：北京市昌平区枫林东路70号，请21号之前送到，谢谢。", "entities": [{"start": 5, "end": 18, "type": "address", "text": "北京市昌平区枫林东路70号"}]}
+{"id": "numaddr_00486", "kind": "neg", "pattern": "N36_households_vote", "text": "共57户参加了这次投票，赞成的占多数。", "entities": []}
+{"id": "numaddr_00487", "kind": "neg", "pattern": "N49_stock", "text": "库存还剩26件，卖完就下架了。", "entities": []}
+{"id": "numaddr_00488", "kind": "pos", "pattern": "P35_stall_fruit", "text": "我在152号摊位，过来尝尝新到的葡萄。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "152号"}]}
+{"id": "numaddr_00489", "kind": "neg", "pattern": "N09_order_no", "text": "订单号 9075939，麻烦帮我查一下物流到哪了。", "entities": []}
+{"id": "numaddr_00490", "kind": "pos", "pattern": "P32_duty_room", "text": "这周轮到601倒垃圾，别忘了啊。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "601"}]}
+{"id": "numaddr_00491", "kind": "neg", "pattern": "N56_room_price", "text": "855元一晚的房间，性价比还挺高。", "entities": []}
+{"id": "numaddr_00492", "kind": "pos", "pattern": "P24_village_door", "text": "住址一栏我只填了23号，村里人都认识我家。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "23号"}]}
+{"id": "numaddr_00493", "kind": "pos", "pattern": "P13_takeout_door", "text": "外卖小哥你好，放1303门口就行，别敲门，孩子在睡觉。", "entities": [{"start": 8, "end": 12, "type": "address", "text": "1303"}]}
+{"id": "numaddr_00494", "kind": "pos", "pattern": "P37_form_recipient", "text": "收件人：崔女士；地址：34栋503；放门卫室也可以。", "entities": [{"start": 11, "end": 17, "type": "address", "text": "34栋503"}]}
+{"id": "numaddr_00495", "kind": "neg", "pattern": "N34_dining_car", "text": "１６号车厢是餐车，饿了可以去那边买盒饭。", "entities": []}
+{"id": "numaddr_00496", "kind": "pos", "pattern": "P19_dorm_welcome", "text": "我们宿舍是230，欢迎学弟学妹来串门。", "entities": [{"start": 5, "end": 8, "type": "address", "text": "230"}]}
+{"id": "numaddr_00497", "kind": "pos", "pattern": "P36_zhuang", "text": "车停在路边，你到19幢门口等我五分钟。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "19幢"}]}
+{"id": "numaddr_00498", "kind": "mixed", "pattern": "M02_metro", "text": "我家在江西省南昌市西湖区科技大街250号，坐1号线过来，出站再走86分钟。", "entities": [{"start": 3, "end": 20, "type": "address", "text": "江西省南昌市西湖区科技大街250号"}]}
+{"id": "numaddr_00499", "kind": "neg", "pattern": "N55_doc_number", "text": "第２号文件已经下发，各部门照办。", "entities": []}
+{"id": "numaddr_00500", "kind": "neg", "pattern": "N30_battery", "text": "帮我买八节5号电池，遥控器没电了。", "entities": []}
+{"id": "numaddr_00501", "kind": "pos", "pattern": "P21_pickup_change", "text": "取件地址改成12栋1011吧，之前那个已经不住了。", "entities": [{"start": 6, "end": 13, "type": "address", "text": "12栋1011"}]}
+{"id": "numaddr_00502", "kind": "mixed", "pattern": "M05_year_moved", "text": "2015年我们搬到了重庆市江北区和平大街206号，一住就是好多年。", "entities": [{"start": 10, "end": 24, "type": "address", "text": "重庆市江北区和平大街206号"}]}
+{"id": "numaddr_00503", "kind": "pos", "pattern": "P40_office_moved", "text": "郝老师的办公室搬到408了，交作业去那儿。", "entities": [{"start": 9, "end": 12, "type": "address", "text": "408"}]}
+{"id": "numaddr_00504", "kind": "neg", "pattern": "N17_model_no", "text": "我的笔记本型号是 X3461，用了五年还没坏。", "entities": []}
+{"id": "numaddr_00505", "kind": "pos", "pattern": "P06_door_reddoor", "text": "就在 51号，白门那家，门口有棵石榴树。", "entities": [{"start": 3, "end": 6, "type": "address", "text": "51号"}]}
+{"id": "numaddr_00506", "kind": "mixed", "pattern": "M06_qa_bus", "text": "A：你家具体在哪？B：南宁市青秀区公园西路6号，坐191路公交到终点站下车。", "entities": [{"start": 11, "end": 23, "type": "address", "text": "南宁市青秀区公园西路6号"}]}
+{"id": "numaddr_00507", "kind": "neg", "pattern": "N35_train_delay", "text": "K379次列车晚点 81 分钟，大家别着急。", "entities": []}
+{"id": "numaddr_00508", "kind": "neg", "pattern": "N54_cinema_seat", "text": "电影晚上10点开场，我买的是 2 排 16 座。", "entities": []}
+{"id": "numaddr_00509", "kind": "neg", "pattern": "N30_battery", "text": "帮我买六节7号电池，挂钟没电了。", "entities": []}
+{"id": "numaddr_00510", "kind": "pos", "pattern": "P58_courier_note", "text": "快递备注：送1405，家里没人就放隔壁石阿姨那。", "entities": [{"start": 6, "end": 10, "type": "address", "text": "1405"}]}
+{"id": "numaddr_00511", "kind": "pos", "pattern": "P10_unit_room", "text": "地址就写6单元208，小区门卫都知道。", "entities": [{"start": 4, "end": 10, "type": "address", "text": "6单元208"}]}
+{"id": "numaddr_00512", "kind": "neg", "pattern": "N34_dining_car", "text": "4号车厢是餐车，饿了可以去那边买盒饭。", "entities": []}
+{"id": "numaddr_00513", "kind": "pos", "pattern": "P35_stall_fruit", "text": "我在138号摊位，过来尝尝新到的葡萄。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "138号"}]}
+{"id": "numaddr_00514", "kind": "neg", "pattern": "N42_parking_fee", "text": "停车费每小时 13 元，停了 7 小时。", "entities": []}
+{"id": "numaddr_00515", "kind": "neg", "pattern": "N38_birthday", "text": "9月2号是我生日，别忘了。", "entities": []}
+{"id": "numaddr_00516", "kind": "neg", "pattern": "N07_population", "text": "村里人口3105人，其中六十岁以上的占三成。", "entities": []}
+{"id": "numaddr_00517", "kind": "pos", "pattern": "P44_pickup_wait", "text": "到了给我发消息，我下来接你，我在30号楼。", "entities": [{"start": 16, "end": 20, "type": "address", "text": "30号楼"}]}
+{"id": "numaddr_00518", "kind": "pos", "pattern": "P32_duty_room", "text": "这周轮到1108倒垃圾，别忘了啊。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "1108"}]}
+{"id": "numaddr_00519", "kind": "neg", "pattern": "N65_qa_date", "text": "A：你几号到？B：20号，下午的车。", "entities": []}
+{"id": "numaddr_00520", "kind": "neg", "pattern": "N21_game_floor", "text": "这游戏我打到第84层就卡住了，boss 太难打。", "entities": []}
+{"id": "numaddr_00521", "kind": "pos", "pattern": "P23_shi_suffix", "text": "麻烦师傅送到1702室，出电梯右转第二间。", "entities": [{"start": 6, "end": 11, "type": "address", "text": "1702室"}]}
+{"id": "numaddr_00522", "kind": "pos", "pattern": "P58_courier_note", "text": "快递备注：送3206，家里没人就放隔壁闫阿姨那。", "entities": [{"start": 6, "end": 10, "type": "address", "text": "3206"}]}
+{"id": "numaddr_00523", "kind": "neg", "pattern": "N50_class_size", "text": "我们班 35 个人，男生比女生多。", "entities": []}
+{"id": "numaddr_00524", "kind": "neg", "pattern": "N06_time", "text": "会议改到明天上午11点20分，大家记一下。", "entities": []}
+{"id": "numaddr_00525", "kind": "neg", "pattern": "N17_model_no", "text": "我的笔记本型号是 X8530，用了五年还没坏。", "entities": []}
+{"id": "numaddr_00526", "kind": "mixed", "pattern": "M03_sender_fee", "text": "寄件人地址山东省青岛市李沧区东风大街242号锦绣家园23栋406，运费13元已付。", "entities": [{"start": 5, "end": 32, "type": "address", "text": "山东省青岛市李沧区东风大街242号锦绣家园23栋406"}]}
+{"id": "numaddr_00527", "kind": "neg", "pattern": "N17_model_no", "text": "我的笔记本型号是 X1493，用了五年还没坏。", "entities": []}
+{"id": "numaddr_00528", "kind": "neg", "pattern": "N11_train_seat", "text": "座位是4车厢16F，靠窗，挺好。", "entities": []}
+{"id": "numaddr_00529", "kind": "pos", "pattern": "P42_where_room", "text": "地址？就701啊，你上次来过的，忘啦？", "entities": [{"start": 4, "end": 7, "type": "address", "text": "701"}]}
+{"id": "numaddr_00530", "kind": "neg", "pattern": "N61_size_height", "text": "身高181，穿 L 码还是 XL 码合适？", "entities": []}
+{"id": "numaddr_00531", "kind": "pos", "pattern": "P11_qa_door", "text": "A：你家几号？B：75号，铁门刷了黑漆的那个。", "entities": [{"start": 9, "end": 12, "type": "address", "text": "75号"}]}
+{"id": "numaddr_00532", "kind": "pos", "pattern": "P01_live_room", "text": "我住811，到了直接上来敲门就行。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "811"}]}
+{"id": "numaddr_00533", "kind": "neg", "pattern": "N49_stock", "text": "库存还剩52件，卖完就下架了。", "entities": []}
+{"id": "numaddr_00534", "kind": "neg", "pattern": "N21_game_floor", "text": "这游戏我打到第48层就卡住了，boss 太难打。", "entities": []}
+{"id": "numaddr_00535", "kind": "neg", "pattern": "N59_elevator_press", "text": "电梯按钮按了5下都没反应，物业快来看看。", "entities": []}
+{"id": "numaddr_00536", "kind": "pos", "pattern": "P28_company_dong", "text": "我们公司在６栋，进园区左转第二栋就是。", "entities": [{"start": 5, "end": 7, "type": "address", "text": "６栋"}]}
+{"id": "numaddr_00537", "kind": "pos", "pattern": "P46_group_parcel", "text": "邻居群：1705的快递被谁拿错了？麻烦送回来，谢谢！", "entities": [{"start": 4, "end": 8, "type": "address", "text": "1705"}]}
+{"id": "numaddr_00538", "kind": "neg", "pattern": "N58_layout", "text": "这套房子3室1厅，155平米，采光很好。", "entities": []}
+{"id": "numaddr_00539", "kind": "neg", "pattern": "N33_phone_spec", "text": "这款手机24G内存，435元能入手吗？", "entities": []}
+{"id": "numaddr_00540", "kind": "pos", "pattern": "P07_bld_locker", "text": "快递放１３号楼楼下的柜子就行，谢谢师傅。", "entities": [{"start": 3, "end": 7, "type": "address", "text": "１３号楼"}]}
+{"id": "numaddr_00541", "kind": "pos", "pattern": "P27_qinshi", "text": "他现在住237寝室，你直接上去找他吧。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "237"}]}
+{"id": "numaddr_00542", "kind": "neg", "pattern": "N20_age", "text": "我今年43岁，身体还算硬朗。", "entities": []}
+{"id": "numaddr_00543", "kind": "pos", "pattern": "P34_neighbor_aunt", "text": "楼下1910的阿姨又来借梯子了，借了三回都没还。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "1910"}]}
+{"id": "numaddr_00544", "kind": "pos", "pattern": "P38_new_full_combo", "text": "新地址发你：3号楼1单元711，记得在软件里改一下。", "entities": [{"start": 6, "end": 15, "type": "address", "text": "3号楼1单元711"}]}
+{"id": "numaddr_00545", "kind": "neg", "pattern": "N42_parking_fee", "text": "停车费每小时 12 元，停了 4 小时。", "entities": []}
+{"id": "numaddr_00546", "kind": "pos", "pattern": "P04_form_door", "text": "登记信息｜户主：田先生｜门牌：280号｜备注：家里有狗，按门铃。", "entities": [{"start": 15, "end": 19, "type": "address", "text": "280号"}]}
+{"id": "numaddr_00547", "kind": "neg", "pattern": "N50_class_size", "text": "我们班 51 个人，男生比女生多。", "entities": []}
+{"id": "numaddr_00548", "kind": "neg", "pattern": "N11_train_seat", "text": "座位是15车厢4D，靠窗，挺好。", "entities": []}
+{"id": "numaddr_00549", "kind": "pos", "pattern": "P45_old_place", "text": "老地方，109号，晚上七点不见不散。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "109号"}]}
+{"id": "numaddr_00550", "kind": "neg", "pattern": "N19_rank", "text": "期末全年级排第188名，比上次进步了。", "entities": []}
+{"id": "numaddr_00551", "kind": "neg", "pattern": "N04_date_home", "text": "3号回家，票已经买好了。", "entities": []}
+{"id": "numaddr_00552", "kind": "neg", "pattern": "N35_train_delay", "text": "K1392次列车晚点 32 分钟，大家别着急。", "entities": []}
+{"id": "numaddr_00553", "kind": "neg", "pattern": "N18_percent", "text": "这次通过率只有68%，比去年低不少。", "entities": []}
+{"id": "numaddr_00554", "kind": "mixed", "pattern": "M10_gather_count", "text": "团建集合点在河南省郑州市管城回族区翠竹西路343号，人到齐9个就发车。", "entities": [{"start": 6, "end": 25, "type": "address", "text": "河南省郑州市管城回族区翠竹西路343号"}]}
+{"id": "numaddr_00555", "kind": "neg", "pattern": "N13_score", "text": "最后比分0比0，看得我心脏都受不了。", "entities": []}
+{"id": "numaddr_00556", "kind": "pos", "pattern": "P56_qa_moved", "text": "A：你们搬哪去了？B：就隔壁，156号。", "entities": [{"start": 15, "end": 19, "type": "address", "text": "156号"}]}
+{"id": "numaddr_00557", "kind": "neg", "pattern": "N50_class_size", "text": "我们班 ３２ 个人，男生比女生多。", "entities": []}
+{"id": "numaddr_00558", "kind": "neg", "pattern": "N05_weekday_date", "text": "下周三 28 号开家长会，别迟到啊。", "entities": []}
+{"id": "numaddr_00559", "kind": "neg", "pattern": "N10_jersey", "text": "他穿 51 号球衣，场上跑得最快的那个。", "entities": []}
+{"id": "numaddr_00560", "kind": "neg", "pattern": "N04_date_home", "text": "28号回家，票已经买好了。", "entities": []}
+{"id": "numaddr_00561", "kind": "pos", "pattern": "P55_live_dong_room", "text": "现在住31栋1503，比之前那间大一点。", "entities": [{"start": 3, "end": 10, "type": "address", "text": "31栋1503"}]}
+{"id": "numaddr_00562", "kind": "pos", "pattern": "P09_dash_combo", "text": "我家是34-509，电梯坏了，麻烦走楼梯上来。", "entities": [{"start": 3, "end": 9, "type": "address", "text": "34-509"}]}
+{"id": "numaddr_00563", "kind": "pos", "pattern": "P19_dorm_welcome", "text": "我们宿舍是401，欢迎学弟学妹来串门。", "entities": [{"start": 5, "end": 8, "type": "address", "text": "401"}]}
+{"id": "numaddr_00564", "kind": "pos", "pattern": "P09_dash_combo", "text": "我家是34-311，电梯坏了，麻烦走楼梯上来。", "entities": [{"start": 3, "end": 9, "type": "address", "text": "34-311"}]}
+{"id": "numaddr_00565", "kind": "neg", "pattern": "N64_line_date_mix", "text": "22号那天16号线停运，记得提前出门。", "entities": []}
+{"id": "numaddr_00566", "kind": "neg", "pattern": "N22_metro_line", "text": "坐10号线地铁，中间换乘一次就到。", "entities": []}
+{"id": "numaddr_00567", "kind": "neg", "pattern": "N12_page_question", "text": "这道题在第83页，第29题，我也不会。", "entities": []}
+{"id": "numaddr_00568", "kind": "neg", "pattern": "N35_train_delay", "text": "K1052次列车晚点 71 分钟，大家别着急。", "entities": []}
+{"id": "numaddr_00569", "kind": "neg", "pattern": "N55_doc_number", "text": "第33号文件已经下发，各部门照办。", "entities": []}
+{"id": "numaddr_00570", "kind": "neg", "pattern": "N44_draw_lot", "text": "抽签抽到 １６ 号，第三个上场，好紧张。", "entities": []}
+{"id": "numaddr_00571", "kind": "pos", "pattern": "P48_two_dong", "text": "我在5栋，她在32栋，中间就隔一个小花园。", "entities": [{"start": 2, "end": 4, "type": "address", "text": "5栋"}, {"start": 7, "end": 10, "type": "address", "text": "32栋"}]}
+{"id": "numaddr_00572", "kind": "pos", "pattern": "P24_village_door", "text": "住址一栏我只填了９８号，村里人都认识我家。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "９８号"}]}
+{"id": "numaddr_00573", "kind": "neg", "pattern": "N38_birthday", "text": "3月19号是我生日，别忘了。", "entities": []}
+{"id": "numaddr_00574", "kind": "neg", "pattern": "N55_doc_number", "text": "第22号文件已经下发，各部门照办。", "entities": []}
+{"id": "numaddr_00575", "kind": "neg", "pattern": "N52_exam_seat", "text": "考试座位号 1，进场前看清楚别坐错。", "entities": []}
+{"id": "numaddr_00576", "kind": "pos", "pattern": "P10_unit_room", "text": "地址就写4单元309，小区门卫都知道。", "entities": [{"start": 4, "end": 10, "type": "address", "text": "4单元309"}]}
+{"id": "numaddr_00577", "kind": "mixed", "pattern": "M07_order_fix", "text": "订单8884717的收货地址填错了，麻烦改成重庆市沙坪坝区新华大街90号。", "entities": [{"start": 22, "end": 36, "type": "address", "text": "重庆市沙坪坝区新华大街90号"}]}
+{"id": "numaddr_00578", "kind": "pos", "pattern": "P18_cs_roomno", "text": "客服：请问您的房号是多少？用户：611，卫生间水管漏水了。", "entities": [{"start": 16, "end": 19, "type": "address", "text": "611"}]}
+{"id": "numaddr_00579", "kind": "pos", "pattern": "P31_homevisit", "text": "家访安排：冯同学家在148号，我们下午三点到。", "entities": [{"start": 10, "end": 14, "type": "address", "text": "148号"}]}
+{"id": "numaddr_00580", "kind": "neg", "pattern": "N39_chapter", "text": "第138章写得太拖了，看不下去，弃了。", "entities": []}
+{"id": "numaddr_00581", "kind": "neg", "pattern": "N32_episode", "text": "第215期节目太好笑了，笑到肚子疼。", "entities": []}
+{"id": "numaddr_00582", "kind": "neg", "pattern": "N07_population", "text": "村里人口8832人，其中六十岁以上的占三成。", "entities": []}
+{"id": "numaddr_00583", "kind": "pos", "pattern": "P22_three_dash", "text": "备注：19-1-707，放门口鞋柜上，谢谢。", "entities": [{"start": 3, "end": 11, "type": "address", "text": "19-1-707"}]}
+{"id": "numaddr_00584", "kind": "neg", "pattern": "N44_draw_lot", "text": "抽签抽到 15 号，第三个上场，好紧张。", "entities": []}
+{"id": "numaddr_00585", "kind": "neg", "pattern": "N10_jersey", "text": "他穿 49 号球衣，场上跑得最快的那个。", "entities": []}
+{"id": "numaddr_00586", "kind": "neg", "pattern": "N49_stock", "text": "库存还剩6件，卖完就下架了。", "entities": []}
+{"id": "numaddr_00587", "kind": "neg", "pattern": "N62_discount", "text": "店庆全场8.5折，满67减10，算下来挺划算。", "entities": []}
+{"id": "numaddr_00588", "kind": "mixed", "pattern": "M07_order_fix", "text": "订单253864116的收货地址填错了，麻烦改成北京市通州区长安南路101号。", "entities": [{"start": 24, "end": 38, "type": "address", "text": "北京市通州区长安南路101号"}]}
+{"id": "numaddr_00589", "kind": "pos", "pattern": "P31_homevisit", "text": "家访安排：郭同学家在2号，我们下午三点到。", "entities": [{"start": 10, "end": 12, "type": "address", "text": "2号"}]}
+{"id": "numaddr_00590", "kind": "neg", "pattern": "N01_price_yuan", "text": "这件外套才7971元，比商场便宜一半。", "entities": []}
+{"id": "numaddr_00591", "kind": "pos", "pattern": "P43_rent_listing", "text": "转租：28栋朝南单间，拎包入住，有意私聊。", "entities": [{"start": 3, "end": 6, "type": "address", "text": "28栋"}]}
+{"id": "numaddr_00592", "kind": "neg", "pattern": "N49_stock", "text": "库存还剩30件，卖完就下架了。", "entities": []}
+{"id": "numaddr_00593", "kind": "pos", "pattern": "P51_ask_guard_yard", "text": "找不到路就问门口保安28号院怎么走，他们都知道。", "entities": [{"start": 10, "end": 14, "type": "address", "text": "28号院"}]}
+{"id": "numaddr_00594", "kind": "pos", "pattern": "P46_group_parcel", "text": "邻居群：1411的快递被谁拿错了？麻烦送回来，谢谢！", "entities": [{"start": 4, "end": 8, "type": "address", "text": "1411"}]}
+{"id": "numaddr_00595", "kind": "neg", "pattern": "N45_bld_count", "text": "这个小区一共 35 栋楼，绿化做得不错。", "entities": []}
+{"id": "numaddr_00596", "kind": "pos", "pattern": "P07_bld_locker", "text": "快递放１８号楼楼下的柜子就行，谢谢师傅。", "entities": [{"start": 3, "end": 7, "type": "address", "text": "１８号楼"}]}
+{"id": "numaddr_00597", "kind": "pos", "pattern": "P19_dorm_welcome", "text": "我们宿舍是221，欢迎学弟学妹来串门。", "entities": [{"start": 5, "end": 8, "type": "address", "text": "221"}]}
+{"id": "numaddr_00598", "kind": "pos", "pattern": "P33_notice_unit", "text": "物业通知：7号楼4单元明天上午停水，请住户提前储水。", "entities": [{"start": 5, "end": 11, "type": "address", "text": "7号楼4单元"}]}
+{"id": "numaddr_00599", "kind": "pos", "pattern": "P56_qa_moved", "text": "A：你们搬哪去了？B：就隔壁，47号。", "entities": [{"start": 15, "end": 18, "type": "address", "text": "47号"}]}
+{"id": "numaddr_00600", "kind": "pos", "pattern": "P54_doorno_bare", "text": "门牌号 50，院门没锁，直接推门进来。", "entities": [{"start": 4, "end": 6, "type": "address", "text": "50"}]}
+{"id": "numaddr_00601", "kind": "neg", "pattern": "N12_page_question", "text": "这道题在第245页，第8题，我也不会。", "entities": []}
+{"id": "numaddr_00602", "kind": "neg", "pattern": "N16_meeting_cap", "text": "会议室能坐 30 人，周会够用了。", "entities": []}
+{"id": "numaddr_00603", "kind": "neg", "pattern": "N62_discount", "text": "店庆全场7.5折，满88减14，算下来挺划算。", "entities": []}
+{"id": "numaddr_00604", "kind": "neg", "pattern": "N64_line_date_mix", "text": "24号那天14号线停运，记得提前出门。", "entities": []}
+{"id": "numaddr_00605", "kind": "pos", "pattern": "P14_yard", "text": "我在33号院，进胡同左手第三个门就是。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "33号院"}]}
+{"id": "numaddr_00606", "kind": "pos", "pattern": "P42_where_room", "text": "地址？就1505啊，你上次来过的，忘啦？", "entities": [{"start": 4, "end": 8, "type": "address", "text": "1505"}]}
+{"id": "numaddr_00607", "kind": "pos", "pattern": "P21_pickup_change", "text": "取件地址改成１１栋４０３吧，之前那个已经不住了。", "entities": [{"start": 6, "end": 12, "type": "address", "text": "１１栋４０３"}]}
+{"id": "numaddr_00608", "kind": "mixed", "pattern": "M04_office_move", "text": "新公司地址：湖南省长沙市雨花区迎宾街133号，4号正式搬过去，到时请大家吃饭。", "entities": [{"start": 6, "end": 22, "type": "address", "text": "湖南省长沙市雨花区迎宾街133号"}]}
+{"id": "numaddr_00609", "kind": "neg", "pattern": "N60_chart_rank", "text": "这首歌在榜单上排第186位，比上周升了不少。", "entities": []}
+{"id": "numaddr_00610", "kind": "pos", "pattern": "P58_courier_note", "text": "快递备注：送602，家里没人就放隔壁谭阿姨那。", "entities": [{"start": 6, "end": 9, "type": "address", "text": "602"}]}
+{"id": "numaddr_00611", "kind": "neg", "pattern": "N32_episode", "text": "第133期节目太好笑了，笑到肚子疼。", "entities": []}
+{"id": "numaddr_00612", "kind": "pos", "pattern": "P53_share_room", "text": "我和曹姐合租，住808，有空过来吃火锅。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "808"}]}
+{"id": "numaddr_00613", "kind": "neg", "pattern": "N12_page_question", "text": "这道题在第7页，第24题，我也不会。", "entities": []}
+{"id": "numaddr_00614", "kind": "neg", "pattern": "N61_size_height", "text": "身高178，穿 L 码还是 XL 码合适？", "entities": []}
+{"id": "numaddr_00615", "kind": "pos", "pattern": "P30_qa_unit_room", "text": "A：几单元几号？B：3单元1606，上来记得换鞋。", "entities": [{"start": 10, "end": 17, "type": "address", "text": "3单元1606"}]}
+{"id": "numaddr_00616", "kind": "neg", "pattern": "N04_date_home", "text": "30号回家，票已经买好了。", "entities": []}
+{"id": "numaddr_00617", "kind": "mixed", "pattern": "M08_visit_time", "text": "家访地址：上海市黄浦区迎宾大道231号丽景湾14幢1203室；时间：3月14号下午5点。", "entities": [{"start": 5, "end": 30, "type": "address", "text": "上海市黄浦区迎宾大道231号丽景湾14幢1203室"}]}
+{"id": "numaddr_00618", "kind": "mixed", "pattern": "M02_metro", "text": "我家在成都市青羊区滨河中路240号，坐8号线过来，出站再走83分钟。", "entities": [{"start": 3, "end": 17, "type": "address", "text": "成都市青羊区滨河中路240号"}]}
+{"id": "numaddr_00619", "kind": "pos", "pattern": "P28_company_dong", "text": "我们公司在５栋，进园区左转第二栋就是。", "entities": [{"start": 5, "end": 7, "type": "address", "text": "５栋"}]}
+{"id": "numaddr_00620", "kind": "pos", "pattern": "P25_upstairs_room", "text": "我就住你楼上，305，有事喊一声就行。", "entities": [{"start": 7, "end": 10, "type": "address", "text": "305"}]}
+{"id": "numaddr_00621", "kind": "pos", "pattern": "P09_dash_combo", "text": "我家是3-2112，电梯坏了，麻烦走楼梯上来。", "entities": [{"start": 3, "end": 9, "type": "address", "text": "3-2112"}]}
+{"id": "numaddr_00622", "kind": "pos", "pattern": "P04_form_door", "text": "登记信息｜户主：唐先生｜门牌：119号｜备注：家里有狗，按门铃。", "entities": [{"start": 15, "end": 19, "type": "address", "text": "119号"}]}
+{"id": "numaddr_00623", "kind": "neg", "pattern": "N24_contestant", "text": "第 35 号选手请到后台准备。", "entities": []}
+{"id": "numaddr_00624", "kind": "neg", "pattern": "N48_gather_time", "text": "23号上午九点半集合，别睡过头。", "entities": []}
+{"id": "numaddr_00625", "kind": "pos", "pattern": "P17_forum_upstairs", "text": "求助帖：楼主住1号楼612，楼上天天半夜拖椅子，有同样遭遇的吗？", "entities": [{"start": 7, "end": 13, "type": "address", "text": "1号楼612"}]}
+{"id": "numaddr_00626", "kind": "neg", "pattern": "N11_train_seat", "text": "座位是6车厢6B，靠窗，挺好。", "entities": []}
+{"id": "numaddr_00627", "kind": "neg", "pattern": "N46_floor_count", "text": "整栋楼一共26层，居然没有电梯。", "entities": []}
+{"id": "numaddr_00628", "kind": "neg", "pattern": "N46_floor_count", "text": "整栋楼一共２４层，居然没有电梯。", "entities": []}
+{"id": "numaddr_00629", "kind": "neg", "pattern": "N51_distance", "text": "今天跑了4公里，腿都软了。", "entities": []}
+{"id": "numaddr_00630", "kind": "neg", "pattern": "N13_score", "text": "最后比分1比1，看得我心脏都受不了。", "entities": []}
+{"id": "numaddr_00631", "kind": "neg", "pattern": "N27_exam_score", "text": "高考考了 615 分，够不够上一本线？", "entities": []}
+{"id": "numaddr_00632", "kind": "pos", "pattern": "P41_door_upstairs", "text": "我住219号二楼，楼梯在院子里面，别走错。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "219号"}]}
+{"id": "numaddr_00633", "kind": "pos", "pattern": "P57_dorm_roommate", "text": "室友说他今晚不回２３３了，门别反锁。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "２３３"}]}
+{"id": "numaddr_00634", "kind": "neg", "pattern": "N32_episode", "text": "第221期节目太好笑了，笑到肚子疼。", "entities": []}
+{"id": "numaddr_00635", "kind": "neg", "pattern": "N41_temperature", "text": "明天气温 ２０ 度，出门记得多穿点。", "entities": []}
+{"id": "numaddr_00636", "kind": "pos", "pattern": "P30_qa_unit_room", "text": "A：几单元几号？B：6单元2707，上来记得换鞋。", "entities": [{"start": 10, "end": 17, "type": "address", "text": "6单元2707"}]}
+{"id": "numaddr_00637", "kind": "pos", "pattern": "P36_zhuang", "text": "车停在路边，你到6幢门口等我五分钟。", "entities": [{"start": 8, "end": 10, "type": "address", "text": "6幢"}]}
+{"id": "numaddr_00638", "kind": "mixed", "pattern": "M01_delivery_date", "text": "收货地址：山西省太原市万柏林区人民南路372号锦绣家园25幢804室，请29号之前送到，谢谢。", "entities": [{"start": 5, "end": 34, "type": "address", "text": "山西省太原市万柏林区人民南路372号锦绣家园25幢804室"}]}
+{"id": "numaddr_00639", "kind": "pos", "pattern": "P32_duty_room", "text": "这周轮到101倒垃圾，别忘了啊。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "101"}]}
+{"id": "numaddr_00640", "kind": "pos", "pattern": "P39_hotel_room", "text": "酒店给我们分到2102，推开窗就是海，太值了！", "entities": [{"start": 7, "end": 11, "type": "address", "text": "2102"}]}
+{"id": "numaddr_00641", "kind": "neg", "pattern": "N20_age", "text": "我今年16岁，身体还算硬朗。", "entities": []}
+{"id": "numaddr_00642", "kind": "pos", "pattern": "P09_dash_combo", "text": "我家是14-2102，电梯坏了，麻烦走楼梯上来。", "entities": [{"start": 3, "end": 10, "type": "address", "text": "14-2102"}]}
+{"id": "numaddr_00643", "kind": "pos", "pattern": "P58_courier_note", "text": "快递备注：送404，家里没人就放隔壁彭阿姨那。", "entities": [{"start": 6, "end": 9, "type": "address", "text": "404"}]}
+{"id": "numaddr_00644", "kind": "neg", "pattern": "N07_population", "text": "村里人口８０４１人，其中六十岁以上的占三成。", "entities": []}
+{"id": "numaddr_00645", "kind": "pos", "pattern": "P22_three_dash", "text": "备注：27-5-907，放门口鞋柜上，谢谢。", "entities": [{"start": 3, "end": 11, "type": "address", "text": "27-5-907"}]}
+{"id": "numaddr_00646", "kind": "neg", "pattern": "N02_price_symbol", "text": "￥35，包邮，今晚下单明天就到。", "entities": []}
+{"id": "numaddr_00647", "kind": "pos", "pattern": "P38_new_full_combo", "text": "新地址发你：28号楼1单元1310，记得在软件里改一下。", "entities": [{"start": 6, "end": 17, "type": "address", "text": "28号楼1单元1310"}]}
+{"id": "numaddr_00648", "kind": "neg", "pattern": "N43_flight", "text": "航班 CA７８７９ 延误了，登机时间待定。", "entities": []}
+{"id": "numaddr_00649", "kind": "neg", "pattern": "N28_weight", "text": "体重 95 公斤，这个月瘦了两斤。", "entities": []}
+{"id": "numaddr_00650", "kind": "neg", "pattern": "N55_doc_number", "text": "第35号文件已经下发，各部门照办。", "entities": []}
+{"id": "numaddr_00651", "kind": "neg", "pattern": "N55_doc_number", "text": "第26号文件已经下发，各部门照办。", "entities": []}
+{"id": "numaddr_00652", "kind": "pos", "pattern": "P01_live_room", "text": "我住510，到了直接上来敲门就行。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "510"}]}
+{"id": "numaddr_00653", "kind": "neg", "pattern": "N32_episode", "text": "第241期节目太好笑了，笑到肚子疼。", "entities": []}
+{"id": "numaddr_00654", "kind": "pos", "pattern": "P08_go_dong", "text": "明天下午去 5栋 找黎老师拿资料。", "entities": [{"start": 6, "end": 8, "type": "address", "text": "5栋"}]}
+{"id": "numaddr_00655", "kind": "mixed", "pattern": "M05_year_moved", "text": "2017年我们搬到了济南市槐荫区迎宾大街186号，一住就是好多年。", "entities": [{"start": 10, "end": 24, "type": "address", "text": "济南市槐荫区迎宾大街186号"}]}
+{"id": "numaddr_00656", "kind": "neg", "pattern": "N61_size_height", "text": "身高190，穿 L 码还是 XL 码合适？", "entities": []}
+{"id": "numaddr_00657", "kind": "pos", "pattern": "P14_yard", "text": "我在8号院，进胡同左手第三个门就是。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "8号院"}]}
+{"id": "numaddr_00658", "kind": "pos", "pattern": "P04_form_door", "text": "登记信息｜户主：龚先生｜门牌：15号｜备注：家里有狗，按门铃。", "entities": [{"start": 15, "end": 18, "type": "address", "text": "15号"}]}
+{"id": "numaddr_00659", "kind": "neg", "pattern": "N12_page_question", "text": "这道题在第236页，第2题，我也不会。", "entities": []}
+{"id": "numaddr_00660", "kind": "mixed", "pattern": "M07_order_fix", "text": "订单9363670的收货地址填错了，麻烦改成温州市鹿城区枫林中路264号。", "entities": [{"start": 22, "end": 36, "type": "address", "text": "温州市鹿城区枫林中路264号"}]}
+{"id": "numaddr_00661", "kind": "neg", "pattern": "N28_weight", "text": "体重 98 公斤，这个月瘦了两斤。", "entities": []}
+{"id": "numaddr_00662", "kind": "mixed", "pattern": "M09_listing", "text": "郑州市中原区长安中路237号这套房，2室2厅，挂牌178万，有兴趣可以约看。", "entities": [{"start": 0, "end": 14, "type": "address", "text": "郑州市中原区长安中路237号"}]}
+{"id": "numaddr_00663", "kind": "neg", "pattern": "N16_meeting_cap", "text": "会议室能坐 20 人，周会够用了。", "entities": []}
+{"id": "numaddr_00664", "kind": "neg", "pattern": "N57_pickup_code", "text": "取件码 28-1-5556，到驿站报这个就行。", "entities": []}
+{"id": "numaddr_00665", "kind": "neg", "pattern": "N06_time", "text": "会议改到明天上午10点15分，大家记一下。", "entities": []}
+{"id": "numaddr_00666", "kind": "pos", "pattern": "P16_dong_unit_ask", "text": "已经到楼下了，１２栋４单元是哪个门啊？", "entities": [{"start": 7, "end": 13, "type": "address", "text": "１２栋４单元"}]}
+{"id": "numaddr_00667", "kind": "pos", "pattern": "P24_village_door", "text": "住址一栏我只填了100号，村里人都认识我家。", "entities": [{"start": 8, "end": 12, "type": "address", "text": "100号"}]}
+{"id": "numaddr_00668", "kind": "pos", "pattern": "P48_two_dong", "text": "我在10栋，她在22栋，中间就隔一个小花园。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "10栋"}, {"start": 8, "end": 11, "type": "address", "text": "22栋"}]}
+{"id": "numaddr_00669", "kind": "neg", "pattern": "N03_year_grad", "text": "我２００４年毕业，之后换了三份工作。", "entities": []}
+{"id": "numaddr_00670", "kind": "pos", "pattern": "P35_stall_fruit", "text": "我在143号摊位，过来尝尝新到的橘子。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "143号"}]}
+{"id": "numaddr_00671", "kind": "mixed", "pattern": "M04_office_move", "text": "新公司地址：甘肃省兰州市城关区丰收巷233号金色港湾2栋608，8号正式搬过去，到时请大家吃饭。", "entities": [{"start": 6, "end": 31, "type": "address", "text": "甘肃省兰州市城关区丰收巷233号金色港湾2栋608"}]}
+{"id": "numaddr_00672", "kind": "pos", "pattern": "P22_three_dash", "text": "备注：1-5-1711，放门口鞋柜上，谢谢。", "entities": [{"start": 3, "end": 11, "type": "address", "text": "1-5-1711"}]}
+{"id": "numaddr_00673", "kind": "neg", "pattern": "N59_elevator_press", "text": "电梯按钮按了８下都没反应，物业快来看看。", "entities": []}
+{"id": "numaddr_00674", "kind": "pos", "pattern": "P13_takeout_door", "text": "外卖小哥你好，放1310门口就行，别敲门，孩子在睡觉。", "entities": [{"start": 8, "end": 12, "type": "address", "text": "1310"}]}
+{"id": "numaddr_00675", "kind": "neg", "pattern": "N09_order_no", "text": "订单号 859705345，麻烦帮我查一下物流到哪了。", "entities": []}
+{"id": "numaddr_00676", "kind": "neg", "pattern": "N18_percent", "text": "这次通过率只有21%，比去年低不少。", "entities": []}
+{"id": "numaddr_00677", "kind": "neg", "pattern": "N12_page_question", "text": "这道题在第152页，第20题，我也不会。", "entities": []}
+{"id": "numaddr_00678", "kind": "pos", "pattern": "P25_upstairs_room", "text": "我就住你楼上，610，有事喊一声就行。", "entities": [{"start": 7, "end": 10, "type": "address", "text": "610"}]}
+{"id": "numaddr_00679", "kind": "pos", "pattern": "P30_qa_unit_room", "text": "A：几单元几号？B：6单元1102，上来记得换鞋。", "entities": [{"start": 10, "end": 17, "type": "address", "text": "6单元1102"}]}
+{"id": "numaddr_00680", "kind": "pos", "pattern": "P52_door_renamed", "text": "地址改为118号了，原来那块旧门牌已经拆掉。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "118号"}]}
+{"id": "numaddr_00681", "kind": "pos", "pattern": "P57_dorm_roommate", "text": "室友说他今晚不回102了，门别反锁。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "102"}]}
+{"id": "numaddr_00682", "kind": "neg", "pattern": "N59_elevator_press", "text": "电梯按钮按了3下都没反应，物业快来看看。", "entities": []}
+{"id": "numaddr_00683", "kind": "neg", "pattern": "N14_app_version", "text": "App 更新到 ６.４.５ 以后老是闪退，有人遇到吗？", "entities": []}
+{"id": "numaddr_00684", "kind": "mixed", "pattern": "M02_metro", "text": "我家在黑龙江省哈尔滨市南岗区振兴街63号，坐9号线过来，出站再走73分钟。", "entities": [{"start": 3, "end": 20, "type": "address", "text": "黑龙江省哈尔滨市南岗区振兴街63号"}]}
+{"id": "numaddr_00685", "kind": "pos", "pattern": "P43_rent_listing", "text": "转租：15栋朝南单间，拎包入住，有意私聊。", "entities": [{"start": 3, "end": 6, "type": "address", "text": "15栋"}]}
+{"id": "numaddr_00686", "kind": "pos", "pattern": "P26_fetch_key", "text": "下班顺路的话去16号楼帮我拿一下钥匙，我妈在家。", "entities": [{"start": 7, "end": 11, "type": "address", "text": "16号楼"}]}
+{"id": "numaddr_00687", "kind": "mixed", "pattern": "M05_year_moved", "text": "2002年我们搬到了河南省郑州市惠济区望江北路225号锦绣家园16幢304室，一住就是好多年。", "entities": [{"start": 10, "end": 38, "type": "address", "text": "河南省郑州市惠济区望江北路225号锦绣家园16幢304室"}]}
+{"id": "numaddr_00688", "kind": "neg", "pattern": "N19_rank", "text": "期末全年级排第40名，比上次进步了。", "entities": []}
+{"id": "numaddr_00689", "kind": "mixed", "pattern": "M04_office_move", "text": "新公司地址：辽宁省沈阳市和平区银杏大道128号，24号正式搬过去，到时请大家吃饭。", "entities": [{"start": 6, "end": 23, "type": "address", "text": "辽宁省沈阳市和平区银杏大道128号"}]}
+{"id": "numaddr_00690", "kind": "neg", "pattern": "N23_holiday_date", "text": "3号放假，公司提前一天下班。", "entities": []}
+{"id": "numaddr_00691", "kind": "neg", "pattern": "N01_price_yuan", "text": "这件外套才75元，比商场便宜一半。", "entities": []}
+{"id": "numaddr_00692", "kind": "neg", "pattern": "N48_gather_time", "text": "22号上午九点半集合，别睡过头。", "entities": []}
+{"id": "numaddr_00693", "kind": "pos", "pattern": "P12_qa_room", "text": "问：送到哪个房间？答：107。", "entities": [{"start": 11, "end": 14, "type": "address", "text": "107"}]}
+{"id": "numaddr_00694", "kind": "neg", "pattern": "N56_room_price", "text": "３６９元一晚的房间，性价比还挺高。", "entities": []}
+{"id": "numaddr_00695", "kind": "neg", "pattern": "N04_date_home", "text": "16号回家，票已经买好了。", "entities": []}
+{"id": "numaddr_00696", "kind": "neg", "pattern": "N64_line_date_mix", "text": "1号那天3号线停运，记得提前出门。", "entities": []}
+{"id": "numaddr_00697", "kind": "pos", "pattern": "P26_fetch_key", "text": "下班顺路的话去8号楼帮我拿一下钥匙，我妈在家。", "entities": [{"start": 7, "end": 10, "type": "address", "text": "8号楼"}]}
+{"id": "numaddr_00698", "kind": "neg", "pattern": "N27_exam_score", "text": "高考考了 496 分，够不够上一本线？", "entities": []}
+{"id": "numaddr_00699", "kind": "neg", "pattern": "N15_bus_route", "text": "坐 299 路车到终点站，再走五分钟就到。", "entities": []}
+{"id": "numaddr_00700", "kind": "neg", "pattern": "N29_queue", "text": "叫号叫到 B018 了，前面还有十几个人。", "entities": []}
+{"id": "numaddr_00701", "kind": "pos", "pattern": "P04_form_door", "text": "登记信息｜户主：黄先生｜门牌：31号｜备注：家里有狗，按门铃。", "entities": [{"start": 15, "end": 18, "type": "address", "text": "31号"}]}
+{"id": "numaddr_00702", "kind": "mixed", "pattern": "M02_metro", "text": "我家在无锡市新吴区人民东路139号，坐13号线过来，出站再走58分钟。", "entities": [{"start": 3, "end": 17, "type": "address", "text": "无锡市新吴区人民东路139号"}]}
+{"id": "numaddr_00703", "kind": "neg", "pattern": "N01_price_yuan", "text": "这件外套才２０８元，比商场便宜一半。", "entities": []}
+{"id": "numaddr_00704", "kind": "pos", "pattern": "P36_zhuang", "text": "车停在路边，你到16幢门口等我五分钟。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "16幢"}]}
+{"id": "numaddr_00705", "kind": "neg", "pattern": "N51_distance", "text": "今天跑了27公里，腿都软了。", "entities": []}
+{"id": "numaddr_00706", "kind": "neg", "pattern": "N03_year_grad", "text": "我2008年毕业，之后换了三份工作。", "entities": []}
+{"id": "numaddr_00707", "kind": "pos", "pattern": "P27_qinshi", "text": "他现在住118寝室，你直接上去找他吧。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "118"}]}
+{"id": "numaddr_00708", "kind": "neg", "pattern": "N35_train_delay", "text": "K839次列车晚点 55 分钟，大家别着急。", "entities": []}
+{"id": "numaddr_00709", "kind": "pos", "pattern": "P18_cs_roomno", "text": "客服：请问您的房号是多少？用户：606，卫生间水管漏水了。", "entities": [{"start": 16, "end": 19, "type": "address", "text": "606"}]}
+{"id": "numaddr_00710", "kind": "pos", "pattern": "P19_dorm_welcome", "text": "我们宿舍是227，欢迎学弟学妹来串门。", "entities": [{"start": 5, "end": 8, "type": "address", "text": "227"}]}
+{"id": "numaddr_00711", "kind": "pos", "pattern": "P16_dong_unit_ask", "text": "已经到楼下了，31栋4单元是哪个门啊？", "entities": [{"start": 7, "end": 13, "type": "address", "text": "31栋4单元"}]}
+{"id": "numaddr_00712", "kind": "pos", "pattern": "P26_fetch_key", "text": "下班顺路的话去35号楼帮我拿一下钥匙，我妈在家。", "entities": [{"start": 7, "end": 11, "type": "address", "text": "35号楼"}]}
+{"id": "numaddr_00713", "kind": "neg", "pattern": "N09_order_no", "text": "订单号 238449296，麻烦帮我查一下物流到哪了。", "entities": []}
+{"id": "numaddr_00714", "kind": "pos", "pattern": "P53_share_room", "text": "我和孟姐合租，住404，有空过来吃火锅。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "404"}]}
+{"id": "numaddr_00715", "kind": "pos", "pattern": "P33_notice_unit", "text": "物业通知：9号楼3单元明天上午停水，请住户提前储水。", "entities": [{"start": 5, "end": 11, "type": "address", "text": "9号楼3单元"}]}
+{"id": "numaddr_00716", "kind": "neg", "pattern": "N41_temperature", "text": "明天气温 10 度，出门记得多穿点。", "entities": []}
+{"id": "numaddr_00717", "kind": "pos", "pattern": "P30_qa_unit_room", "text": "A：几单元几号？B：4单元1608，上来记得换鞋。", "entities": [{"start": 10, "end": 17, "type": "address", "text": "4单元1608"}]}
+{"id": "numaddr_00718", "kind": "pos", "pattern": "P13_takeout_door", "text": "外卖小哥你好，放704门口就行，别敲门，孩子在睡觉。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "704"}]}
+{"id": "numaddr_00719", "kind": "neg", "pattern": "N46_floor_count", "text": "整栋楼一共23层，居然没有电梯。", "entities": []}
+{"id": "numaddr_00720", "kind": "neg", "pattern": "N37_doc_pages", "text": "这份文件一共 64 页，记得双面打印。", "entities": []}
+{"id": "numaddr_00721", "kind": "pos", "pattern": "P28_company_dong", "text": "我们公司在1栋，进园区左转第二栋就是。", "entities": [{"start": 5, "end": 7, "type": "address", "text": "1栋"}]}
+{"id": "numaddr_00722", "kind": "pos", "pattern": "P29_qa_dong", "text": "A：你住哪栋？B：18栋，最靠东边那栋。", "entities": [{"start": 9, "end": 12, "type": "address", "text": "18栋"}]}
+{"id": "numaddr_00723", "kind": "neg", "pattern": "N42_parking_fee", "text": "停车费每小时 15 元，停了 5 小时。", "entities": []}
+{"id": "numaddr_00724", "kind": "neg", "pattern": "N16_meeting_cap", "text": "会议室能坐 80 人，周会够用了。", "entities": []}
+{"id": "numaddr_00725", "kind": "neg", "pattern": "N65_qa_date", "text": "A：你几号到？B：15号，下午的车。", "entities": []}
+{"id": "numaddr_00726", "kind": "pos", "pattern": "P48_two_dong", "text": "我在11栋，她在7栋，中间就隔一个小花园。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "11栋"}, {"start": 8, "end": 10, "type": "address", "text": "7栋"}]}
+{"id": "numaddr_00727", "kind": "neg", "pattern": "N54_cinema_seat", "text": "电影晚上５点开场，我买的是 ２０ 排 １３ 座。", "entities": []}
+{"id": "numaddr_00728", "kind": "pos", "pattern": "P48_two_dong", "text": "我在36栋，她在28栋，中间就隔一个小花园。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "36栋"}, {"start": 8, "end": 11, "type": "address", "text": "28栋"}]}
+{"id": "numaddr_00729", "kind": "pos", "pattern": "P07_bld_locker", "text": "快递放20号楼楼下的柜子就行，谢谢师傅。", "entities": [{"start": 3, "end": 7, "type": "address", "text": "20号楼"}]}
+{"id": "numaddr_00730", "kind": "mixed", "pattern": "M10_gather_count", "text": "团建集合点在吉林省长春市绿园区长江路117号，人到齐38个就发车。", "entities": [{"start": 6, "end": 22, "type": "address", "text": "吉林省长春市绿园区长江路117号"}]}
+{"id": "numaddr_00731", "kind": "mixed", "pattern": "M01_delivery_date", "text": "收货地址：河南省郑州市管城回族区紫荆中路59号，请12号之前送到，谢谢。", "entities": [{"start": 5, "end": 23, "type": "address", "text": "河南省郑州市管城回族区紫荆中路59号"}]}
+{"id": "numaddr_00732", "kind": "neg", "pattern": "N05_weekday_date", "text": "下周三 25 号开家长会，别迟到啊。", "entities": []}
+{"id": "numaddr_00733", "kind": "neg", "pattern": "N58_layout", "text": "这套房子３室１厅，１１９平米，采光很好。", "entities": []}
+{"id": "numaddr_00734", "kind": "pos", "pattern": "P20_newdoor_party", "text": "新家门牌145号，乔迁宴定在周六中午，都来啊。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "145号"}]}
+{"id": "numaddr_00735", "kind": "neg", "pattern": "N58_layout", "text": "这套房子3室2厅，87平米，采光很好。", "entities": []}
+{"id": "numaddr_00736", "kind": "neg", "pattern": "N07_population", "text": "村里人口5882人，其中六十岁以上的占三成。", "entities": []}
+{"id": "numaddr_00737", "kind": "neg", "pattern": "N24_contestant", "text": "第 17 号选手请到后台准备。", "entities": []}
+{"id": "numaddr_00738", "kind": "pos", "pattern": "P12_qa_room", "text": "问：送到哪个房间？答：404。", "entities": [{"start": 11, "end": 14, "type": "address", "text": "404"}]}
+{"id": "numaddr_00739", "kind": "pos", "pattern": "P54_doorno_bare", "text": "门牌号 3，院门没锁，直接推门进来。", "entities": [{"start": 4, "end": 5, "type": "address", "text": "3"}]}
+{"id": "numaddr_00740", "kind": "neg", "pattern": "N28_weight", "text": "体重 81 公斤，这个月瘦了两斤。", "entities": []}
+{"id": "numaddr_00741", "kind": "pos", "pattern": "P21_pickup_change", "text": "取件地址改成21栋201吧，之前那个已经不住了。", "entities": [{"start": 6, "end": 12, "type": "address", "text": "21栋201"}]}
+{"id": "numaddr_00742", "kind": "mixed", "pattern": "M01_delivery_date", "text": "收货地址：海口市美兰区丰收大道319号绿城小区23幢506室，请8号之前送到，谢谢。", "entities": [{"start": 5, "end": 30, "type": "address", "text": "海口市美兰区丰收大道319号绿城小区23幢506室"}]}
+{"id": "numaddr_00743", "kind": "neg", "pattern": "N44_draw_lot", "text": "抽签抽到 14 号，第三个上场，好紧张。", "entities": []}
+{"id": "numaddr_00744", "kind": "neg", "pattern": "N23_holiday_date", "text": "25号放假，公司提前一天下班。", "entities": []}
+{"id": "numaddr_00745", "kind": "mixed", "pattern": "M01_delivery_date", "text": "收货地址：海口市美兰区人民大街258号幸福里12栋305，请18号之前送到，谢谢。", "entities": [{"start": 5, "end": 28, "type": "address", "text": "海口市美兰区人民大街258号幸福里12栋305"}]}
+{"id": "numaddr_00746", "kind": "pos", "pattern": "P24_village_door", "text": "住址一栏我只填了194号，村里人都认识我家。", "entities": [{"start": 8, "end": 12, "type": "address", "text": "194号"}]}
+{"id": "numaddr_00747", "kind": "mixed", "pattern": "M05_year_moved", "text": "2008年我们搬到了天津市南开区建设大街384号11号楼3单元707，一住就是好多年。", "entities": [{"start": 10, "end": 34, "type": "address", "text": "天津市南开区建设大街384号11号楼3单元707"}]}
+{"id": "numaddr_00748", "kind": "pos", "pattern": "P39_hotel_room", "text": "酒店给我们分到1107，推开窗就是海，太值了！", "entities": [{"start": 7, "end": 11, "type": "address", "text": "1107"}]}
+{"id": "numaddr_00749", "kind": "pos", "pattern": "P38_new_full_combo", "text": "新地址发你：33号楼6单元1512，记得在软件里改一下。", "entities": [{"start": 6, "end": 17, "type": "address", "text": "33号楼6单元1512"}]}
+{"id": "numaddr_00750", "kind": "neg", "pattern": "N20_age", "text": "我今年84岁，身体还算硬朗。", "entities": []}
+{"id": "numaddr_00751", "kind": "pos", "pattern": "P39_hotel_room", "text": "酒店给我们分到810，推开窗就是海，太值了！", "entities": [{"start": 7, "end": 10, "type": "address", "text": "810"}]}
+{"id": "numaddr_00752", "kind": "pos", "pattern": "P13_takeout_door", "text": "外卖小哥你好，放1701门口就行，别敲门，孩子在睡觉。", "entities": [{"start": 8, "end": 12, "type": "address", "text": "1701"}]}
+{"id": "numaddr_00753", "kind": "mixed", "pattern": "M08_visit_time", "text": "家访地址：四川省成都市武侯区青年路258号和谐家园27幢302室；时间：9月6号下午5点。", "entities": [{"start": 5, "end": 32, "type": "address", "text": "四川省成都市武侯区青年路258号和谐家园27幢302室"}]}
+{"id": "numaddr_00754", "kind": "neg", "pattern": "N56_room_price", "text": "825元一晚的房间，性价比还挺高。", "entities": []}
+{"id": "numaddr_00755", "kind": "neg", "pattern": "N42_parking_fee", "text": "停车费每小时 8 元，停了 8 小时。", "entities": []}
+{"id": "numaddr_00756", "kind": "neg", "pattern": "N18_percent", "text": "这次通过率只有3%，比去年低不少。", "entities": []}
+{"id": "numaddr_00757", "kind": "neg", "pattern": "N08_people_count", "text": "昨天聚会来了 24 个人，菜点少了。", "entities": []}
+{"id": "numaddr_00758", "kind": "mixed", "pattern": "M08_visit_time", "text": "家访地址：上海市浦东新区南京路360号；时间：12月20号下午4点。", "entities": [{"start": 5, "end": 19, "type": "address", "text": "上海市浦东新区南京路360号"}]}
+{"id": "numaddr_00759", "kind": "neg", "pattern": "N47_classroom_cap", "text": "这间阶梯教室能容纳10人，讲座放这里吧。", "entities": []}
+{"id": "numaddr_00760", "kind": "neg", "pattern": "N27_exam_score", "text": "高考考了 485 分，够不够上一本线？", "entities": []}
+{"id": "numaddr_00761", "kind": "pos", "pattern": "P12_qa_room", "text": "问：送到哪个房间？答：609。", "entities": [{"start": 11, "end": 14, "type": "address", "text": "609"}]}
+{"id": "numaddr_00762", "kind": "pos", "pattern": "P12_qa_room", "text": "问：送到哪个房间？答：2202。", "entities": [{"start": 11, "end": 15, "type": "address", "text": "2202"}]}
+{"id": "numaddr_00763", "kind": "pos", "pattern": "P12_qa_room", "text": "问：送到哪个房间？答：1405。", "entities": [{"start": 11, "end": 15, "type": "address", "text": "1405"}]}
+{"id": "numaddr_00764", "kind": "neg", "pattern": "N14_app_version", "text": "App 更新到 2.7.0 以后老是闪退，有人遇到吗？", "entities": []}
+{"id": "numaddr_00765", "kind": "pos", "pattern": "P40_office_moved", "text": "熊老师的办公室搬到1612了，交作业去那儿。", "entities": [{"start": 9, "end": 13, "type": "address", "text": "1612"}]}
+{"id": "numaddr_00766", "kind": "mixed", "pattern": "M07_order_fix", "text": "订单8378354的收货地址填错了，麻烦改成郑州市管城回族区北京北路316号8号楼6单元102。", "entities": [{"start": 22, "end": 47, "type": "address", "text": "郑州市管城回族区北京北路316号8号楼6单元102"}]}
+{"id": "numaddr_00767", "kind": "pos", "pattern": "P37_form_recipient", "text": "收件人：邱女士；地址：19栋101；放门卫室也可以。", "entities": [{"start": 11, "end": 17, "type": "address", "text": "19栋101"}]}
+{"id": "numaddr_00768", "kind": "neg", "pattern": "N04_date_home", "text": "5号回家，票已经买好了。", "entities": []}
+{"id": "numaddr_00769", "kind": "pos", "pattern": "P02_roomno_is", "text": "房间号是504，前台说刷卡就能上去。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "504"}]}
+{"id": "numaddr_00770", "kind": "neg", "pattern": "N11_train_seat", "text": "座位是4车厢11A，靠窗，挺好。", "entities": []}
+{"id": "numaddr_00771", "kind": "pos", "pattern": "P46_group_parcel", "text": "邻居群：311的快递被谁拿错了？麻烦送回来，谢谢！", "entities": [{"start": 4, "end": 7, "type": "address", "text": "311"}]}
+{"id": "numaddr_00772", "kind": "neg", "pattern": "N08_people_count", "text": "昨天聚会来了 3 个人，菜点少了。", "entities": []}
+{"id": "numaddr_00773", "kind": "pos", "pattern": "P50_qa_dash", "text": "A：送哪儿？B：26-2311，放门口就行。", "entities": [{"start": 8, "end": 15, "type": "address", "text": "26-2311"}]}
+{"id": "numaddr_00774", "kind": "neg", "pattern": "N37_doc_pages", "text": "这份文件一共 101 页，记得双面打印。", "entities": []}
+{"id": "numaddr_00775", "kind": "neg", "pattern": "N28_weight", "text": "体重 87 公斤，这个月瘦了两斤。", "entities": []}
+{"id": "numaddr_00776", "kind": "mixed", "pattern": "M08_visit_time", "text": "家访地址：辽宁省大连市中山区解放巷233号；时间：2月18号下午2点。", "entities": [{"start": 5, "end": 21, "type": "address", "text": "辽宁省大连市中山区解放巷233号"}]}
+{"id": "numaddr_00777", "kind": "pos", "pattern": "P30_qa_unit_room", "text": "A：几单元几号？B：2单元303，上来记得换鞋。", "entities": [{"start": 10, "end": 16, "type": "address", "text": "2单元303"}]}
+{"id": "numaddr_00778", "kind": "neg", "pattern": "N53_grade_cohort", "text": "他是2022级的学长，现在在读研。", "entities": []}
+{"id": "numaddr_00779", "kind": "pos", "pattern": "P15_stall", "text": "摊位在 146号，卖酱菜的就是我，来了喊一声。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "146号"}]}
+{"id": "numaddr_00780", "kind": "pos", "pattern": "P03_dorm_prefix", "text": "421宿舍的同学，晚上十点前把水卡还回来哈。", "entities": [{"start": 0, "end": 3, "type": "address", "text": "421"}]}
+{"id": "numaddr_00781", "kind": "neg", "pattern": "N31_shoe_size", "text": "鞋码39，这款偏大半码，建议拍小一码。", "entities": []}
+{"id": "numaddr_00782", "kind": "neg", "pattern": "N24_contestant", "text": "第 15 号选手请到后台准备。", "entities": []}
+{"id": "numaddr_00783", "kind": "pos", "pattern": "P13_takeout_door", "text": "外卖小哥你好，放102门口就行，别敲门，孩子在睡觉。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "102"}]}
+{"id": "numaddr_00784", "kind": "pos", "pattern": "P36_zhuang", "text": "车停在路边，你到１幢门口等我五分钟。", "entities": [{"start": 8, "end": 10, "type": "address", "text": "１幢"}]}
+{"id": "numaddr_00785", "kind": "pos", "pattern": "P10_unit_room", "text": "地址就写1单元3010，小区门卫都知道。", "entities": [{"start": 4, "end": 11, "type": "address", "text": "1单元3010"}]}
+{"id": "numaddr_00786", "kind": "neg", "pattern": "N39_chapter", "text": "第366章写得太拖了，看不下去，弃了。", "entities": []}
+{"id": "numaddr_00787", "kind": "pos", "pattern": "P46_group_parcel", "text": "邻居群：306的快递被谁拿错了？麻烦送回来，谢谢！", "entities": [{"start": 4, "end": 7, "type": "address", "text": "306"}]}
+{"id": "numaddr_00788", "kind": "pos", "pattern": "P58_courier_note", "text": "快递备注：送2506，家里没人就放隔壁廖阿姨那。", "entities": [{"start": 6, "end": 10, "type": "address", "text": "2506"}]}
+{"id": "numaddr_00789", "kind": "pos", "pattern": "P18_cs_roomno", "text": "客服：请问您的房号是多少？用户：1003，卫生间水管漏水了。", "entities": [{"start": 16, "end": 20, "type": "address", "text": "1003"}]}
+{"id": "numaddr_00790", "kind": "neg", "pattern": "N59_elevator_press", "text": "电梯按钮按了7下都没反应，物业快来看看。", "entities": []}
+{"id": "numaddr_00791", "kind": "pos", "pattern": "P12_qa_room", "text": "问：送到哪个房间？答：2809。", "entities": [{"start": 11, "end": 15, "type": "address", "text": "2809"}]}
+{"id": "numaddr_00792", "kind": "neg", "pattern": "N04_date_home", "text": "24号回家，票已经买好了。", "entities": []}
+{"id": "numaddr_00793", "kind": "pos", "pattern": "P07_bld_locker", "text": "快递放10号楼楼下的柜子就行，谢谢师傅。", "entities": [{"start": 3, "end": 7, "type": "address", "text": "10号楼"}]}
+{"id": "numaddr_00794", "kind": "neg", "pattern": "N03_year_grad", "text": "我1993年毕业，之后换了三份工作。", "entities": []}
+{"id": "numaddr_00795", "kind": "neg", "pattern": "N06_time", "text": "会议改到明天上午10点40分，大家记一下。", "entities": []}
+{"id": "numaddr_00796", "kind": "neg", "pattern": "N63_room_count_hotel", "text": "这家酒店有166间客房，旺季基本订满。", "entities": []}
+{"id": "numaddr_00797", "kind": "neg", "pattern": "N45_bld_count", "text": "这个小区一共 40 栋楼，绿化做得不错。", "entities": []}
+{"id": "numaddr_00798", "kind": "pos", "pattern": "P03_dorm_prefix", "text": "633宿舍的同学，晚上十点前把水卡还回来哈。", "entities": [{"start": 0, "end": 3, "type": "address", "text": "633"}]}
+{"id": "numaddr_00799", "kind": "mixed", "pattern": "M05_year_moved", "text": "2009年我们搬到了山东省济南市市中区江南路66号书香门第21幢110室，一住就是好多年。", "entities": [{"start": 10, "end": 36, "type": "address", "text": "山东省济南市市中区江南路66号书香门第21幢110室"}]}
+{"id": "numaddr_00800", "kind": "pos", "pattern": "P57_dorm_roommate", "text": "室友说他今晚不回235了，门别反锁。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "235"}]}
+{"id": "numaddr_00801", "kind": "pos", "pattern": "P54_doorno_bare", "text": "门牌号 169，院门没锁，直接推门进来。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "169"}]}
+{"id": "numaddr_00802", "kind": "neg", "pattern": "N16_meeting_cap", "text": "会议室能坐 16 人，周会够用了。", "entities": []}
+{"id": "numaddr_00803", "kind": "neg", "pattern": "N15_bus_route", "text": "坐 241 路车到终点站，再走五分钟就到。", "entities": []}
+{"id": "numaddr_00804", "kind": "neg", "pattern": "N47_classroom_cap", "text": "这间阶梯教室能容纳120人，讲座放这里吧。", "entities": []}
+{"id": "numaddr_00805", "kind": "neg", "pattern": "N48_gather_time", "text": "5号上午九点半集合，别睡过头。", "entities": []}
+{"id": "numaddr_00806", "kind": "pos", "pattern": "P50_qa_dash", "text": "A：送哪儿？B：26-203，放门口就行。", "entities": [{"start": 8, "end": 14, "type": "address", "text": "26-203"}]}
+{"id": "numaddr_00807", "kind": "pos", "pattern": "P29_qa_dong", "text": "A：你住哪栋？B：22栋，最靠东边那栋。", "entities": [{"start": 9, "end": 12, "type": "address", "text": "22栋"}]}
+{"id": "numaddr_00808", "kind": "neg", "pattern": "N08_people_count", "text": "昨天聚会来了 50 个人，菜点少了。", "entities": []}
+{"id": "numaddr_00809", "kind": "pos", "pattern": "P14_yard", "text": "我在12号院，进胡同左手第三个门就是。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "12号院"}]}
+{"id": "numaddr_00810", "kind": "pos", "pattern": "P33_notice_unit", "text": "物业通知：30号楼6单元明天上午停水，请住户提前储水。", "entities": [{"start": 5, "end": 12, "type": "address", "text": "30号楼6单元"}]}
+{"id": "numaddr_00811", "kind": "pos", "pattern": "P02_roomno_is", "text": "房间号是1809，前台说刷卡就能上去。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "1809"}]}
+{"id": "numaddr_00812", "kind": "neg", "pattern": "N57_pickup_code", "text": "取件码 4-5-5803，到驿站报这个就行。", "entities": []}
+{"id": "numaddr_00813", "kind": "pos", "pattern": "P15_stall", "text": "摊位在 143号，卖酱菜的就是我，来了喊一声。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "143号"}]}
+{"id": "numaddr_00814", "kind": "neg", "pattern": "N21_game_floor", "text": "这游戏我打到第４３层就卡住了，boss 太难打。", "entities": []}
+{"id": "numaddr_00815", "kind": "neg", "pattern": "N42_parking_fee", "text": "停车费每小时 ８ 元，停了 ７ 小时。", "entities": []}
+{"id": "numaddr_00816", "kind": "pos", "pattern": "P04_form_door", "text": "登记信息｜户主：邹先生｜门牌：23号｜备注：家里有狗，按门铃。", "entities": [{"start": 15, "end": 18, "type": "address", "text": "23号"}]}
+{"id": "numaddr_00817", "kind": "pos", "pattern": "P13_takeout_door", "text": "外卖小哥你好，放2601门口就行，别敲门，孩子在睡觉。", "entities": [{"start": 8, "end": 12, "type": "address", "text": "2601"}]}
+{"id": "numaddr_00818", "kind": "neg", "pattern": "N40_run_time", "text": "这次五公里用时49分44秒，配速还行。", "entities": []}
+{"id": "numaddr_00819", "kind": "pos", "pattern": "P01_live_room", "text": "我住2306，到了直接上来敲门就行。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "2306"}]}
+{"id": "numaddr_00820", "kind": "neg", "pattern": "N65_qa_date", "text": "A：你几号到？B：13号，下午的车。", "entities": []}
+{"id": "numaddr_00821", "kind": "pos", "pattern": "P31_homevisit", "text": "家访安排：李同学家在２６号，我们下午三点到。", "entities": [{"start": 10, "end": 13, "type": "address", "text": "２６号"}]}
+{"id": "numaddr_00822", "kind": "pos", "pattern": "P02_roomno_is", "text": "房间号是1511，前台说刷卡就能上去。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "1511"}]}
+{"id": "numaddr_00823", "kind": "pos", "pattern": "P44_pickup_wait", "text": "到了给我发消息，我下来接你，我在18号楼。", "entities": [{"start": 16, "end": 20, "type": "address", "text": "18号楼"}]}
+{"id": "numaddr_00824", "kind": "pos", "pattern": "P45_old_place", "text": "老地方，112号，晚上七点不见不散。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "112号"}]}
+{"id": "numaddr_00825", "kind": "neg", "pattern": "N38_birthday", "text": "10月5号是我生日，别忘了。", "entities": []}
+{"id": "numaddr_00826", "kind": "mixed", "pattern": "M01_delivery_date", "text": "收货地址：黑龙江省哈尔滨市道里区建设街220号，请15号之前送到，谢谢。", "entities": [{"start": 5, "end": 23, "type": "address", "text": "黑龙江省哈尔滨市道里区建设街220号"}]}
+{"id": "numaddr_00827", "kind": "pos", "pattern": "P28_company_dong", "text": "我们公司在24栋，进园区左转第二栋就是。", "entities": [{"start": 5, "end": 8, "type": "address", "text": "24栋"}]}
+{"id": "numaddr_00828", "kind": "pos", "pattern": "P08_go_dong", "text": "明天下午去 30栋 找叶老师拿资料。", "entities": [{"start": 6, "end": 9, "type": "address", "text": "30栋"}]}
+{"id": "numaddr_00829", "kind": "neg", "pattern": "N28_weight", "text": "体重 ４２ 公斤，这个月瘦了两斤。", "entities": []}
+{"id": "numaddr_00830", "kind": "neg", "pattern": "N15_bus_route", "text": "坐 214 路车到终点站，再走五分钟就到。", "entities": []}
+{"id": "numaddr_00831", "kind": "pos", "pattern": "P58_courier_note", "text": "快递备注：送304，家里没人就放隔壁朱阿姨那。", "entities": [{"start": 6, "end": 9, "type": "address", "text": "304"}]}
+{"id": "numaddr_00832", "kind": "pos", "pattern": "P25_upstairs_room", "text": "我就住你楼上，603，有事喊一声就行。", "entities": [{"start": 7, "end": 10, "type": "address", "text": "603"}]}
+{"id": "numaddr_00833", "kind": "neg", "pattern": "N24_contestant", "text": "第 2 号选手请到后台准备。", "entities": []}
+{"id": "numaddr_00834", "kind": "pos", "pattern": "P01_live_room", "text": "我住504，到了直接上来敲门就行。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "504"}]}
+{"id": "numaddr_00835", "kind": "neg", "pattern": "N14_app_version", "text": "App 更新到 3.11.3 以后老是闪退，有人遇到吗？", "entities": []}
+{"id": "numaddr_00836", "kind": "neg", "pattern": "N65_qa_date", "text": "A：你几号到？B：21号，下午的车。", "entities": []}
+{"id": "numaddr_00837", "kind": "neg", "pattern": "N60_chart_rank", "text": "这首歌在榜单上排第26位，比上周升了不少。", "entities": []}
+{"id": "numaddr_00838", "kind": "pos", "pattern": "P32_duty_room", "text": "这周轮到1608倒垃圾，别忘了啊。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "1608"}]}
+{"id": "numaddr_00839", "kind": "pos", "pattern": "P35_stall_fruit", "text": "我在110号摊位，过来尝尝新到的芒果。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "110号"}]}
+{"id": "numaddr_00840", "kind": "pos", "pattern": "P43_rent_listing", "text": "转租：36栋朝南单间，拎包入住，有意私聊。", "entities": [{"start": 3, "end": 6, "type": "address", "text": "36栋"}]}
+{"id": "numaddr_00841", "kind": "pos", "pattern": "P22_three_dash", "text": "备注：13-3-101，放门口鞋柜上，谢谢。", "entities": [{"start": 3, "end": 11, "type": "address", "text": "13-3-101"}]}
+{"id": "numaddr_00842", "kind": "neg", "pattern": "N01_price_yuan", "text": "这件外套才54元，比商场便宜一半。", "entities": []}
+{"id": "numaddr_00843", "kind": "neg", "pattern": "N43_flight", "text": "航班 CA6156 延误了，登机时间待定。", "entities": []}
+{"id": "numaddr_00844", "kind": "neg", "pattern": "N53_grade_cohort", "text": "他是２０２３级的学长，现在在读研。", "entities": []}
+{"id": "numaddr_00845", "kind": "pos", "pattern": "P26_fetch_key", "text": "下班顺路的话去32号楼帮我拿一下钥匙，我妈在家。", "entities": [{"start": 7, "end": 11, "type": "address", "text": "32号楼"}]}
+{"id": "numaddr_00846", "kind": "pos", "pattern": "P15_stall", "text": "摊位在 12号，卖酱菜的就是我，来了喊一声。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "12号"}]}
+{"id": "numaddr_00847", "kind": "pos", "pattern": "P34_neighbor_aunt", "text": "楼下603的阿姨又来借梯子了，借了三回都没还。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "603"}]}
+{"id": "numaddr_00848", "kind": "pos", "pattern": "P09_dash_combo", "text": "我家是13-1911，电梯坏了，麻烦走楼梯上来。", "entities": [{"start": 3, "end": 10, "type": "address", "text": "13-1911"}]}
+{"id": "numaddr_00849", "kind": "neg", "pattern": "N14_app_version", "text": "App 更新到 4.11.8 以后老是闪退，有人遇到吗？", "entities": []}
+{"id": "numaddr_00850", "kind": "mixed", "pattern": "M08_visit_time", "text": "家访地址：山东省济南市市中区科技大道26号；时间：5月29号下午3点。", "entities": [{"start": 5, "end": 21, "type": "address", "text": "山东省济南市市中区科技大道26号"}]}
+{"id": "numaddr_00851", "kind": "neg", "pattern": "N26_glue", "text": "指甲被502胶水粘住了，韩师傅说用热水泡一泡，管用吗？", "entities": []}
+{"id": "numaddr_00852", "kind": "neg", "pattern": "N23_holiday_date", "text": "23号放假，公司提前一天下班。", "entities": []}
+{"id": "numaddr_00853", "kind": "pos", "pattern": "P35_stall_fruit", "text": "我在116号摊位，过来尝尝新到的橘子。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "116号"}]}
+{"id": "numaddr_00854", "kind": "neg", "pattern": "N48_gather_time", "text": "17号上午九点半集合，别睡过头。", "entities": []}
+{"id": "numaddr_00855", "kind": "pos", "pattern": "P41_door_upstairs", "text": "我住200号二楼，楼梯在院子里面，别走错。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "200号"}]}
+{"id": "numaddr_00856", "kind": "pos", "pattern": "P51_ask_guard_yard", "text": "找不到路就问门口保安8号院怎么走，他们都知道。", "entities": [{"start": 10, "end": 13, "type": "address", "text": "8号院"}]}
+{"id": "numaddr_00857", "kind": "neg", "pattern": "N24_contestant", "text": "第 6 号选手请到后台准备。", "entities": []}
+{"id": "numaddr_00858", "kind": "mixed", "pattern": "M01_delivery_date", "text": "收货地址：海口市美兰区人民北路42号，请31号之前送到，谢谢。", "entities": [{"start": 5, "end": 18, "type": "address", "text": "海口市美兰区人民北路42号"}]}
+{"id": "numaddr_00859", "kind": "neg", "pattern": "N11_train_seat", "text": "座位是１０车厢１８D，靠窗，挺好。", "entities": []}
+{"id": "numaddr_00860", "kind": "pos", "pattern": "P03_dorm_prefix", "text": "６０１宿舍的同学，晚上十点前把水卡还回来哈。", "entities": [{"start": 0, "end": 3, "type": "address", "text": "６０１"}]}
+{"id": "numaddr_00861", "kind": "pos", "pattern": "P19_dorm_welcome", "text": "我们宿舍是523，欢迎学弟学妹来串门。", "entities": [{"start": 5, "end": 8, "type": "address", "text": "523"}]}
+{"id": "numaddr_00862", "kind": "pos", "pattern": "P09_dash_combo", "text": "我家是13-711，电梯坏了，麻烦走楼梯上来。", "entities": [{"start": 3, "end": 9, "type": "address", "text": "13-711"}]}
+{"id": "numaddr_00863", "kind": "pos", "pattern": "P47_form_two", "text": "入住登记｜楼栋：9栋｜房号：2803｜入住人数：两人", "entities": [{"start": 8, "end": 10, "type": "address", "text": "9栋"}, {"start": 14, "end": 18, "type": "address", "text": "2803"}]}
+{"id": "numaddr_00864", "kind": "neg", "pattern": "N48_gather_time", "text": "28号上午九点半集合，别睡过头。", "entities": []}
+{"id": "numaddr_00865", "kind": "neg", "pattern": "N09_order_no", "text": "订单号 971498388，麻烦帮我查一下物流到哪了。", "entities": []}
+{"id": "numaddr_00866", "kind": "mixed", "pattern": "M06_qa_bus", "text": "A：你家具体在哪？B：天津市和平区长安东路167号，坐14路公交到终点站下车。", "entities": [{"start": 11, "end": 25, "type": "address", "text": "天津市和平区长安东路167号"}]}
+{"id": "numaddr_00867", "kind": "neg", "pattern": "N47_classroom_cap", "text": "这间阶梯教室能容纳8人，讲座放这里吧。", "entities": []}
+{"id": "numaddr_00868", "kind": "neg", "pattern": "N10_jersey", "text": "他穿 11 号球衣，场上跑得最快的那个。", "entities": []}
+{"id": "numaddr_00869", "kind": "neg", "pattern": "N52_exam_seat", "text": "考试座位号 24，进场前看清楚别坐错。", "entities": []}
+{"id": "numaddr_00870", "kind": "pos", "pattern": "P15_stall", "text": "摊位在 153号，卖酱菜的就是我，来了喊一声。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "153号"}]}
+{"id": "numaddr_00871", "kind": "pos", "pattern": "P12_qa_room", "text": "问：送到哪个房间？答：３１０。", "entities": [{"start": 11, "end": 14, "type": "address", "text": "３１０"}]}
+{"id": "numaddr_00872", "kind": "mixed", "pattern": "M07_order_fix", "text": "订单5176797的收货地址填错了，麻烦改成浙江省温州市鹿城区迎宾街167号和谐家园7幢1402室。", "entities": [{"start": 22, "end": 49, "type": "address", "text": "浙江省温州市鹿城区迎宾街167号和谐家园7幢1402室"}]}
+{"id": "numaddr_00873", "kind": "neg", "pattern": "N27_exam_score", "text": "高考考了 560 分，够不够上一本线？", "entities": []}
+{"id": "numaddr_00874", "kind": "neg", "pattern": "N39_chapter", "text": "第213章写得太拖了，看不下去，弃了。", "entities": []}
+{"id": "numaddr_00875", "kind": "pos", "pattern": "P15_stall", "text": "摊位在 35号，卖酱菜的就是我，来了喊一声。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "35号"}]}
+{"id": "numaddr_00876", "kind": "pos", "pattern": "P19_dorm_welcome", "text": "我们宿舍是338，欢迎学弟学妹来串门。", "entities": [{"start": 5, "end": 8, "type": "address", "text": "338"}]}
+{"id": "numaddr_00877", "kind": "neg", "pattern": "N59_elevator_press", "text": "电梯按钮按了8下都没反应，物业快来看看。", "entities": []}
+{"id": "numaddr_00878", "kind": "neg", "pattern": "N31_shoe_size", "text": "鞋码41，这款偏大半码，建议拍小一码。", "entities": []}
+{"id": "numaddr_00879", "kind": "mixed", "pattern": "M01_delivery_date", "text": "收货地址：广东省佛山市南海区江南街188号28号楼3单元1112，请3号之前送到，谢谢。", "entities": [{"start": 5, "end": 32, "type": "address", "text": "广东省佛山市南海区江南街188号28号楼3单元1112"}]}
+{"id": "numaddr_00880", "kind": "neg", "pattern": "N59_elevator_press", "text": "电梯按钮按了4下都没反应，物业快来看看。", "entities": []}
+{"id": "numaddr_00881", "kind": "pos", "pattern": "P18_cs_roomno", "text": "客服：请问您的房号是多少？用户：608，卫生间水管漏水了。", "entities": [{"start": 16, "end": 19, "type": "address", "text": "608"}]}
+{"id": "numaddr_00882", "kind": "mixed", "pattern": "M04_office_move", "text": "新公司地址：陕西省西安市未央区学府大道137号，3号正式搬过去，到时请大家吃饭。", "entities": [{"start": 6, "end": 23, "type": "address", "text": "陕西省西安市未央区学府大道137号"}]}
+{"id": "numaddr_00883", "kind": "neg", "pattern": "N22_metro_line", "text": "坐9号线地铁，中间换乘一次就到。", "entities": []}
+{"id": "numaddr_00884", "kind": "mixed", "pattern": "M05_year_moved", "text": "2016年我们搬到了湖北省武汉市洪山区胜利大道195号，一住就是好多年。", "entities": [{"start": 10, "end": 27, "type": "address", "text": "湖北省武汉市洪山区胜利大道195号"}]}
+{"id": "numaddr_00885", "kind": "pos", "pattern": "P31_homevisit", "text": "家访安排：陈同学家在240号，我们下午三点到。", "entities": [{"start": 10, "end": 14, "type": "address", "text": "240号"}]}
+{"id": "numaddr_00886", "kind": "pos", "pattern": "P16_dong_unit_ask", "text": "已经到楼下了，21栋6单元是哪个门啊？", "entities": [{"start": 7, "end": 13, "type": "address", "text": "21栋6单元"}]}
+{"id": "numaddr_00887", "kind": "pos", "pattern": "P51_ask_guard_yard", "text": "找不到路就问门口保安9号院怎么走，他们都知道。", "entities": [{"start": 10, "end": 13, "type": "address", "text": "9号院"}]}
+{"id": "numaddr_00888", "kind": "neg", "pattern": "N63_room_count_hotel", "text": "这家酒店有34间客房，旺季基本订满。", "entities": []}
+{"id": "numaddr_00889", "kind": "neg", "pattern": "N19_rank", "text": "期末全年级排第35名，比上次进步了。", "entities": []}
+{"id": "numaddr_00890", "kind": "mixed", "pattern": "M07_order_fix", "text": "订单2344592的收货地址填错了，麻烦改成上海市徐汇区春晖路354号27号楼4单元309。", "entities": [{"start": 22, "end": 45, "type": "address", "text": "上海市徐汇区春晖路354号27号楼4单元309"}]}
+{"id": "numaddr_00891", "kind": "neg", "pattern": "N13_score", "text": "最后比分2比5，看得我心脏都受不了。", "entities": []}
+{"id": "numaddr_00892", "kind": "mixed", "pattern": "M02_metro", "text": "我家在云南省昆明市盘龙区振兴路6号锦绣家园6幢2708室，坐11号线过来，出站再走12分钟。", "entities": [{"start": 3, "end": 28, "type": "address", "text": "云南省昆明市盘龙区振兴路6号锦绣家园6幢2708室"}]}
+{"id": "numaddr_00893", "kind": "neg", "pattern": "N26_glue", "text": "大拇指被502胶水粘住了，许师傅说用热水泡一泡，管用吗？", "entities": []}
+{"id": "numaddr_00894", "kind": "neg", "pattern": "N13_score", "text": "最后比分4比1，看得我心脏都受不了。", "entities": []}
+{"id": "numaddr_00895", "kind": "neg", "pattern": "N12_page_question", "text": "这道题在第226页，第17题，我也不会。", "entities": []}
+{"id": "numaddr_00896", "kind": "neg", "pattern": "N38_birthday", "text": "2月25号是我生日，别忘了。", "entities": []}
+{"id": "numaddr_00897", "kind": "pos", "pattern": "P23_shi_suffix", "text": "麻烦师傅送到２１１１室，出电梯右转第二间。", "entities": [{"start": 6, "end": 11, "type": "address", "text": "２１１１室"}]}
+{"id": "numaddr_00898", "kind": "neg", "pattern": "N43_flight", "text": "航班 CA3095 延误了，登机时间待定。", "entities": []}
+{"id": "numaddr_00899", "kind": "pos", "pattern": "P14_yard", "text": "我在38号院，进胡同左手第三个门就是。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "38号院"}]}
+{"id": "numaddr_00900", "kind": "neg", "pattern": "N54_cinema_seat", "text": "电影晚上3点开场，我买的是 3 排 11 座。", "entities": []}
+{"id": "numaddr_00901", "kind": "pos", "pattern": "P03_dorm_prefix", "text": "339宿舍的同学，晚上十点前把水卡还回来哈。", "entities": [{"start": 0, "end": 3, "type": "address", "text": "339"}]}
+{"id": "numaddr_00902", "kind": "pos", "pattern": "P01_live_room", "text": "我住2102，到了直接上来敲门就行。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "2102"}]}
+{"id": "numaddr_00903", "kind": "neg", "pattern": "N51_distance", "text": "今天跑了22公里，腿都软了。", "entities": []}
+{"id": "numaddr_00904", "kind": "neg", "pattern": "N26_glue", "text": "手心被502胶水粘住了，叶师傅说用热水泡一泡，管用吗？", "entities": []}
+{"id": "numaddr_00905", "kind": "neg", "pattern": "N45_bld_count", "text": "这个小区一共 46 栋楼，绿化做得不错。", "entities": []}
+{"id": "numaddr_00906", "kind": "neg", "pattern": "N60_chart_rank", "text": "这首歌在榜单上排第78位，比上周升了不少。", "entities": []}
+{"id": "numaddr_00907", "kind": "neg", "pattern": "N03_year_grad", "text": "我2021年毕业，之后换了三份工作。", "entities": []}
+{"id": "numaddr_00908", "kind": "neg", "pattern": "N27_exam_score", "text": "高考考了 522 分，够不够上一本线？", "entities": []}
+{"id": "numaddr_00909", "kind": "pos", "pattern": "P54_doorno_bare", "text": "门牌号 38，院门没锁，直接推门进来。", "entities": [{"start": 4, "end": 6, "type": "address", "text": "38"}]}
+{"id": "numaddr_00910", "kind": "pos", "pattern": "P14_yard", "text": "我在26号院，进胡同左手第三个门就是。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "26号院"}]}
+{"id": "numaddr_00911", "kind": "neg", "pattern": "N08_people_count", "text": "昨天聚会来了 18 个人，菜点少了。", "entities": []}
+{"id": "numaddr_00912", "kind": "pos", "pattern": "P17_forum_upstairs", "text": "求助帖：楼主住20号楼106，楼上天天半夜拖椅子，有同样遭遇的吗？", "entities": [{"start": 7, "end": 14, "type": "address", "text": "20号楼106"}]}
+{"id": "numaddr_00913", "kind": "neg", "pattern": "N33_phone_spec", "text": "这款手机12G内存，21元能入手吗？", "entities": []}
+{"id": "numaddr_00914", "kind": "neg", "pattern": "N22_metro_line", "text": "坐12号线地铁，中间换乘一次就到。", "entities": []}
+{"id": "numaddr_00915", "kind": "neg", "pattern": "N18_percent", "text": "这次通过率只有28%，比去年低不少。", "entities": []}
+{"id": "numaddr_00916", "kind": "pos", "pattern": "P17_forum_upstairs", "text": "求助帖：楼主住10号楼1110，楼上天天半夜拖椅子，有同样遭遇的吗？", "entities": [{"start": 7, "end": 15, "type": "address", "text": "10号楼1110"}]}
+{"id": "numaddr_00917", "kind": "neg", "pattern": "N25_http_code", "text": "打开网页一直显示 502，服务器是不是挂了？", "entities": []}
+{"id": "numaddr_00918", "kind": "pos", "pattern": "P27_qinshi", "text": "他现在住211寝室，你直接上去找他吧。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "211"}]}
+{"id": "numaddr_00919", "kind": "pos", "pattern": "P03_dorm_prefix", "text": "407宿舍的同学，晚上十点前把水卡还回来哈。", "entities": [{"start": 0, "end": 3, "type": "address", "text": "407"}]}
+{"id": "numaddr_00920", "kind": "pos", "pattern": "P21_pickup_change", "text": "取件地址改成1栋3308吧，之前那个已经不住了。", "entities": [{"start": 6, "end": 12, "type": "address", "text": "1栋3308"}]}
+{"id": "numaddr_00921", "kind": "neg", "pattern": "N06_time", "text": "会议改到明天上午11点10分，大家记一下。", "entities": []}
+{"id": "numaddr_00922", "kind": "neg", "pattern": "N30_battery", "text": "帮我买两节5号电池，电子秤没电了。", "entities": []}
+{"id": "numaddr_00923", "kind": "neg", "pattern": "N08_people_count", "text": "昨天聚会来了 17 个人，菜点少了。", "entities": []}
+{"id": "numaddr_00924", "kind": "pos", "pattern": "P45_old_place", "text": "老地方，12号，晚上七点不见不散。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "12号"}]}
+{"id": "numaddr_00925", "kind": "mixed", "pattern": "M06_qa_bus", "text": "A：你家具体在哪？B：深圳市龙岗区梧桐街393号，坐223路公交到终点站下车。", "entities": [{"start": 11, "end": 24, "type": "address", "text": "深圳市龙岗区梧桐街393号"}]}
+{"id": "numaddr_00926", "kind": "pos", "pattern": "P41_door_upstairs", "text": "我住145号二楼，楼梯在院子里面，别走错。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "145号"}]}
+{"id": "numaddr_00927", "kind": "pos", "pattern": "P28_company_dong", "text": "我们公司在20栋，进园区左转第二栋就是。", "entities": [{"start": 5, "end": 8, "type": "address", "text": "20栋"}]}
+{"id": "numaddr_00928", "kind": "neg", "pattern": "N18_percent", "text": "这次通过率只有81%，比去年低不少。", "entities": []}
+{"id": "numaddr_00929", "kind": "pos", "pattern": "P39_hotel_room", "text": "酒店给我们分到310，推开窗就是海，太值了！", "entities": [{"start": 7, "end": 10, "type": "address", "text": "310"}]}
+{"id": "numaddr_00930", "kind": "neg", "pattern": "N34_dining_car", "text": "13号车厢是餐车，饿了可以去那边买盒饭。", "entities": []}
+{"id": "numaddr_00931", "kind": "pos", "pattern": "P02_roomno_is", "text": "房间号是2405，前台说刷卡就能上去。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "2405"}]}
+{"id": "numaddr_00932", "kind": "pos", "pattern": "P05_moved_door_sp", "text": "我搬到了 41 号，周末有空来坐坐呗。", "entities": [{"start": 5, "end": 9, "type": "address", "text": "41 号"}]}
+{"id": "numaddr_00933", "kind": "neg", "pattern": "N38_birthday", "text": "3月29号是我生日，别忘了。", "entities": []}
+{"id": "numaddr_00934", "kind": "neg", "pattern": "N20_age", "text": "我今年３６岁，身体还算硬朗。", "entities": []}
+{"id": "numaddr_00935", "kind": "pos", "pattern": "P35_stall_fruit", "text": "我在97号摊位，过来尝尝新到的葡萄。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "97号"}]}
+{"id": "numaddr_00936", "kind": "neg", "pattern": "N36_households_vote", "text": "共8户参加了这次投票，赞成的占多数。", "entities": []}
+{"id": "numaddr_00937", "kind": "neg", "pattern": "N15_bus_route", "text": "坐 147 路车到终点站，再走五分钟就到。", "entities": []}
+{"id": "numaddr_00938", "kind": "pos", "pattern": "P04_form_door", "text": "登记信息｜户主：顾先生｜门牌：15号｜备注：家里有狗，按门铃。", "entities": [{"start": 15, "end": 18, "type": "address", "text": "15号"}]}
+{"id": "numaddr_00939", "kind": "pos", "pattern": "P20_newdoor_party", "text": "新家门牌20号，乔迁宴定在周六中午，都来啊。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "20号"}]}
+{"id": "numaddr_00940", "kind": "neg", "pattern": "N01_price_yuan", "text": "这件外套才21元，比商场便宜一半。", "entities": []}
+{"id": "numaddr_00941", "kind": "neg", "pattern": "N09_order_no", "text": "订单号 8672543，麻烦帮我查一下物流到哪了。", "entities": []}
+{"id": "numaddr_00942", "kind": "neg", "pattern": "N10_jersey", "text": "他穿 ９５ 号球衣，场上跑得最快的那个。", "entities": []}
+{"id": "numaddr_00943", "kind": "pos", "pattern": "P43_rent_listing", "text": "转租：34栋朝南单间，拎包入住，有意私聊。", "entities": [{"start": 3, "end": 6, "type": "address", "text": "34栋"}]}
+{"id": "numaddr_00944", "kind": "neg", "pattern": "N37_doc_pages", "text": "这份文件一共 103 页，记得双面打印。", "entities": []}
+{"id": "numaddr_00945", "kind": "neg", "pattern": "N63_room_count_hotel", "text": "这家酒店有１０６间客房，旺季基本订满。", "entities": []}
+{"id": "numaddr_00946", "kind": "pos", "pattern": "P26_fetch_key", "text": "下班顺路的话去34号楼帮我拿一下钥匙，我妈在家。", "entities": [{"start": 7, "end": 11, "type": "address", "text": "34号楼"}]}
+{"id": "numaddr_00947", "kind": "pos", "pattern": "P17_forum_upstairs", "text": "求助帖：楼主住22号楼812，楼上天天半夜拖椅子，有同样遭遇的吗？", "entities": [{"start": 7, "end": 14, "type": "address", "text": "22号楼812"}]}
+{"id": "numaddr_00948", "kind": "neg", "pattern": "N33_phone_spec", "text": "这款手机16G内存，8554元能入手吗？", "entities": []}
+{"id": "numaddr_00949", "kind": "mixed", "pattern": "M04_office_move", "text": "新公司地址：吉林省长春市宽城区人民大道225号新世纪花园31幢1103室，31号正式搬过去，到时请大家吃饭。", "entities": [{"start": 6, "end": 36, "type": "address", "text": "吉林省长春市宽城区人民大道225号新世纪花园31幢1103室"}]}
+{"id": "numaddr_00950", "kind": "pos", "pattern": "P14_yard", "text": "我在29号院，进胡同左手第三个门就是。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "29号院"}]}
+{"id": "numaddr_00951", "kind": "neg", "pattern": "N25_http_code", "text": "打开网页一直显示 ３０２，服务器是不是挂了？", "entities": []}
+{"id": "numaddr_00952", "kind": "mixed", "pattern": "M07_order_fix", "text": "订单2490676的收货地址填错了，麻烦改成福州市台江区望江东路158号。", "entities": [{"start": 22, "end": 36, "type": "address", "text": "福州市台江区望江东路158号"}]}
+{"id": "numaddr_00953", "kind": "neg", "pattern": "N36_households_vote", "text": "共18户参加了这次投票，赞成的占多数。", "entities": []}
+{"id": "numaddr_00954", "kind": "pos", "pattern": "P06_door_reddoor", "text": "就在 10号，蓝门那家，门口有棵石榴树。", "entities": [{"start": 3, "end": 6, "type": "address", "text": "10号"}]}
+{"id": "numaddr_00955", "kind": "pos", "pattern": "P23_shi_suffix", "text": "麻烦师傅送到1507室，出电梯右转第二间。", "entities": [{"start": 6, "end": 11, "type": "address", "text": "1507室"}]}
+{"id": "numaddr_00956", "kind": "neg", "pattern": "N28_weight", "text": "体重 80 公斤，这个月瘦了两斤。", "entities": []}
+{"id": "numaddr_00957", "kind": "neg", "pattern": "N52_exam_seat", "text": "考试座位号 １９，进场前看清楚别坐错。", "entities": []}
+{"id": "numaddr_00958", "kind": "pos", "pattern": "P56_qa_moved", "text": "A：你们搬哪去了？B：就隔壁，2号。", "entities": [{"start": 15, "end": 17, "type": "address", "text": "2号"}]}
+{"id": "numaddr_00959", "kind": "neg", "pattern": "N30_battery", "text": "帮我买两节5号电池，遥控器没电了。", "entities": []}
+{"id": "numaddr_00960", "kind": "pos", "pattern": "P50_qa_dash", "text": "A：送哪儿？B：32-212，放门口就行。", "entities": [{"start": 8, "end": 14, "type": "address", "text": "32-212"}]}
+{"id": "numaddr_00961", "kind": "neg", "pattern": "N54_cinema_seat", "text": "电影晚上10点开场，我买的是 10 排 24 座。", "entities": []}
+{"id": "numaddr_00962", "kind": "pos", "pattern": "P28_company_dong", "text": "我们公司在16栋，进园区左转第二栋就是。", "entities": [{"start": 5, "end": 8, "type": "address", "text": "16栋"}]}
+{"id": "numaddr_00963", "kind": "mixed", "pattern": "M10_gather_count", "text": "团建集合点在西安市雁塔区长江大道251号华府名邸34栋1312，人到齐35个就发车。", "entities": [{"start": 6, "end": 31, "type": "address", "text": "西安市雁塔区长江大道251号华府名邸34栋1312"}]}
+{"id": "numaddr_00964", "kind": "pos", "pattern": "P46_group_parcel", "text": "邻居群：608的快递被谁拿错了？麻烦送回来，谢谢！", "entities": [{"start": 4, "end": 7, "type": "address", "text": "608"}]}
+{"id": "numaddr_00965", "kind": "neg", "pattern": "N49_stock", "text": "库存还剩35件，卖完就下架了。", "entities": []}
+{"id": "numaddr_00966", "kind": "neg", "pattern": "N49_stock", "text": "库存还剩36件，卖完就下架了。", "entities": []}
+{"id": "numaddr_00967", "kind": "neg", "pattern": "N29_queue", "text": "叫号叫到 C１５４ 了，前面还有十几个人。", "entities": []}
+{"id": "numaddr_00968", "kind": "neg", "pattern": "N63_room_count_hotel", "text": "这家酒店有241间客房，旺季基本订满。", "entities": []}
+{"id": "numaddr_00969", "kind": "neg", "pattern": "N26_glue", "text": "指甲被５０２胶水粘住了，韦师傅说用热水泡一泡，管用吗？", "entities": []}
+{"id": "numaddr_00970", "kind": "neg", "pattern": "N35_train_delay", "text": "K1914次列车晚点 69 分钟，大家别着急。", "entities": []}
+{"id": "numaddr_00971", "kind": "pos", "pattern": "P52_door_renamed", "text": "地址改为128号了，原来那块旧门牌已经拆掉。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "128号"}]}
+{"id": "numaddr_00972", "kind": "pos", "pattern": "P29_qa_dong", "text": "A：你住哪栋？B：33栋，最靠东边那栋。", "entities": [{"start": 9, "end": 12, "type": "address", "text": "33栋"}]}
+{"id": "numaddr_00973", "kind": "pos", "pattern": "P04_form_door", "text": "登记信息｜户主：薛先生｜门牌：1号｜备注：家里有狗，按门铃。", "entities": [{"start": 15, "end": 17, "type": "address", "text": "1号"}]}
+{"id": "numaddr_00974", "kind": "neg", "pattern": "N43_flight", "text": "航班 CA5506 延误了，登机时间待定。", "entities": []}
+{"id": "numaddr_00975", "kind": "pos", "pattern": "P33_notice_unit", "text": "物业通知：32号楼4单元明天上午停水，请住户提前储水。", "entities": [{"start": 5, "end": 12, "type": "address", "text": "32号楼4单元"}]}
+{"id": "numaddr_00976", "kind": "mixed", "pattern": "M06_qa_bus", "text": "A：你家具体在哪？B：湖南省长沙市开福区翠竹大道339号19号楼2单元607，坐389路公交到终点站下车。", "entities": [{"start": 11, "end": 38, "type": "address", "text": "湖南省长沙市开福区翠竹大道339号19号楼2单元607"}]}
+{"id": "numaddr_00977", "kind": "neg", "pattern": "N32_episode", "text": "第238期节目太好笑了，笑到肚子疼。", "entities": []}
+{"id": "numaddr_00978", "kind": "pos", "pattern": "P19_dorm_welcome", "text": "我们宿舍是437，欢迎学弟学妹来串门。", "entities": [{"start": 5, "end": 8, "type": "address", "text": "437"}]}
+{"id": "numaddr_00979", "kind": "neg", "pattern": "N33_phone_spec", "text": "这款手机8G内存，676元能入手吗？", "entities": []}
+{"id": "numaddr_00980", "kind": "mixed", "pattern": "M10_gather_count", "text": "团建集合点在江苏省南京市秦淮区文化北路311号书香门第10幢501室，人到齐57个就发车。", "entities": [{"start": 6, "end": 34, "type": "address", "text": "江苏省南京市秦淮区文化北路311号书香门第10幢501室"}]}
+{"id": "numaddr_00981", "kind": "pos", "pattern": "P02_roomno_is", "text": "房间号是1308，前台说刷卡就能上去。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "1308"}]}
+{"id": "numaddr_00982", "kind": "pos", "pattern": "P16_dong_unit_ask", "text": "已经到楼下了，29栋2单元是哪个门啊？", "entities": [{"start": 7, "end": 13, "type": "address", "text": "29栋2单元"}]}
+{"id": "numaddr_00983", "kind": "pos", "pattern": "P03_dorm_prefix", "text": "３１２宿舍的同学，晚上十点前把水卡还回来哈。", "entities": [{"start": 0, "end": 3, "type": "address", "text": "３１２"}]}
+{"id": "numaddr_00984", "kind": "neg", "pattern": "N53_grade_cohort", "text": "他是2021级的学长，现在在读研。", "entities": []}
+{"id": "numaddr_00985", "kind": "pos", "pattern": "P24_village_door", "text": "住址一栏我只填了131号，村里人都认识我家。", "entities": [{"start": 8, "end": 12, "type": "address", "text": "131号"}]}
+{"id": "numaddr_00986", "kind": "neg", "pattern": "N22_metro_line", "text": "坐14号线地铁，中间换乘一次就到。", "entities": []}
+{"id": "numaddr_00987", "kind": "neg", "pattern": "N52_exam_seat", "text": "考试座位号 22，进场前看清楚别坐错。", "entities": []}
+{"id": "numaddr_00988", "kind": "pos", "pattern": "P21_pickup_change", "text": "取件地址改成26栋201吧，之前那个已经不住了。", "entities": [{"start": 6, "end": 12, "type": "address", "text": "26栋201"}]}
+{"id": "numaddr_00989", "kind": "pos", "pattern": "P49_repair", "text": "上门维修预约：2单元1508室，空调不制冷，周末都在家。", "entities": [{"start": 7, "end": 15, "type": "address", "text": "2单元1508室"}]}
+{"id": "numaddr_00990", "kind": "neg", "pattern": "N50_class_size", "text": "我们班 50 个人，男生比女生多。", "entities": []}
+{"id": "numaddr_00991", "kind": "pos", "pattern": "P39_hotel_room", "text": "酒店给我们分到１１０４，推开窗就是海，太值了！", "entities": [{"start": 7, "end": 11, "type": "address", "text": "１１０４"}]}
+{"id": "numaddr_00992", "kind": "pos", "pattern": "P30_qa_unit_room", "text": "A：几单元几号？B：3单元1007，上来记得换鞋。", "entities": [{"start": 10, "end": 17, "type": "address", "text": "3单元1007"}]}
+{"id": "numaddr_00993", "kind": "neg", "pattern": "N54_cinema_seat", "text": "电影晚上2点开场，我买的是 8 排 4 座。", "entities": []}
+{"id": "numaddr_00994", "kind": "pos", "pattern": "P17_forum_upstairs", "text": "求助帖：楼主住24号楼204，楼上天天半夜拖椅子，有同样遭遇的吗？", "entities": [{"start": 7, "end": 14, "type": "address", "text": "24号楼204"}]}
+{"id": "numaddr_00995", "kind": "neg", "pattern": "N53_grade_cohort", "text": "他是2024级的学长，现在在读研。", "entities": []}
+{"id": "numaddr_00996", "kind": "pos", "pattern": "P03_dorm_prefix", "text": "235宿舍的同学，晚上十点前把水卡还回来哈。", "entities": [{"start": 0, "end": 3, "type": "address", "text": "235"}]}
+{"id": "numaddr_00997", "kind": "pos", "pattern": "P07_bld_locker", "text": "快递放３０号楼楼下的柜子就行，谢谢师傅。", "entities": [{"start": 3, "end": 7, "type": "address", "text": "３０号楼"}]}
+{"id": "numaddr_00998", "kind": "pos", "pattern": "P32_duty_room", "text": "这周轮到307倒垃圾，别忘了啊。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "307"}]}
+{"id": "numaddr_00999", "kind": "neg", "pattern": "N56_room_price", "text": "534元一晚的房间，性价比还挺高。", "entities": []}
+{"id": "numaddr_01000", "kind": "neg", "pattern": "N09_order_no", "text": "订单号 384726734，麻烦帮我查一下物流到哪了。", "entities": []}
+{"id": "numaddr_01001", "kind": "neg", "pattern": "N46_floor_count", "text": "整栋楼一共7层，居然没有电梯。", "entities": []}
+{"id": "numaddr_01002", "kind": "pos", "pattern": "P36_zhuang", "text": "车停在路边，你到34幢门口等我五分钟。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "34幢"}]}
+{"id": "numaddr_01003", "kind": "neg", "pattern": "N52_exam_seat", "text": "考试座位号 28，进场前看清楚别坐错。", "entities": []}
+{"id": "numaddr_01004", "kind": "pos", "pattern": "P22_three_dash", "text": "备注：33-2-601，放门口鞋柜上，谢谢。", "entities": [{"start": 3, "end": 11, "type": "address", "text": "33-2-601"}]}
+{"id": "numaddr_01005", "kind": "pos", "pattern": "P55_live_dong_room", "text": "现在住２９栋３０５，比之前那间大一点。", "entities": [{"start": 3, "end": 9, "type": "address", "text": "２９栋３０５"}]}
+{"id": "numaddr_01006", "kind": "mixed", "pattern": "M06_qa_bus", "text": "A：你家具体在哪？B：江苏省南京市江宁区迎宾街375号锦绣家园33幢1601室，坐18路公交到终点站下车。", "entities": [{"start": 11, "end": 39, "type": "address", "text": "江苏省南京市江宁区迎宾街375号锦绣家园33幢1601室"}]}
+{"id": "numaddr_01007", "kind": "pos", "pattern": "P30_qa_unit_room", "text": "A：几单元几号？B：5单元411，上来记得换鞋。", "entities": [{"start": 10, "end": 16, "type": "address", "text": "5单元411"}]}
+{"id": "numaddr_01008", "kind": "neg", "pattern": "N16_meeting_cap", "text": "会议室能坐 120 人，周会够用了。", "entities": []}
+{"id": "numaddr_01009", "kind": "mixed", "pattern": "M04_office_move", "text": "新公司地址：湖北省武汉市江汉区紫荆北路175号，31号正式搬过去，到时请大家吃饭。", "entities": [{"start": 6, "end": 23, "type": "address", "text": "湖北省武汉市江汉区紫荆北路175号"}]}
+{"id": "numaddr_01010", "kind": "pos", "pattern": "P33_notice_unit", "text": "物业通知：29号楼4单元明天上午停水，请住户提前储水。", "entities": [{"start": 5, "end": 12, "type": "address", "text": "29号楼4单元"}]}
+{"id": "numaddr_01011", "kind": "pos", "pattern": "P46_group_parcel", "text": "邻居群：1710的快递被谁拿错了？麻烦送回来，谢谢！", "entities": [{"start": 4, "end": 8, "type": "address", "text": "1710"}]}
+{"id": "numaddr_01012", "kind": "neg", "pattern": "N61_size_height", "text": "身高154，穿 L 码还是 XL 码合适？", "entities": []}
+{"id": "numaddr_01013", "kind": "pos", "pattern": "P37_form_recipient", "text": "收件人：姜女士；地址：24栋903；放门卫室也可以。", "entities": [{"start": 11, "end": 17, "type": "address", "text": "24栋903"}]}
+{"id": "numaddr_01014", "kind": "mixed", "pattern": "M08_visit_time", "text": "家访地址：重庆市渝中区幸福中路46号6号楼4单元308；时间：9月22号下午4点。", "entities": [{"start": 5, "end": 27, "type": "address", "text": "重庆市渝中区幸福中路46号6号楼4单元308"}]}
+{"id": "numaddr_01015", "kind": "pos", "pattern": "P32_duty_room", "text": "这周轮到911倒垃圾，别忘了啊。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "911"}]}
+{"id": "numaddr_01016", "kind": "pos", "pattern": "P17_forum_upstairs", "text": "求助帖：楼主住5号楼1701，楼上天天半夜拖椅子，有同样遭遇的吗？", "entities": [{"start": 7, "end": 14, "type": "address", "text": "5号楼1701"}]}
+{"id": "numaddr_01017", "kind": "neg", "pattern": "N07_population", "text": "村里人口１０８３人，其中六十岁以上的占三成。", "entities": []}
+{"id": "numaddr_01018", "kind": "neg", "pattern": "N50_class_size", "text": "我们班 49 个人，男生比女生多。", "entities": []}
+{"id": "numaddr_01019", "kind": "pos", "pattern": "P01_live_room", "text": "我住907，到了直接上来敲门就行。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "907"}]}
+{"id": "numaddr_01020", "kind": "neg", "pattern": "N06_time", "text": "会议改到明天上午８点１５分，大家记一下。", "entities": []}
+{"id": "numaddr_01021", "kind": "neg", "pattern": "N05_weekday_date", "text": "下周三 8 号开家长会，别迟到啊。", "entities": []}
+{"id": "numaddr_01022", "kind": "pos", "pattern": "P47_form_two", "text": "入住登记｜楼栋：11栋｜房号：1811｜入住人数：两人", "entities": [{"start": 8, "end": 11, "type": "address", "text": "11栋"}, {"start": 15, "end": 19, "type": "address", "text": "1811"}]}
+{"id": "numaddr_01023", "kind": "pos", "pattern": "P36_zhuang", "text": "车停在路边，你到27幢门口等我五分钟。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "27幢"}]}
+{"id": "numaddr_01024", "kind": "pos", "pattern": "P24_village_door", "text": "住址一栏我只填了19号，村里人都认识我家。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "19号"}]}
+{"id": "numaddr_01025", "kind": "pos", "pattern": "P20_newdoor_party", "text": "新家门牌30号，乔迁宴定在周六中午，都来啊。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "30号"}]}
+{"id": "numaddr_01026", "kind": "pos", "pattern": "P21_pickup_change", "text": "取件地址改成36栋1305吧，之前那个已经不住了。", "entities": [{"start": 6, "end": 13, "type": "address", "text": "36栋1305"}]}
+{"id": "numaddr_01027", "kind": "pos", "pattern": "P05_moved_door_sp", "text": "我搬到了 ２４４ 号，周末有空来坐坐呗。", "entities": [{"start": 5, "end": 10, "type": "address", "text": "２４４ 号"}]}
+{"id": "numaddr_01028", "kind": "mixed", "pattern": "M09_listing", "text": "上海市黄浦区建设路294号这套房，2室2厅，挂牌623万，有兴趣可以约看。", "entities": [{"start": 0, "end": 13, "type": "address", "text": "上海市黄浦区建设路294号"}]}
+{"id": "numaddr_01029", "kind": "pos", "pattern": "P14_yard", "text": "我在16号院，进胡同左手第三个门就是。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "16号院"}]}
+{"id": "numaddr_01030", "kind": "neg", "pattern": "N03_year_grad", "text": "我2024年毕业，之后换了三份工作。", "entities": []}
+{"id": "numaddr_01031", "kind": "pos", "pattern": "P39_hotel_room", "text": "酒店给我们分到2807，推开窗就是海，太值了！", "entities": [{"start": 7, "end": 11, "type": "address", "text": "2807"}]}
+{"id": "numaddr_01032", "kind": "pos", "pattern": "P18_cs_roomno", "text": "客服：请问您的房号是多少？用户：2712，卫生间水管漏水了。", "entities": [{"start": 16, "end": 20, "type": "address", "text": "2712"}]}
+{"id": "numaddr_01033", "kind": "pos", "pattern": "P29_qa_dong", "text": "A：你住哪栋？B：12栋，最靠东边那栋。", "entities": [{"start": 9, "end": 12, "type": "address", "text": "12栋"}]}
+{"id": "numaddr_01034", "kind": "neg", "pattern": "N61_size_height", "text": "身高165，穿 L 码还是 XL 码合适？", "entities": []}
+{"id": "numaddr_01035", "kind": "neg", "pattern": "N33_phone_spec", "text": "这款手机12G内存，8391元能入手吗？", "entities": []}
+{"id": "numaddr_01036", "kind": "neg", "pattern": "N43_flight", "text": "航班 CA7102 延误了，登机时间待定。", "entities": []}
+{"id": "numaddr_01037", "kind": "neg", "pattern": "N03_year_grad", "text": "我2013年毕业，之后换了三份工作。", "entities": []}
+{"id": "numaddr_01038", "kind": "pos", "pattern": "P19_dorm_welcome", "text": "我们宿舍是340，欢迎学弟学妹来串门。", "entities": [{"start": 5, "end": 8, "type": "address", "text": "340"}]}
+{"id": "numaddr_01039", "kind": "neg", "pattern": "N25_http_code", "text": "打开网页一直显示 ５００，服务器是不是挂了？", "entities": []}
+{"id": "numaddr_01040", "kind": "pos", "pattern": "P30_qa_unit_room", "text": "A：几单元几号？B：3单元307，上来记得换鞋。", "entities": [{"start": 10, "end": 16, "type": "address", "text": "3单元307"}]}
+{"id": "numaddr_01041", "kind": "neg", "pattern": "N10_jersey", "text": "他穿 31 号球衣，场上跑得最快的那个。", "entities": []}
+{"id": "numaddr_01042", "kind": "neg", "pattern": "N57_pickup_code", "text": "取件码 21-6-7774，到驿站报这个就行。", "entities": []}
+{"id": "numaddr_01043", "kind": "neg", "pattern": "N13_score", "text": "最后比分2比4，看得我心脏都受不了。", "entities": []}
+{"id": "numaddr_01044", "kind": "pos", "pattern": "P57_dorm_roommate", "text": "室友说他今晚不回128了，门别反锁。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "128"}]}
+{"id": "numaddr_01045", "kind": "pos", "pattern": "P23_shi_suffix", "text": "麻烦师傅送到502室，出电梯右转第二间。", "entities": [{"start": 6, "end": 10, "type": "address", "text": "502室"}]}
+{"id": "numaddr_01046", "kind": "neg", "pattern": "N08_people_count", "text": "昨天聚会来了 51 个人，菜点少了。", "entities": []}
+{"id": "numaddr_01047", "kind": "neg", "pattern": "N01_price_yuan", "text": "这件外套才1937元，比商场便宜一半。", "entities": []}
+{"id": "numaddr_01048", "kind": "pos", "pattern": "P04_form_door", "text": "登记信息｜户主：龙先生｜门牌：37号｜备注：家里有狗，按门铃。", "entities": [{"start": 15, "end": 18, "type": "address", "text": "37号"}]}
+{"id": "numaddr_01049", "kind": "neg", "pattern": "N38_birthday", "text": "3月7号是我生日，别忘了。", "entities": []}
+{"id": "numaddr_01050", "kind": "pos", "pattern": "P40_office_moved", "text": "许老师的办公室搬到603了，交作业去那儿。", "entities": [{"start": 9, "end": 12, "type": "address", "text": "603"}]}
+{"id": "numaddr_01051", "kind": "pos", "pattern": "P51_ask_guard_yard", "text": "找不到路就问门口保安7号院怎么走，他们都知道。", "entities": [{"start": 10, "end": 13, "type": "address", "text": "7号院"}]}
+{"id": "numaddr_01052", "kind": "pos", "pattern": "P52_door_renamed", "text": "地址改为14号了，原来那块旧门牌已经拆掉。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "14号"}]}
+{"id": "numaddr_01053", "kind": "neg", "pattern": "N49_stock", "text": "库存还剩45件，卖完就下架了。", "entities": []}
+{"id": "numaddr_01054", "kind": "neg", "pattern": "N21_game_floor", "text": "这游戏我打到第31层就卡住了，boss 太难打。", "entities": []}
+{"id": "numaddr_01055", "kind": "neg", "pattern": "N29_queue", "text": "叫号叫到 A195 了，前面还有十几个人。", "entities": []}
+{"id": "numaddr_01056", "kind": "neg", "pattern": "N28_weight", "text": "体重 84 公斤，这个月瘦了两斤。", "entities": []}
+{"id": "numaddr_01057", "kind": "pos", "pattern": "P37_form_recipient", "text": "收件人：夏女士；地址：19栋209；放门卫室也可以。", "entities": [{"start": 11, "end": 17, "type": "address", "text": "19栋209"}]}
+{"id": "numaddr_01058", "kind": "pos", "pattern": "P57_dorm_roommate", "text": "室友说他今晚不回６３９了，门别反锁。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "６３９"}]}
+{"id": "numaddr_01059", "kind": "pos", "pattern": "P50_qa_dash", "text": "A：送哪儿？B：22-3311，放门口就行。", "entities": [{"start": 8, "end": 15, "type": "address", "text": "22-3311"}]}
+{"id": "numaddr_01060", "kind": "neg", "pattern": "N05_weekday_date", "text": "下周三 29 号开家长会，别迟到啊。", "entities": []}
+{"id": "numaddr_01061", "kind": "pos", "pattern": "P13_takeout_door", "text": "外卖小哥你好，放305门口就行，别敲门，孩子在睡觉。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "305"}]}
+{"id": "numaddr_01062", "kind": "pos", "pattern": "P07_bld_locker", "text": "快递放22号楼楼下的柜子就行，谢谢师傅。", "entities": [{"start": 3, "end": 7, "type": "address", "text": "22号楼"}]}
+{"id": "numaddr_01063", "kind": "pos", "pattern": "P56_qa_moved", "text": "A：你们搬哪去了？B：就隔壁，26号。", "entities": [{"start": 15, "end": 18, "type": "address", "text": "26号"}]}
+{"id": "numaddr_01064", "kind": "neg", "pattern": "N29_queue", "text": "叫号叫到 B012 了，前面还有十几个人。", "entities": []}
+{"id": "numaddr_01065", "kind": "neg", "pattern": "N46_floor_count", "text": "整栋楼一共32层，居然没有电梯。", "entities": []}
+{"id": "numaddr_01066", "kind": "pos", "pattern": "P58_courier_note", "text": "快递备注：送502，家里没人就放隔壁罗阿姨那。", "entities": [{"start": 6, "end": 9, "type": "address", "text": "502"}]}
+{"id": "numaddr_01067", "kind": "pos", "pattern": "P10_unit_room", "text": "地址就写1单元803，小区门卫都知道。", "entities": [{"start": 4, "end": 10, "type": "address", "text": "1单元803"}]}
+{"id": "numaddr_01068", "kind": "neg", "pattern": "N11_train_seat", "text": "座位是15车厢14B，靠窗，挺好。", "entities": []}
+{"id": "numaddr_01069", "kind": "pos", "pattern": "P21_pickup_change", "text": "取件地址改成34栋402吧，之前那个已经不住了。", "entities": [{"start": 6, "end": 12, "type": "address", "text": "34栋402"}]}
+{"id": "numaddr_01070", "kind": "neg", "pattern": "N21_game_floor", "text": "这游戏我打到第118层就卡住了，boss 太难打。", "entities": []}
+{"id": "numaddr_01071", "kind": "mixed", "pattern": "M07_order_fix", "text": "订单8532525的收货地址填错了，麻烦改成河北省石家庄市长安区中山大街291号金色港湾20栋1301。", "entities": [{"start": 22, "end": 51, "type": "address", "text": "河北省石家庄市长安区中山大街291号金色港湾20栋1301"}]}
+{"id": "numaddr_01072", "kind": "neg", "pattern": "N17_model_no", "text": "我的笔记本型号是 X6077，用了五年还没坏。", "entities": []}
+{"id": "numaddr_01073", "kind": "neg", "pattern": "N23_holiday_date", "text": "2号放假，公司提前一天下班。", "entities": []}
+{"id": "numaddr_01074", "kind": "pos", "pattern": "P41_door_upstairs", "text": "我住105号二楼，楼梯在院子里面，别走错。", "entities": [{"start": 2, "end": 6, "type": "address", "text": "105号"}]}
+{"id": "numaddr_01075", "kind": "pos", "pattern": "P15_stall", "text": "摊位在 154号，卖酱菜的就是我，来了喊一声。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "154号"}]}
+{"id": "numaddr_01076", "kind": "pos", "pattern": "P41_door_upstairs", "text": "我住14号二楼，楼梯在院子里面，别走错。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "14号"}]}
+{"id": "numaddr_01077", "kind": "neg", "pattern": "N43_flight", "text": "航班 CA１６４４ 延误了，登机时间待定。", "entities": []}
+{"id": "numaddr_01078", "kind": "neg", "pattern": "N24_contestant", "text": "第 28 号选手请到后台准备。", "entities": []}
+{"id": "numaddr_01079", "kind": "pos", "pattern": "P50_qa_dash", "text": "A：送哪儿？B：32-2312，放门口就行。", "entities": [{"start": 8, "end": 15, "type": "address", "text": "32-2312"}]}
+{"id": "numaddr_01080", "kind": "neg", "pattern": "N12_page_question", "text": "这道题在第312页，第15题，我也不会。", "entities": []}
+{"id": "numaddr_01081", "kind": "pos", "pattern": "P54_doorno_bare", "text": "门牌号 21，院门没锁，直接推门进来。", "entities": [{"start": 4, "end": 6, "type": "address", "text": "21"}]}
+{"id": "numaddr_01082", "kind": "pos", "pattern": "P19_dorm_welcome", "text": "我们宿舍是318，欢迎学弟学妹来串门。", "entities": [{"start": 5, "end": 8, "type": "address", "text": "318"}]}
+{"id": "numaddr_01083", "kind": "pos", "pattern": "P13_takeout_door", "text": "外卖小哥你好，放1610门口就行，别敲门，孩子在睡觉。", "entities": [{"start": 8, "end": 12, "type": "address", "text": "1610"}]}
+{"id": "numaddr_01084", "kind": "pos", "pattern": "P23_shi_suffix", "text": "麻烦师傅送到805室，出电梯右转第二间。", "entities": [{"start": 6, "end": 10, "type": "address", "text": "805室"}]}
+{"id": "numaddr_01085", "kind": "neg", "pattern": "N27_exam_score", "text": "高考考了 ５７０ 分，够不够上一本线？", "entities": []}
+{"id": "numaddr_01086", "kind": "pos", "pattern": "P49_repair", "text": "上门维修预约：2单元204室，空调不制冷，周末都在家。", "entities": [{"start": 7, "end": 14, "type": "address", "text": "2单元204室"}]}
+{"id": "numaddr_01087", "kind": "neg", "pattern": "N07_population", "text": "村里人口7601人，其中六十岁以上的占三成。", "entities": []}
+{"id": "numaddr_01088", "kind": "pos", "pattern": "P27_qinshi", "text": "他现在住319寝室，你直接上去找他吧。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "319"}]}
+{"id": "numaddr_01089", "kind": "pos", "pattern": "P33_notice_unit", "text": "物业通知：3号楼2单元明天上午停水，请住户提前储水。", "entities": [{"start": 5, "end": 11, "type": "address", "text": "3号楼2单元"}]}
+{"id": "numaddr_01090", "kind": "pos", "pattern": "P49_repair", "text": "上门维修预约：2单元1207室，空调不制冷，周末都在家。", "entities": [{"start": 7, "end": 15, "type": "address", "text": "2单元1207室"}]}
+{"id": "numaddr_01091", "kind": "pos", "pattern": "P29_qa_dong", "text": "A：你住哪栋？B：13栋，最靠东边那栋。", "entities": [{"start": 9, "end": 12, "type": "address", "text": "13栋"}]}
+{"id": "numaddr_01092", "kind": "pos", "pattern": "P20_newdoor_party", "text": "新家门牌４０号，乔迁宴定在周六中午，都来啊。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "４０号"}]}
+{"id": "numaddr_01093", "kind": "mixed", "pattern": "M05_year_moved", "text": "2010年我们搬到了辽宁省沈阳市浑南区园林街123号幸福里21栋1711，一住就是好多年。", "entities": [{"start": 10, "end": 36, "type": "address", "text": "辽宁省沈阳市浑南区园林街123号幸福里21栋1711"}]}
+{"id": "numaddr_01094", "kind": "neg", "pattern": "N29_queue", "text": "叫号叫到 C110 了，前面还有十几个人。", "entities": []}
+{"id": "numaddr_01095", "kind": "neg", "pattern": "N07_population", "text": "村里人口1895人，其中六十岁以上的占三成。", "entities": []}
+{"id": "numaddr_01096", "kind": "neg", "pattern": "N61_size_height", "text": "身高167，穿 L 码还是 XL 码合适？", "entities": []}
+{"id": "numaddr_01097", "kind": "pos", "pattern": "P26_fetch_key", "text": "下班顺路的话去14号楼帮我拿一下钥匙，我妈在家。", "entities": [{"start": 7, "end": 11, "type": "address", "text": "14号楼"}]}
+{"id": "numaddr_01098", "kind": "neg", "pattern": "N48_gather_time", "text": "７号上午九点半集合，别睡过头。", "entities": []}
+{"id": "numaddr_01099", "kind": "neg", "pattern": "N26_glue", "text": "手指被502胶水粘住了，汤师傅说用热水泡一泡，管用吗？", "entities": []}
+{"id": "numaddr_01100", "kind": "neg", "pattern": "N25_http_code", "text": "打开网页一直显示 ５０２，服务器是不是挂了？", "entities": []}
+{"id": "numaddr_01101", "kind": "neg", "pattern": "N20_age", "text": "我今年18岁，身体还算硬朗。", "entities": []}
+{"id": "numaddr_01102", "kind": "pos", "pattern": "P09_dash_combo", "text": "我家是32-1201，电梯坏了，麻烦走楼梯上来。", "entities": [{"start": 3, "end": 10, "type": "address", "text": "32-1201"}]}
+{"id": "numaddr_01103", "kind": "neg", "pattern": "N48_gather_time", "text": "18号上午九点半集合，别睡过头。", "entities": []}
+{"id": "numaddr_01104", "kind": "neg", "pattern": "N06_time", "text": "会议改到明天上午8点30分，大家记一下。", "entities": []}
+{"id": "numaddr_01105", "kind": "neg", "pattern": "N08_people_count", "text": "昨天聚会来了 １８ 个人，菜点少了。", "entities": []}
+{"id": "numaddr_01106", "kind": "pos", "pattern": "P46_group_parcel", "text": "邻居群：1112的快递被谁拿错了？麻烦送回来，谢谢！", "entities": [{"start": 4, "end": 8, "type": "address", "text": "1112"}]}
+{"id": "numaddr_01107", "kind": "neg", "pattern": "N10_jersey", "text": "他穿 45 号球衣，场上跑得最快的那个。", "entities": []}
+{"id": "numaddr_01108", "kind": "pos", "pattern": "P25_upstairs_room", "text": "我就住你楼上，104，有事喊一声就行。", "entities": [{"start": 7, "end": 10, "type": "address", "text": "104"}]}
+{"id": "numaddr_01109", "kind": "neg", "pattern": "N34_dining_car", "text": "3号车厢是餐车，饿了可以去那边买盒饭。", "entities": []}
+{"id": "numaddr_01110", "kind": "pos", "pattern": "P38_new_full_combo", "text": "新地址发你：27号楼5单元1512，记得在软件里改一下。", "entities": [{"start": 6, "end": 17, "type": "address", "text": "27号楼5单元1512"}]}
+{"id": "numaddr_01111", "kind": "pos", "pattern": "P17_forum_upstairs", "text": "求助帖：楼主住34号楼201，楼上天天半夜拖椅子，有同样遭遇的吗？", "entities": [{"start": 7, "end": 14, "type": "address", "text": "34号楼201"}]}
+{"id": "numaddr_01112", "kind": "pos", "pattern": "P09_dash_combo", "text": "我家是6-412，电梯坏了，麻烦走楼梯上来。", "entities": [{"start": 3, "end": 8, "type": "address", "text": "6-412"}]}
+{"id": "numaddr_01113", "kind": "pos", "pattern": "P46_group_parcel", "text": "邻居群：605的快递被谁拿错了？麻烦送回来，谢谢！", "entities": [{"start": 4, "end": 7, "type": "address", "text": "605"}]}
+{"id": "numaddr_01114", "kind": "neg", "pattern": "N61_size_height", "text": "身高155，穿 L 码还是 XL 码合适？", "entities": []}
+{"id": "numaddr_01115", "kind": "neg", "pattern": "N02_price_symbol", "text": "￥493，包邮，今晚下单明天就到。", "entities": []}
+{"id": "numaddr_01116", "kind": "neg", "pattern": "N55_doc_number", "text": "第7号文件已经下发，各部门照办。", "entities": []}
+{"id": "numaddr_01117", "kind": "pos", "pattern": "P43_rent_listing", "text": "转租：19栋朝南单间，拎包入住，有意私聊。", "entities": [{"start": 3, "end": 6, "type": "address", "text": "19栋"}]}
+{"id": "numaddr_01118", "kind": "pos", "pattern": "P06_door_reddoor", "text": "就在 126号，黑门那家，门口有棵石榴树。", "entities": [{"start": 3, "end": 7, "type": "address", "text": "126号"}]}
+{"id": "numaddr_01119", "kind": "pos", "pattern": "P49_repair", "text": "上门维修预约：2单元208室，空调不制冷，周末都在家。", "entities": [{"start": 7, "end": 14, "type": "address", "text": "2单元208室"}]}
+{"id": "numaddr_01120", "kind": "mixed", "pattern": "M08_visit_time", "text": "家访地址：陕西省西安市莲湖区长安西路333号碧水苑30幢1302室；时间：11月14号下午5点。", "entities": [{"start": 5, "end": 33, "type": "address", "text": "陕西省西安市莲湖区长安西路333号碧水苑30幢1302室"}]}
+{"id": "numaddr_01121", "kind": "neg", "pattern": "N31_shoe_size", "text": "鞋码37，这款偏大半码，建议拍小一码。", "entities": []}
+{"id": "numaddr_01122", "kind": "mixed", "pattern": "M02_metro", "text": "我家在天津市滨海新区江南中路395号，坐2号线过来，出站再走41分钟。", "entities": [{"start": 3, "end": 18, "type": "address", "text": "天津市滨海新区江南中路395号"}]}
+{"id": "numaddr_01123", "kind": "neg", "pattern": "N39_chapter", "text": "第475章写得太拖了，看不下去，弃了。", "entities": []}
+{"id": "numaddr_01124", "kind": "neg", "pattern": "N35_train_delay", "text": "K1528次列车晚点 77 分钟，大家别着急。", "entities": []}
+{"id": "numaddr_01125", "kind": "pos", "pattern": "P25_upstairs_room", "text": "我就住你楼上，506，有事喊一声就行。", "entities": [{"start": 7, "end": 10, "type": "address", "text": "506"}]}
+{"id": "numaddr_01126", "kind": "pos", "pattern": "P22_three_dash", "text": "备注：17-6-906，放门口鞋柜上，谢谢。", "entities": [{"start": 3, "end": 11, "type": "address", "text": "17-6-906"}]}
+{"id": "numaddr_01127", "kind": "neg", "pattern": "N14_app_version", "text": "App 更新到 4.7.4 以后老是闪退，有人遇到吗？", "entities": []}
+{"id": "numaddr_01128", "kind": "pos", "pattern": "P08_go_dong", "text": "明天下午去 8栋 找王老师拿资料。", "entities": [{"start": 6, "end": 8, "type": "address", "text": "8栋"}]}
+{"id": "numaddr_01129", "kind": "neg", "pattern": "N31_shoe_size", "text": "鞋码40，这款偏大半码，建议拍小一码。", "entities": []}
+{"id": "numaddr_01130", "kind": "mixed", "pattern": "M10_gather_count", "text": "团建集合点在山东省青岛市市北区胜利西路336号东方明珠苑2栋1401，人到齐58个就发车。", "entities": [{"start": 6, "end": 34, "type": "address", "text": "山东省青岛市市北区胜利西路336号东方明珠苑2栋1401"}]}
+{"id": "numaddr_01131", "kind": "mixed", "pattern": "M03_sender_fee", "text": "寄件人地址甘肃省兰州市城关区北京西路70号怡景新村4栋604，运费4元已付。", "entities": [{"start": 5, "end": 30, "type": "address", "text": "甘肃省兰州市城关区北京西路70号怡景新村4栋604"}]}
+{"id": "numaddr_01132", "kind": "pos", "pattern": "P29_qa_dong", "text": "A：你住哪栋？B：3栋，最靠东边那栋。", "entities": [{"start": 9, "end": 11, "type": "address", "text": "3栋"}]}
+{"id": "numaddr_01133", "kind": "pos", "pattern": "P05_moved_door_sp", "text": "我搬到了 2 号，周末有空来坐坐呗。", "entities": [{"start": 5, "end": 8, "type": "address", "text": "2 号"}]}
+{"id": "numaddr_01134", "kind": "mixed", "pattern": "M10_gather_count", "text": "团建集合点在吉林省长春市南关区建设南路172号1号楼2单元205，人到齐43个就发车。", "entities": [{"start": 6, "end": 32, "type": "address", "text": "吉林省长春市南关区建设南路172号1号楼2单元205"}]}
+{"id": "numaddr_01135", "kind": "neg", "pattern": "N44_draw_lot", "text": "抽签抽到 27 号，第三个上场，好紧张。", "entities": []}
+{"id": "numaddr_01136", "kind": "neg", "pattern": "N07_population", "text": "村里人口4960人，其中六十岁以上的占三成。", "entities": []}
+{"id": "numaddr_01137", "kind": "neg", "pattern": "N14_app_version", "text": "App 更新到 6.11.8 以后老是闪退，有人遇到吗？", "entities": []}
+{"id": "numaddr_01138", "kind": "pos", "pattern": "P26_fetch_key", "text": "下班顺路的话去26号楼帮我拿一下钥匙，我妈在家。", "entities": [{"start": 7, "end": 11, "type": "address", "text": "26号楼"}]}
+{"id": "numaddr_01139", "kind": "pos", "pattern": "P49_repair", "text": "上门维修预约：2单元3106室，空调不制冷，周末都在家。", "entities": [{"start": 7, "end": 15, "type": "address", "text": "2单元3106室"}]}
+{"id": "numaddr_01140", "kind": "neg", "pattern": "N36_households_vote", "text": "共51户参加了这次投票，赞成的占多数。", "entities": []}
+{"id": "numaddr_01141", "kind": "neg", "pattern": "N47_classroom_cap", "text": "这间阶梯教室能容纳40人，讲座放这里吧。", "entities": []}
+{"id": "numaddr_01142", "kind": "neg", "pattern": "N16_meeting_cap", "text": "会议室能坐 60 人，周会够用了。", "entities": []}
+{"id": "numaddr_01143", "kind": "neg", "pattern": "N17_model_no", "text": "我的笔记本型号是 X1179，用了五年还没坏。", "entities": []}
+{"id": "numaddr_01144", "kind": "pos", "pattern": "P05_moved_door_sp", "text": "我搬到了 10 号，周末有空来坐坐呗。", "entities": [{"start": 5, "end": 9, "type": "address", "text": "10 号"}]}
+{"id": "numaddr_01145", "kind": "neg", "pattern": "N04_date_home", "text": "17号回家，票已经买好了。", "entities": []}
+{"id": "numaddr_01146", "kind": "neg", "pattern": "N22_metro_line", "text": "坐11号线地铁，中间换乘一次就到。", "entities": []}
+{"id": "numaddr_01147", "kind": "neg", "pattern": "N58_layout", "text": "这套房子3室1厅，53平米，采光很好。", "entities": []}
+{"id": "numaddr_01148", "kind": "neg", "pattern": "N03_year_grad", "text": "我1997年毕业，之后换了三份工作。", "entities": []}
+{"id": "numaddr_01149", "kind": "neg", "pattern": "N19_rank", "text": "期末全年级排第108名，比上次进步了。", "entities": []}
+{"id": "numaddr_01150", "kind": "neg", "pattern": "N20_age", "text": "我今年21岁，身体还算硬朗。", "entities": []}
+{"id": "numaddr_01151", "kind": "pos", "pattern": "P12_qa_room", "text": "问：送到哪个房间？答：１６０３。", "entities": [{"start": 11, "end": 15, "type": "address", "text": "１６０３"}]}
+{"id": "numaddr_01152", "kind": "neg", "pattern": "N40_run_time", "text": "这次五公里用时59分48秒，配速还行。", "entities": []}
+{"id": "numaddr_01153", "kind": "neg", "pattern": "N33_phone_spec", "text": "这款手机8G内存，1101元能入手吗？", "entities": []}
+{"id": "numaddr_01154", "kind": "pos", "pattern": "P30_qa_unit_room", "text": "A：几单元几号？B：6单元907，上来记得换鞋。", "entities": [{"start": 10, "end": 16, "type": "address", "text": "6单元907"}]}
+{"id": "numaddr_01155", "kind": "neg", "pattern": "N41_temperature", "text": "明天气温 31 度，出门记得多穿点。", "entities": []}
+{"id": "numaddr_01156", "kind": "pos", "pattern": "P27_qinshi", "text": "他现在住120寝室，你直接上去找他吧。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "120"}]}
+{"id": "numaddr_01157", "kind": "pos", "pattern": "P04_form_door", "text": "登记信息｜户主：廖先生｜门牌：1号｜备注：家里有狗，按门铃。", "entities": [{"start": 15, "end": 17, "type": "address", "text": "1号"}]}
+{"id": "numaddr_01158", "kind": "neg", "pattern": "N29_queue", "text": "叫号叫到 C119 了，前面还有十几个人。", "entities": []}
+{"id": "numaddr_01159", "kind": "neg", "pattern": "N46_floor_count", "text": "整栋楼一共24层，居然没有电梯。", "entities": []}
+{"id": "numaddr_01160", "kind": "pos", "pattern": "P34_neighbor_aunt", "text": "楼下106的阿姨又来借梯子了，借了三回都没还。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "106"}]}
+{"id": "numaddr_01161", "kind": "pos", "pattern": "P34_neighbor_aunt", "text": "楼下511的阿姨又来借梯子了，借了三回都没还。", "entities": [{"start": 2, "end": 5, "type": "address", "text": "511"}]}
+{"id": "numaddr_01162", "kind": "neg", "pattern": "N30_battery", "text": "帮我买八节7号电池，手电筒没电了。", "entities": []}
+{"id": "numaddr_01163", "kind": "neg", "pattern": "N02_price_symbol", "text": "￥197，包邮，今晚下单明天就到。", "entities": []}
+{"id": "numaddr_01164", "kind": "pos", "pattern": "P47_form_two", "text": "入住登记｜楼栋：21栋｜房号：3105｜入住人数：两人", "entities": [{"start": 8, "end": 11, "type": "address", "text": "21栋"}, {"start": 15, "end": 19, "type": "address", "text": "3105"}]}
+{"id": "numaddr_01165", "kind": "pos", "pattern": "P23_shi_suffix", "text": "麻烦师傅送到311室，出电梯右转第二间。", "entities": [{"start": 6, "end": 10, "type": "address", "text": "311室"}]}
+{"id": "numaddr_01166", "kind": "neg", "pattern": "N07_population", "text": "村里人口2153人，其中六十岁以上的占三成。", "entities": []}
+{"id": "numaddr_01167", "kind": "pos", "pattern": "P27_qinshi", "text": "他现在住238寝室，你直接上去找他吧。", "entities": [{"start": 4, "end": 7, "type": "address", "text": "238"}]}
+{"id": "numaddr_01168", "kind": "neg", "pattern": "N13_score", "text": "最后比分5比0，看得我心脏都受不了。", "entities": []}
+{"id": "numaddr_01169", "kind": "neg", "pattern": "N57_pickup_code", "text": "取件码 17-3-6380，到驿站报这个就行。", "entities": []}
+{"id": "numaddr_01170", "kind": "neg", "pattern": "N44_draw_lot", "text": "抽签抽到 24 号，第三个上场，好紧张。", "entities": []}
+{"id": "numaddr_01171", "kind": "pos", "pattern": "P40_office_moved", "text": "丁老师的办公室搬到409了，交作业去那儿。", "entities": [{"start": 9, "end": 12, "type": "address", "text": "409"}]}
+{"id": "numaddr_01172", "kind": "neg", "pattern": "N14_app_version", "text": "App 更新到 4.10.1 以后老是闪退，有人遇到吗？", "entities": []}
+{"id": "numaddr_01173", "kind": "pos", "pattern": "P04_form_door", "text": "登记信息｜户主：高先生｜门牌：23号｜备注：家里有狗，按门铃。", "entities": [{"start": 15, "end": 18, "type": "address", "text": "23号"}]}
+{"id": "numaddr_01174", "kind": "pos", "pattern": "P46_group_parcel", "text": "邻居群：1607的快递被谁拿错了？麻烦送回来，谢谢！", "entities": [{"start": 4, "end": 8, "type": "address", "text": "1607"}]}
+{"id": "numaddr_01175", "kind": "neg", "pattern": "N56_room_price", "text": "572元一晚的房间，性价比还挺高。", "entities": []}
+{"id": "numaddr_01176", "kind": "neg", "pattern": "N24_contestant", "text": "第 9 号选手请到后台准备。", "entities": []}
+{"id": "numaddr_01177", "kind": "mixed", "pattern": "M04_office_move", "text": "新公司地址：北京市通州区复兴南路54号4号楼4单元1009，5号正式搬过去，到时请大家吃饭。", "entities": [{"start": 6, "end": 29, "type": "address", "text": "北京市通州区复兴南路54号4号楼4单元1009"}]}
+{"id": "numaddr_01178", "kind": "pos", "pattern": "P16_dong_unit_ask", "text": "已经到楼下了，4栋5单元是哪个门啊？", "entities": [{"start": 7, "end": 12, "type": "address", "text": "4栋5单元"}]}
+{"id": "numaddr_01179", "kind": "pos", "pattern": "P53_share_room", "text": "我和邹姐合租，住909，有空过来吃火锅。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "909"}]}
+{"id": "numaddr_01180", "kind": "pos", "pattern": "P51_ask_guard_yard", "text": "找不到路就问门口保安33号院怎么走，他们都知道。", "entities": [{"start": 10, "end": 14, "type": "address", "text": "33号院"}]}
+{"id": "numaddr_01181", "kind": "pos", "pattern": "P44_pickup_wait", "text": "到了给我发消息，我下来接你，我在14号楼。", "entities": [{"start": 16, "end": 20, "type": "address", "text": "14号楼"}]}
+{"id": "numaddr_01182", "kind": "pos", "pattern": "P36_zhuang", "text": "车停在路边，你到29幢门口等我五分钟。", "entities": [{"start": 8, "end": 11, "type": "address", "text": "29幢"}]}
+{"id": "numaddr_01183", "kind": "pos", "pattern": "P38_new_full_combo", "text": "新地址发你：12号楼1单元1711，记得在软件里改一下。", "entities": [{"start": 6, "end": 17, "type": "address", "text": "12号楼1单元1711"}]}
+{"id": "numaddr_01184", "kind": "mixed", "pattern": "M03_sender_fee", "text": "寄件人地址青岛市市北区延安大街289号绿城小区36幢2711室，运费6元已付。", "entities": [{"start": 5, "end": 31, "type": "address", "text": "青岛市市北区延安大街289号绿城小区36幢2711室"}]}
+{"id": "numaddr_01185", "kind": "pos", "pattern": "P07_bld_locker", "text": "快递放21号楼楼下的柜子就行，谢谢师傅。", "entities": [{"start": 3, "end": 7, "type": "address", "text": "21号楼"}]}
+{"id": "numaddr_01186", "kind": "mixed", "pattern": "M05_year_moved", "text": "1999年我们搬到了湖北省武汉市江汉区公园街292号和谐家园33幢501室，一住就是好多年。", "entities": [{"start": 10, "end": 37, "type": "address", "text": "湖北省武汉市江汉区公园街292号和谐家园33幢501室"}]}
+{"id": "numaddr_01187", "kind": "neg", "pattern": "N52_exam_seat", "text": "考试座位号 17，进场前看清楚别坐错。", "entities": []}
+{"id": "numaddr_01188", "kind": "pos", "pattern": "P11_qa_door", "text": "A：你家几号？B：1号，铁门刷了白漆的那个。", "entities": [{"start": 9, "end": 11, "type": "address", "text": "1号"}]}
+{"id": "numaddr_01189", "kind": "pos", "pattern": "P50_qa_dash", "text": "A：送哪儿？B：10-1802，放门口就行。", "entities": [{"start": 8, "end": 15, "type": "address", "text": "10-1802"}]}
+{"id": "numaddr_01190", "kind": "neg", "pattern": "N30_battery", "text": "帮我买六节5号电池，遥控器没电了。", "entities": []}
+{"id": "numaddr_01191", "kind": "pos", "pattern": "P45_old_place", "text": "老地方，104号，晚上七点不见不散。", "entities": [{"start": 4, "end": 8, "type": "address", "text": "104号"}]}
+{"id": "numaddr_01192", "kind": "neg", "pattern": "N60_chart_rank", "text": "这首歌在榜单上排第162位，比上周升了不少。", "entities": []}
+{"id": "numaddr_01193", "kind": "pos", "pattern": "P56_qa_moved", "text": "A：你们搬哪去了？B：就隔壁，257号。", "entities": [{"start": 15, "end": 19, "type": "address", "text": "257号"}]}
+{"id": "numaddr_01194", "kind": "pos", "pattern": "P06_door_reddoor", "text": "就在 189号，黑门那家，门口有棵石榴树。", "entities": [{"start": 3, "end": 7, "type": "address", "text": "189号"}]}
+{"id": "numaddr_01195", "kind": "neg", "pattern": "N20_age", "text": "我今年17岁，身体还算硬朗。", "entities": []}
+{"id": "numaddr_01196", "kind": "neg", "pattern": "N62_discount", "text": "店庆全场七折，满706减3，算下来挺划算。", "entities": []}
+{"id": "numaddr_01197", "kind": "pos", "pattern": "P10_unit_room", "text": "地址就写3单元411，小区门卫都知道。", "entities": [{"start": 4, "end": 10, "type": "address", "text": "3单元411"}]}
+{"id": "numaddr_01198", "kind": "neg", "pattern": "N41_temperature", "text": "明天气温 6 度，出门记得多穿点。", "entities": []}
+{"id": "numaddr_01199", "kind": "neg", "pattern": "N64_line_date_mix", "text": "20号那天17号线停运，记得提前出门。", "entities": []}
+{"id": "numaddr_01200", "kind": "mixed", "pattern": "M08_visit_time", "text": "家访地址：黑龙江省哈尔滨市道外区幸福街243号新世纪花园13栋705；时间：2月28号下午5点。", "entities": [{"start": 5, "end": 34, "type": "address", "text": "黑龙江省哈尔滨市道外区幸福街243号新世纪花园13栋705"}]}

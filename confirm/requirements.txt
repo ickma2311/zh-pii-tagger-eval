@@ -1,0 +1,8 @@
+faker==40.43.0
+jieba==0.42.1
+onnxruntime==1.31.0
+tokenizers
+huggingface_hub
+numpy
+torch
+transformers

@@ -1,0 +1,88 @@
+[
+ {
+  "pair": "int8",
+  "set": "e2",
+  "decoder": "D1",
+  "type": "person",
+  "metric": "strict",
+  "gold": 2214,
+  "base_f1": 0.6967,
+  "ours_f1": 0.732,
+  "base_p": 0.7135,
+  "ours_p": 0.7176,
+  "base_r": 0.6807,
+  "ours_r": 0.7471,
+  "delta": 3.53,
+  "ci95": [
+   2.24,
+   4.71
+  ]
+ },
+ {
+  "pair": "int8",
+  "set": "e2",
+  "decoder": "D1",
+  "type": "person",
+  "metric": "overlap",
+  "gold": 2214,
+  "base_f1": 0.8323,
+  "ours_f1": 0.8531,
+  "base_p": 0.8561,
+  "ours_p": 0.8386,
+  "base_r": 0.8098,
+  "ours_r": 0.8681,
+  "delta": 2.08,
+  "ci95": [
+   1.33,
+   2.85
+  ]
+ },
+ {
+  "pair": "int8",
+  "set": "e2",
+  "decoder": "D2",
+  "type": "person",
+  "metric": "strict",
+  "gold": 2214,
+  "base_f1": 0.7535,
+  "ours_f1": 0.7774,
+  "base_p": 0.7987,
+  "ours_p": 0.7926,
+  "base_r": 0.7132,
+  "ours_r": 0.7629,
+  "delta": 2.39,
+  "ci95": [
+   1.29,
+   3.44
+  ]
+ },
+ {
+  "pair": "int8",
+  "set": "e2",
+  "decoder": "D2",
+  "type": "person",
+  "metric": "overlap",
+  "gold": 2214,
+  "base_f1": 0.8184,
+  "ours_f1": 0.8497,
+  "base_p": 0.8675,
+  "ours_p": 0.8663,
+  "base_r": 0.7746,
+  "ours_r": 0.8338,
+  "delta": 3.13,
+  "ci95": [
+   2.39,
+   3.85
+  ]
+ },
+ {
+  "pair": "int8",
+  "set": "e2",
+  "decoder": "D2raw",
+  "type": "person",
+  "metric": "strict",
+  "base_f1": 0.7535,
+  "base_p": 0.7987,
+  "base_r": 0.7132
+ }
+]

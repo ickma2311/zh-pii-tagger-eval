@@ -3,7 +3,7 @@
 Contexts: LCCC dialogues and Chinese Wikipedia body sentences, filtered so that
 they contain no (jieba-detected) real person names. Synthetic names and
 addresses come only from Faker (zh_CN, plus en_US for a small share of
-English names) and are inserted through hand-written patterns with exact gold
+English names) and are inserted through patterns written in this file with exact gold
 character offsets.
 
 Usage: python -I gen_fresh.py <lccc_valid.jsonl.gz> <wiki_fresh.jsonl> <out.jsonl>

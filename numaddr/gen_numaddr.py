@@ -3,7 +3,7 @@
 
 Usage: python -I gen_numaddr.py OUT.jsonl
 Deterministic for a given seed (20261016). Pure standard library; all word
-lists and templates are hand-written in this file.
+lists and templates are written in this file.
 
 Template syntax: Python str.format placeholders for fillers; the gold address
 span is wrapped in [[ ... ]] (markers are removed and offsets recorded after

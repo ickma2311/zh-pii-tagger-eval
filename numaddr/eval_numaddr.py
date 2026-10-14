@@ -138,12 +138,13 @@ def predict_all(fwd, texts):
 # ---------------------------------------------------------------- run
 sb_dir = os.path.dirname(hub(SB_REPO, SB_REV, "model.safetensors")); hub(SB_REPO, SB_REV, "config.json")
 systems = [("seatbelt", sb_dir)] + [(f"{v}_s{s}", os.path.join(A.models, f"{v}_s{s}")) for v in ("v10", "v11") for s in (7, 77, 777)]
-docs = {}
+docs, ids, data_sha = {}, {}, {}
 for ds in TYPES:
-    p = os.path.join(A.data, ds + ".jsonl"); docs[ds] = [json.loads(l)["text"] for l in open(p, encoding="utf-8")]
-    if A.smoke: docs[ds] = docs[ds][:A.smoke]
-    prog("loaded", ds, len(docs[ds]), "sha256", sha(p)[:16])
-P = {"sb_rev": SB_REV, "systems": {}}
+    p = os.path.join(A.data, ds + ".jsonl"); recs = [json.loads(l) for l in open(p, encoding="utf-8")]
+    if A.smoke: recs = recs[:A.smoke]
+    docs[ds] = [r["text"] for r in recs]; ids[ds] = [r["id"] for r in recs]; data_sha[ds] = sha(p)
+    prog("loaded", ds, len(docs[ds]), "sha256", data_sha[ds])
+P = {"sb_rev": SB_REV, "data_sha256": data_sha, "ids": ids, "smoke": A.smoke, "systems": {}}
 for name, d in systems:
     m = Torch(d); t0 = time.time()
     P["systems"][name] = {ds: {k: v for k, v in predict_all(m, texts).items() if k in ("D1", "D2")} for ds, texts in docs.items()}

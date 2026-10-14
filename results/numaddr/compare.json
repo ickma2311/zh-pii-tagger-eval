@@ -864,6 +864,84 @@
   "SB|numaddr_unit|D2|bare_fp": [
    229
   ],
+  "SB|numaddr_neg|D1|address|overlap": {
+   "f1": [
+    0.0
+   ],
+   "p": [
+    0.0
+   ],
+   "r": [
+    0.0
+   ]
+  },
+  "SB|numaddr_neg|D1|address|strict": {
+   "f1": [
+    0.0
+   ],
+   "p": [
+    0.0
+   ],
+   "r": [
+    0.0
+   ]
+  },
+  "SB|numaddr_neg|D1|person|strict": {
+   "f1": [
+    0.0
+   ],
+   "p": [
+    0.0
+   ],
+   "r": [
+    0.0
+   ]
+  },
+  "SB|numaddr_neg|D1|bare_fp": [
+   94
+  ],
+  "SB|numaddr_neg|D1|addr_preds": [
+   106
+  ],
+  "SB|numaddr_neg|D2|address|overlap": {
+   "f1": [
+    0.0
+   ],
+   "p": [
+    0.0
+   ],
+   "r": [
+    0.0
+   ]
+  },
+  "SB|numaddr_neg|D2|address|strict": {
+   "f1": [
+    0.0
+   ],
+   "p": [
+    0.0
+   ],
+   "r": [
+    0.0
+   ]
+  },
+  "SB|numaddr_neg|D2|person|strict": {
+   "f1": [
+    0.0
+   ],
+   "p": [
+    0.0
+   ],
+   "r": [
+    0.0
+   ]
+  },
+  "SB|numaddr_neg|D2|bare_fp": [
+   89
+  ],
+  "SB|numaddr_neg|D2|addr_preds": [
+   99
+  ],
   "SB+F|numaddr|D1|address|overlap": {
    "f1": [
     0.6907
@@ -1727,6 +1805,84 @@
   },
   "SB+F|numaddr_unit|D2|bare_fp": [
    135
+  ],
+  "SB+F|numaddr_neg|D1|address|overlap": {
+   "f1": [
+    0.0
+   ],
+   "p": [
+    0.0
+   ],
+   "r": [
+    0.0
+   ]
+  },
+  "SB+F|numaddr_neg|D1|address|strict": {
+   "f1": [
+    0.0
+   ],
+   "p": [
+    0.0
+   ],
+   "r": [
+    0.0
+   ]
+  },
+  "SB+F|numaddr_neg|D1|person|strict": {
+   "f1": [
+    0.0
+   ],
+   "p": [
+    0.0
+   ],
+   "r": [
+    0.0
+   ]
+  },
+  "SB+F|numaddr_neg|D1|bare_fp": [
+   14
+  ],
+  "SB+F|numaddr_neg|D1|addr_preds": [
+   26
+  ],
+  "SB+F|numaddr_neg|D2|address|overlap": {
+   "f1": [
+    0.0
+   ],
+   "p": [
+    0.0
+   ],
+   "r": [
+    0.0
+   ]
+  },
+  "SB+F|numaddr_neg|D2|address|strict": {
+   "f1": [
+    0.0
+   ],
+   "p": [
+    0.0
+   ],
+   "r": [
+    0.0
+   ]
+  },
+  "SB+F|numaddr_neg|D2|person|strict": {
+   "f1": [
+    0.0
+   ],
+   "p": [
+    0.0
+   ],
+   "r": [
+    0.0
+   ]
+  },
+  "SB+F|numaddr_neg|D2|bare_fp": [
+   14
+  ],
+  "SB+F|numaddr_neg|D2|addr_preds": [
+   24
   ],
   "V10|numaddr|D1|address|overlap": {
    "f1": [
@@ -3072,6 +3228,128 @@
    229,
    233
   ],
+  "V10|numaddr_neg|D1|address|overlap": {
+   "f1": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "r": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "V10|numaddr_neg|D1|address|strict": {
+   "f1": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "r": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "V10|numaddr_neg|D1|person|strict": {
+   "f1": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "r": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "V10|numaddr_neg|D1|bare_fp": [
+   105,
+   105,
+   95
+  ],
+  "V10|numaddr_neg|D1|addr_preds": [
+   121,
+   123,
+   112
+  ],
+  "V10|numaddr_neg|D2|address|overlap": {
+   "f1": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "r": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "V10|numaddr_neg|D2|address|strict": {
+   "f1": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "r": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "V10|numaddr_neg|D2|person|strict": {
+   "f1": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "r": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "V10|numaddr_neg|D2|bare_fp": [
+   98,
+   102,
+   92
+  ],
+  "V10|numaddr_neg|D2|addr_preds": [
+   110,
+   114,
+   101
+  ],
   "V10+F|numaddr|D1|address|overlap": {
    "f1": [
     0.714,
@@ -4416,6 +4694,128 @@
    128,
    128
   ],
+  "V10+F|numaddr_neg|D1|address|overlap": {
+   "f1": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "r": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "V10+F|numaddr_neg|D1|address|strict": {
+   "f1": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "r": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "V10+F|numaddr_neg|D1|person|strict": {
+   "f1": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "r": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "V10+F|numaddr_neg|D1|bare_fp": [
+   16,
+   16,
+   14
+  ],
+  "V10+F|numaddr_neg|D1|addr_preds": [
+   32,
+   34,
+   31
+  ],
+  "V10+F|numaddr_neg|D2|address|overlap": {
+   "f1": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "r": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "V10+F|numaddr_neg|D2|address|strict": {
+   "f1": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "r": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "V10+F|numaddr_neg|D2|person|strict": {
+   "f1": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "r": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "V10+F|numaddr_neg|D2|bare_fp": [
+   15,
+   16,
+   14
+  ],
+  "V10+F|numaddr_neg|D2|addr_preds": [
+   27,
+   28,
+   23
+  ],
   "V11|numaddr|D1|address|overlap": {
    "f1": [
     0.3982,
@@ -5759,6 +6159,142 @@
    4,
    1,
    1
+  ],
+  "V11|numaddr_neg|D1|address|overlap": {
+   "f1": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "r": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "V11|numaddr_neg|D1|address|strict": {
+   "f1": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "r": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "V11|numaddr_neg|D1|person|strict": {
+   "f1": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "r": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "V11|numaddr_neg|D1|bare_fp": [
+   1,
+   1,
+   1
+  ],
+  "V11|numaddr_neg|D1|addr_preds": [
+   14,
+   18,
+   17
+  ],
+  "V11|numaddr_neg|D2|address|overlap": {
+   "f1": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "r": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "V11|numaddr_neg|D2|address|strict": {
+   "f1": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "r": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "V11|numaddr_neg|D2|person|strict": {
+   "f1": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "p": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "r": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "V11|numaddr_neg|D2|bare_fp": [
+   1,
+   1,
+   1
+  ],
+  "V11|numaddr_neg|D2|addr_preds": [
+   10,
+   10,
+   10
   ]
+ },
+ "inputs": {
+  "preds_sha256": "9851e19e0ed92e78b9ac4dcb60a3d4e01e10b04aa5d5c0a594d725a50dd4cdfe",
+  "data_sha256": {
+   "numaddr": "d13d9ebaed2373f105b35a9f39e3dcd12eb0f73874675ed607e81b83c1250e4f",
+   "fresh2": "8fc15cdc52211e646e31f82b3db788424b408cbbb07f766ae504122c3bb4bda9",
+   "msra_test": "79c8ecb44fbf6c7e4c2d5f6c08ecda3d514f83a3f1c53b9c6386b921988537cb",
+   "pii_bench": "27ecc78dd1e90f841463db1d2bbf1fa5119ab4c1b9e9a3b2c0d5aa4a51e0038e",
+   "msra_train_5k": "4a12e48e8e0af82ad4fc87ee9613fc2b50f8f9401a5559c881abe87d0c7f0c1c",
+   "weibo_train": "89cfba58ace51755949394dfc556432784129a7ef2be137c628c1a26675f19ba",
+   "cluener_dev": "f13d39cab061fceae052ff8b539dba4ff540ae47d66eae6bc116bc19282ee557",
+   "e2": "e1481cc35c0400e756c74f0d4f2e876c80164d5fb7c2d54c965b06077f4d6a45",
+   "fresh": "13b5355de15c958c1649352091a1a03eb9dcf9bcfd154b798ee9a5f6c25c9824"
+  }
  }
 }

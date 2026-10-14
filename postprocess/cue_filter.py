@@ -6,8 +6,9 @@ A span typed address whose text is only digits / spaces / .,% and at most one tr
   - the text right after it (POST_WINDOW characters, same sentence) starts with one of POST_CUES.
 So "人口3065人" or "24号回家" lose their address tag, while "我住502", "门牌66号" or "5号楼" keep it.
 Trade-off measured on zh-pii-numaddr (see the model card): about 33 points less recall on addresses written as
-digits alone (addresses with a unit word such as 栋 / 号楼 / 单元 / 室 are never removed), far fewer plain numbers
-masked as addresses. Off by default.
+digits alone, far fewer plain numbers masked as addresses. Off by default. Only the predicted span is checked: a
+span that includes a unit word (栋 / 号楼 / 单元 / 室 ...) is kept, but one that stops before it (5号 out of 5号院)
+is removed.
 
 Usage:
     from cue_filter import filter_spans

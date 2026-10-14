@@ -15,7 +15,7 @@ from metrics import read_conll, counts, f1_from, TYPES
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.environ.get("OUT_DIR", os.path.join(HERE, "out")); os.makedirs(OUT, exist_ok=True)
 DEV = "cuda" if torch.cuda.is_available() else "cpu"
-SB = "cjhwong/seatbelt-pii-tagger"; SB_REV = os.environ.get("SB_REV", "main")  # pin with SB_REV=c2ca0cd7d1c2f93092dfa6bac8e4c74ad82aad18
+SB = "cjhwong/seatbelt-pii-tagger"; SB_REV = os.environ.get("SB_REV", "c2ca0cd7d1c2f93092dfa6bac8e4c74ad82aad18")  # base-model revision used as the teacher
 
 def log(*a):
     print("[progress]", time.strftime("%H:%M:%S"), *a, flush=True)

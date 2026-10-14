@@ -9,9 +9,16 @@ CC BY-SA 4.0 since June 2023).
 
 - **LCCC**: the base *test* split for e2, the base *valid* split for fresh and fresh2 (thu-coai, via `silver/lccc` on
   Hugging Face). MIT License; see the notice below.
-- **Chinese Wikipedia**: `wikimedia/wikipedia`, config 20231101.zh, CC BY-SA 4.0. Attribution: Wikipedia
-  contributors. fresh and fresh2 use articles that e2 did not use (and fresh2 none that fresh used); their ids
-  are in the `wiki_id` field of each record.
+- **Chinese Wikipedia**: `wikimedia/wikipedia`, config 20231101.zh, licensed under
+  [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Attribution: Wikipedia contributors of the
+  articles listed in `data/wiki_sources.jsonl`, which gives the article id, title and URL (and a `?curid=` link,
+  where the page history lists the authors) for every Wikipedia-derived record:
+  - fresh and fresh2: from the `wiki_id` field of each record;
+  - e2: its records keep no article id, so the source was recovered by matching the record's sentences against
+    the dump rows it was built from. 671 of the 675 records match one article; 4 have text that is identical in
+    4 articles, and all 4 are listed.
+  fresh and fresh2 use articles that e2 did not use, and fresh2 none that fresh used. See also the
+  [Wikimedia terms of use on re-use](https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use#7._Licensing_of_Content).
 
 ## Inserted entities
 

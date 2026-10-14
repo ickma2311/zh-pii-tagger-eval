@@ -52,7 +52,6 @@ are not redistributed.
 
 ## Notes
 
-- This work was done with AI assistance (Claude Code): the code, the experiments and this README.
 - Numbers are measured by us. The synthetic test sets have real contexts but synthetic entities, so they do not
   measure accuracy on real personal data. English was evaluated only for person, email and phone.
 - The two taggers are always scored with the same decoder. The Qwen3-8B baseline maps JSON strings back to

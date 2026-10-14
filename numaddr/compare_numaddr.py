@@ -1,6 +1,9 @@
 """Comparison table from eval_numaddr.py's preds.json: base model (SB), v1.0, v1.1, and SB+F / V10+F (the optional
 post-processing filter, postprocess/cue_filter.py, applied to the saved predictions); decoders D1 and D2.
-"numaddr_numonly" is zh-pii-numaddr restricted to the 550 messages whose address is only a number (568 gold spans).
+"numaddr_numonly" is zh-pii-numaddr restricted to the 550 messages whose address has no street or city (568 gold
+spans); "numaddr_pure" keeps only the 313 of those gold spans that are digits alone (optionally with 号), and
+"numaddr_unit" the 255 that carry a unit word (栋, 号楼, 单元, 室, N-N, ...). Only recall is meaningful on the two
+span-level subsets.
 Usage: python -I compare_numaddr.py <preds.json> <data dir> <out.json>
 """
 import sys, os, json
@@ -14,13 +17,16 @@ SETS = ["numaddr", "fresh2", "msra_test", "pii_bench", "msra_train_5k", "weibo_t
 docs = {ds: [json.loads(l) for l in open(os.path.join(data_d, ds + ".jsonl"), encoding="utf-8")] for ds in SETS}
 POS = [i for i, d in enumerate(docs["numaddr"]) if d["kind"] == "pos"]
 docs["numaddr_numonly"] = [docs["numaddr"][i] for i in POS]
-SETS = SETS + ["numaddr_numonly"]
+docs["numaddr_pure"] = [dict(d, entities=[e for e in d["entities"] if NUM_ADDR.fullmatch(e["text"])]) for d in docs["numaddr_numonly"]]
+docs["numaddr_unit"] = [dict(d, entities=[e for e in d["entities"] if not NUM_ADDR.fullmatch(e["text"])]) for d in docs["numaddr_numonly"]]
+SUB = ("numaddr_numonly", "numaddr_pure", "numaddr_unit")
+SETS = SETS + list(SUB)
 SEEDS = (7, 77, 777)
 
 def system(name, ds, dec):
     """Predictions of a system; names ending in +F apply the cue filter to the underlying system."""
-    src = "numaddr" if ds == "numaddr_numonly" else ds
-    pick = (lambda xs: [xs[i] for i in POS]) if ds == "numaddr_numonly" else (lambda xs: xs)
+    src = "numaddr" if ds in SUB else ds
+    pick = (lambda xs: [xs[i] for i in POS]) if ds in SUB else (lambda xs: xs)
     if name.endswith("+F"):
         base = pick(P[name[:-2]][src][dec])
         return [[tuple(x) for x in filter_spans(d["text"], [tuple(s) for s in p])] for d, p in zip(docs[ds], base)]

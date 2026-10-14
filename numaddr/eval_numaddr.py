@@ -14,14 +14,9 @@ def prog(*a): print("[progress]", *a, flush=True)
 
 SB_REPO, SB_REV = "cjhwong/seatbelt-pii-tagger", "c2ca0cd7d1c2f93092dfa6bac8e4c74ad82aad18"
 OURS_REPO, OURS_REV = "ickma2311/zh-pii-tagger-35m", "c206a27b5b028c23b0e1d9c3faefbd8cb502274c"
-SHA = {"sb_int8": "0a4696ac95ec8c1cb8fb560a88c2dfcf347fc9628fd5cbfadbbd34f8d429d9f4",
-       "ours_int8": "ea20aa416406a82393c55aa046f5ee4f4415fd6f2537c35aaa087f33fe93d942",
-       "ours_s7_fp32": "b620a28ef853f12698561376daded0f6404f1a46c91398b2287b41d32109782a"}
 PUNCT = set("，。、；：！？（）《》“”‘’【】—…·,.;:!?()[]<>\"'")
 SENTENCE_ENDS = "。！？\n"
 TYPES = ["numaddr", "fresh2", "msra_test", "pii_bench", "msra_train_5k", "weibo_train", "cluener_dev", "e2", "fresh"]
-import re
-NUM_ADDR = re.compile(r"[\d\s.,，．%°]+号?")
 
 def sha(p): return hashlib.sha256(open(p, "rb").read()).hexdigest()
 from huggingface_hub import hf_hub_download
@@ -34,15 +29,6 @@ TOK = Tokenizer.from_file(tok_path); TOK.no_padding(); TOK.enable_truncation(max
 OUTSIDE = labels.index("O")
 
 # ---------------------------------------------------------------- forward passes
-import onnxruntime as ort
-class Onnx:
-    def __init__(self, p):
-        so = ort.SessionOptions(); so.intra_op_num_threads = os.cpu_count() or 4
-        self.s = ort.InferenceSession(p, so, providers=["CPUExecutionProvider"]); self.n = [i.name for i in self.s.get_inputs()]
-    def __call__(self, ids):
-        x = np.array([ids], dtype=np.int64); feed = {"input_ids": x, "attention_mask": np.ones_like(x)}
-        if "token_type_ids" in self.n: feed["token_type_ids"] = np.zeros_like(x)
-        return self.s.run(None, feed)[0][0]
 class Torch:
     def __init__(self, d):
         import torch; from transformers import BertForTokenClassification
@@ -148,35 +134,6 @@ def predict_all(fwd, texts):
             r2r += [(s + off, e + off, y) for s, e, y in d2_window(ch, enc, lg, False)]
         res["D1"].append(r1); res["D2"].append(r2); res["D2raw"].append(r2r)
     return res
-
-# ---------------------------------------------------------------- metrics
-def rows(docs, preds, t, mode):
-    out = []
-    for d, p in zip(docs, preds):
-        g = [(e["start"], e["end"]) for e in d["entities"] if e["type"] == t]; q = [(s, e) for s, e, y in p if y == t]
-        if mode == "strict": k = len(set(g) & set(q)); out.append((k, k, len(q), len(g)))
-        else: out.append((sum(any(s < b and a < e for s, e in q) for a, b in g), sum(any(s < b and a < e for a, b in g) for s, e in q), len(q), len(g)))
-    return np.array(out, float)
-def prf(a):
-    s = a.sum(0); P = s[1] / s[2] if s[2] else 0.0; R = s[0] / s[3] if s[3] else 0.0
-    return (2 * P * R / (P + R) if P + R else 0.0), P, R
-def boot(a, b, B=2000):
-    rng = np.random.default_rng(0); n = len(a); ds = []
-    for _ in range(B):
-        i = rng.integers(0, n, n); ds.append(prf(a[i])[0] - prf(b[i])[0])
-    lo, hi = np.percentile(ds, [2.5, 97.5]); return round(100 * lo, 2), round(100 * hi, 2)
-
-def compare(docs, ours, base, ds, dec, label):
-    out = []
-    for t in TYPES[ds]:
-        for mode in ("strict", "overlap"):
-            a, b = rows(docs, ours[dec], t, mode), rows(docs, base[dec], t, mode)
-            fa, pa, ra = prf(a); fb, pb, rb = prf(b); lo, hi = boot(a, b)
-            out.append({"pair": label, "set": ds, "decoder": dec, "type": t, "metric": mode, "gold": int(a[:, 3].sum()),
-                        "base_f1": round(fb, 4), "ours_f1": round(fa, 4), "base_p": round(pb, 4), "ours_p": round(pa, 4),
-                        "base_r": round(rb, 4), "ours_r": round(ra, 4), "delta": round(100 * (fa - fb), 2), "ci95": [lo, hi]})
-            prog(f"{label:10s} {ds:14s} {dec:5s} {t:7s} {mode:7s} base {fb:.4f} ours {fa:.4f} Δ {100*(fa-fb):+.2f} [{lo:+.2f},{hi:+.2f}]")
-    return out
 
 # ---------------------------------------------------------------- run
 sb_dir = os.path.dirname(hub(SB_REPO, SB_REV, "model.safetensors")); hub(SB_REPO, SB_REV, "config.json")

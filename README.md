@@ -10,21 +10,24 @@ four Chinese test sets:
   after release from new contexts. They share no Wikipedia article; 13 of the 1,300 LCCC dialogue contexts in each
   set are short contexts that appear in both. The names and addresses come from Faker, inserted by templates
   written independently of the training generator.
-- **zh-pii-numaddr** (`data/numaddr.jsonl`): 1,200 short messages from an independent generator, for addresses
-  that are only a number (room, door, building or unit numbers) and for numbers that are not addresses.
+- **zh-pii-numaddr** (`data/numaddr.jsonl`): 1,200 short messages for addresses written without a street or city
+  (room, door, building or unit numbers) and for numbers that are not addresses. Its generator could not see the
+  optional filter, but its templates were based partly on the same example sentences as the filter's word list;
+  58 positive templates.
 
 The model card has the result tables and limits. The main model on Hugging Face is v1.0 (back on main since
 2026-10-14); v1.1 is kept under the tag `v1.1` and is not recommended because it misses addresses that are only a
 number. In short, compared with the base model:
 - this model misses fewer Chinese person names: recall is about 2 to 10 points higher on test sets never used
   during development, while precision moves between −3.5 and +3.5 points;
-- person F1 gains are modest: +0.6 to +2.1 on zh-pii-fresh and zh-pii-fresh-2, and +3.3 to +6.7 on MSRA news; on
-  Weibo and CLUENER they are not significant under the base model's own decoder;
-- on PII Bench ZH person it is slightly below the base model under the base model's own decoder (−0.4 to −0.6;
+- person F1 gains are modest: +0.6 to +2.1 on zh-pii-fresh and zh-pii-fresh-2, +4.2 to +6.7 on an MSRA train
+  sample and +3.3 to +5.7 on the MSRA test split; on Weibo and CLUENER they are not significant under the base
+  model's own decoder;
+- on PII Bench ZH person it is slightly below the base model under the base model's own decoder (−0.4 to −0.65;
   −1.0 with the released int8 on an x86 CPU);
 - addresses: no consistent improvement over the base model. The optional `postprocess/cue_filter.py` (off by
-  default) removes most plain numbers tagged as addresses, at a cost of about 18 points of recall on addresses
-  that are only a number;
+  default) removes most plain numbers tagged as addresses, at a cost of about 33 points of recall on addresses
+  written as digits alone;
 - int8 scores depend on the CPU.
 
 This is not a state-of-the-art or across-the-board improvement.

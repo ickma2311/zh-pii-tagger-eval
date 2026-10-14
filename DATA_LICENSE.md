@@ -23,8 +23,8 @@ CC BY-SA 4.0 since June 2023).
 
 ## zh-pii-numaddr
 
-`data/numaddr.jsonl` is generated entirely by `numaddr/gen_numaddr.py` from hand-written templates and word lists (no
-third-party text, no Faker). It is released under **CC BY 4.0**. Numbers are invented; street and community names are generic words combined at
+`data/numaddr.jsonl` is generated entirely by `numaddr/gen_numaddr.py` from templates and word lists written in the
+script (no third-party text, no Faker). It is released under **CC BY 4.0**. Numbers are invented; street and community names are generic words combined at
 random and may coincide with real ones; city and district names are real. No real person is attached to any of them.
 
 The code in this repository is Apache-2.0 (`LICENSE`). Weibo NER, MSRA NER and CLUENER2020 are evaluation inputs

@@ -1,3 +1,5 @@
+<img src="assets/chao-lab-logo.png" alt="Chao Lab" height="40">
+
 # zh-pii-tagger-eval
 
 Training and evaluation code for [`ickma2311/zh-pii-tagger-35m`](https://huggingface.co/ickma2311/zh-pii-tagger-35m),

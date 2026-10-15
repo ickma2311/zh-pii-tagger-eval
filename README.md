@@ -33,6 +33,15 @@ written without a street or city. In short, compared with the base model:
 
 This is not a state-of-the-art or across-the-board improvement.
 
+## Demo
+
+[![Demo video: this model and the base model on the same Chinese messages](assets/demo.png)](https://huggingface.co/ickma2311/zh-pii-tagger-35m/blob/main/demo/zh-pii-tagger-demo.mp4)
+
+A 3.5-minute comparison of this model and the base model, both running locally (int8 ONNX on a Mac CPU): five
+fictional messages, the held-out set, the test sets never used during development, and the address trade-off.
+English narration, with English and Chinese captions burned in. The video is hosted on Hugging Face; caption files:
+[English](https://huggingface.co/ickma2311/zh-pii-tagger-35m/blob/main/demo/zh-pii-tagger-demo.en.srt), [Chinese](https://huggingface.co/ickma2311/zh-pii-tagger-35m/blob/main/demo/zh-pii-tagger-demo.zh.srt).
+
 ## Files
 
 | file | what it does |

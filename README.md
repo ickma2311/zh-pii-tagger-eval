@@ -16,7 +16,7 @@ four Chinese test sets:
   58 positive templates.
 
 The model card has the result tables and limits. The main model on Hugging Face is v1.0 (back on main since
-{RELEASE_DATE}); v1.1 is kept under the tag `v1.1` and is not recommended because it misses most short addresses
+2026-10-14); v1.1 is kept under the tag `v1.1` and is not recommended because it misses most short addresses
 written without a street or city. In short, compared with the base model:
 - this model misses fewer Chinese person names: recall is about 2 to 10 points higher on test sets never used
   during development, while precision moves between −3.5 and +3.5 points;
@@ -113,7 +113,7 @@ are not redistributed.
   spans, and the rule baselines use their own spans.
 - 2026-10-13: v1.0; added zh-pii-fresh and the evaluations on unused splits and with the base model's decoder.
 - 2026-10-14: v1.1 (tag `v1.1`); added `--addr-clean` and zh-pii-fresh-2.
-- {RELEASE_DATE}: Hugging Face main is v1.0 again, with an optional filter; added zh-pii-numaddr, its comparison,
+- 2026-10-14: Hugging Face main is v1.0 again, with an optional filter; added zh-pii-numaddr, its comparison,
   the saved predictions and the Wikipedia source list.
 
 ## Licence

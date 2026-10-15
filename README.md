@@ -15,9 +15,7 @@ four Chinese test sets:
   optional filter, but its templates were based partly on the same example sentences as the filter's word list;
   58 positive templates.
 
-The model card has the result tables and limits. The main model on Hugging Face is v1.0 (back on main since
-2026-10-14); v1.1 is kept under the tag `v1.1` and is not recommended because it misses most short addresses
-written without a street or city. In short, compared with the base model:
+The model card has the result tables and limits. The main model on Hugging Face is v1.0. In short, compared with the base model:
 - this model misses fewer Chinese person names: recall is about 2 to 10 points higher on test sets never used
   during development, while precision moves between −3.5 and +3.5 points;
 - person F1 gains are modest: +0.6 to +2.1 on zh-pii-fresh and zh-pii-fresh-2, +4.2 to +6.7 on an MSRA train
@@ -77,7 +75,7 @@ English narration, with English and Chinese captions burned in. The video is hos
 python build_e2.py <lccc_base_test.jsonl.gz> <zhwiki_rows.jsonl> data/e2.jsonl   # optional; sha256 must match data/e2.sha256
 python build_train_n.py <fineweb2 cmn_Hani test 000_00000.parquet> data/e2.jsonl <weibo/msra conll files> --out data/n_v2.jsonl --n 40000 --v2
 SB_REV=c2ca0cd7d1c2f93092dfa6bac8e4c74ad82aad18 python train_eval.py --mode main --recipe v2 --trim-punct --seeds 7,77,777   # v1.0 (main); one T4, about 0.5 h
-# variant: --addr-clean --cfgs M builds v1.1 (tag v1.1); M = the released configuration only
+# variant: --addr-clean --cfgs M builds v1.1 (withdrawn, see Versions); M = the released configuration only
 ```
 
 This reproduces the training recipe, not the original runs bit for bit: those used the base model's main branch at
@@ -112,9 +110,14 @@ are not redistributed.
 - The two taggers are always scored with the same decoder. The Qwen3-8B baseline maps JSON strings back to
   spans, and the rule baselines use their own spans.
 - 2026-10-13: v1.0; added zh-pii-fresh and the evaluations on unused splits and with the base model's decoder.
-- 2026-10-14: v1.1 (tag `v1.1`); added `--addr-clean` and zh-pii-fresh-2.
+- 2026-10-14: v1.1 (withdrawn the same day, see Versions); added `--addr-clean` and zh-pii-fresh-2.
 - 2026-10-14: Hugging Face main is v1.0 again, with an optional filter; added zh-pii-numaddr, its comparison,
   the saved predictions and the Wikipedia source list.
+
+## Versions
+
+A v1.1 published on 2026-10-14 was withdrawn the same day because it missed most house and room numbers written as
+digits. If you downloaded it then, please re-download from main ([model card](https://huggingface.co/ickma2311/zh-pii-tagger-35m)).
 
 ## Licence
 

@@ -7,8 +7,9 @@ span-level subsets. "numaddr_neg" is the 550 messages with no address at all (co
 prediction there is a false positive; "<GRP>|numaddr_neg|<dec>|addr_preds" counts them.
 "bare_fp" counts number-only address predictions that match no gold address. On MSRA (no address gold) and
 fresh2 (only inserted addresses are gold) these are not all false positives.
-The input preds.json must cover every document of every set, in file order; the script checks counts (and ids when
-the predictions carry them) and records the sha256 of every input.
+The input preds.json must cover every document of every set, in file order. It must carry the ids and the sha256 of
+every data file it was made from (eval_numaddr.py writes both); the script checks counts, ids and data hashes, and
+records the sha256 of every input.
 Usage: python -I compare_numaddr.py <preds.json> <data dir> <out.json>
 """
 import sys, os, json
@@ -20,15 +21,16 @@ preds_p, data_d, out_p = sys.argv[1:4]
 import hashlib
 sha = lambda p: hashlib.sha256(open(p, "rb").read()).hexdigest()
 PJ = json.load(open(preds_p)); P = PJ["systems"]
-assert not PJ.get("smoke"), "smoke predictions cannot be scored"
+assert PJ.get("smoke") == 0, "smoke predictions cannot be scored"
+assert "ids" in PJ and "data_sha256" in PJ, "preds.json must carry ids and data_sha256 (written by eval_numaddr.py)"
 SETS = ["numaddr", "fresh2", "msra_test", "pii_bench", "msra_train_5k", "weibo_train", "cluener_dev", "e2", "fresh"]
 docs = {ds: [json.loads(l) for l in open(os.path.join(data_d, ds + ".jsonl"), encoding="utf-8")] for ds in SETS}
 for ds in SETS:  # every system must cover every document, in order
     for name, sysp in P.items():
         for dec in ("D1", "D2"):
             assert len(sysp[ds][dec]) == len(docs[ds]), (name, ds, dec, len(sysp[ds][dec]), len(docs[ds]))
-    if "ids" in PJ: assert PJ["ids"][ds] == [d["id"] for d in docs[ds]], ("id mismatch", ds)
-    if "data_sha256" in PJ: assert PJ["data_sha256"][ds] == sha(os.path.join(data_d, ds + ".jsonl")), ("data hash mismatch", ds)
+    assert PJ["ids"][ds] == [d["id"] for d in docs[ds]], ("id mismatch", ds)
+    assert PJ["data_sha256"][ds] == sha(os.path.join(data_d, ds + ".jsonl")), ("data hash mismatch", ds)
 POS = [i for i, d in enumerate(docs["numaddr"]) if d["kind"] == "pos"]
 NEG = [i for i, d in enumerate(docs["numaddr"]) if d["kind"] == "neg"]
 docs["numaddr_numonly"] = [docs["numaddr"][i] for i in POS]

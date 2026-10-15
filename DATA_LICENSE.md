@@ -16,7 +16,7 @@ CC BY-SA 4.0 since June 2023).
   - fresh and fresh2: from the `wiki_id` field of each record;
   - e2: its records keep no article id, so the source was recovered by matching the record's sentences against
     the dump rows it was built from. 671 of the 675 records match one article; 4 have text that is identical in
-    4 articles, and all 4 are listed.
+    the same 5 articles, and all 5 are listed.
   fresh and fresh2 use articles that e2 did not use, and fresh2 none that fresh used. See also the
   [Wikimedia terms of use on re-use](https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use#7._Licensing_of_Content).
 

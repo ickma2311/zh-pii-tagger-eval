@@ -81,12 +81,17 @@ fixed revision, and ran on Kaggle with unrecorded library versions.
 python numaddr/prep_known.py data/e2.jsonl <pii_bench_zh.jsonl> <pii_bench_zh_chat.jsonl> <msra.test> eval/
 python confirm/prep_confirm.py <raw dir with weibo.train, msra.train, cluener/dev.json> data/fresh.jsonl data/n_v2.jsonl data/e2.jsonl eval/
 cp data/numaddr.jsonl data/fresh2.jsonl eval/
-python numaddr/eval_numaddr.py --data eval --models <dir with v10_s*/ v11_s*/>   # writes preds.json
-python numaddr/compare_numaddr.py preds.json eval out.json
+python numaddr/eval_numaddr.py --data eval --models <dir with v10_s*/ v11_s*/>   # writes out/preds.json (OUT_DIR overrides out/)
+python numaddr/compare_numaddr.py out/preds.json eval out.json
 ```
 
-The input hashes are listed in `results/numaddr/compare.json`; `results/numaddr/preds_numaddr.json.gz` lets you
-rerun only the comparison.
+The input hashes are listed in `results/numaddr/compare.json`. To rerun only the comparison from the saved
+predictions (they carry the document ids and data sha256 that `compare_numaddr.py` checks):
+
+```bash
+gunzip -k results/numaddr/preds_numaddr.json.gz   # -> results/numaddr/preds_numaddr.json
+python numaddr/compare_numaddr.py results/numaddr/preds_numaddr.json eval out.json
+```
 
 Weibo NER (`hltcoe/golden-horse`, `weiboNER_2nd_conll.*`), MSRA NER and CLUENER2020 are evaluation inputs only and
 are not redistributed.

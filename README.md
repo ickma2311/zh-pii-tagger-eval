@@ -31,6 +31,60 @@ The model card has the result tables and limits. The main model on Hugging Face 
 
 This is not a state-of-the-art or across-the-board improvement.
 
+## Use the model
+
+The labels are BIOES, so the generic `pipeline("token-classification")` output splits entities into pieces. This
+short decoder joins them and strips leading and trailing punctuation (tested on CPU with transformers 5.9.0):
+
+```python
+import torch
+from transformers import AutoTokenizer, AutoModelForTokenClassification
+
+repo = "ickma2311/zh-pii-tagger-35m"
+tok = AutoTokenizer.from_pretrained(repo, revision="v1.0")
+model = AutoModelForTokenClassification.from_pretrained(repo, revision="v1.0").eval()
+PUNCT = " \t，。、；：！？,.;:!?()（）「」\"'"
+
+def tag(text):
+    enc = tok(text, return_offsets_mapping=True, return_tensors="pt", truncation=True, max_length=512)
+    offsets = enc.pop("offset_mapping")[0].tolist()
+    with torch.no_grad():
+        ids = model(**enc).logits[0].argmax(-1).tolist()
+    spans, cur = [], None
+    for (s, e), i in zip(offsets, ids):
+        if s == e:
+            continue
+        lab = model.config.id2label[i]
+        if lab == "O":
+            cur = None; continue
+        pre, typ = lab.split("-", 1)
+        if pre in ("B", "S") or cur is None or cur[2] != typ:
+            cur = [s, e, typ]; spans.append(cur)
+        else:
+            cur[1] = e
+        if pre in ("E", "S"):
+            cur = None
+    merged = []
+    for sp in spans:  # join same-type spans that touch (only spaces between)
+        if merged and merged[-1][2] == sp[2] and not text[merged[-1][1]:sp[0]].strip():
+            merged[-1][1] = sp[1]
+        else:
+            merged.append(sp)
+    out = []
+    for s, e, typ in merged:
+        while s < e and text[s] in PUNCT: s += 1
+        while e > s and text[e - 1] in PUNCT: e -= 1
+        if s < e: out.append((typ, text[s:e]))
+    return out
+
+print(tag("我叫欧阳晓燕，住在杭州市西湖区文三路 88 号 502 室，电话 13812345678。"))
+# [('person', '欧阳晓燕'), ('address', '杭州市西湖区文三路 88 号 502 室'), ('phone', '13812345678')]
+```
+
+This is simple argmax decoding. The numbers in Results use the decoders in the
+this repository. For the optional number filter, see
+`postprocess/cue_filter.py`.
+
 ## Demo
 
 [![Demo video: this model and the base model on the same Chinese messages](assets/demo.png)](https://huggingface.co/ickma2311/zh-pii-tagger-35m/blob/main/demo/zh-pii-tagger-demo.mp4)

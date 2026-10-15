@@ -47,7 +47,7 @@ English narration, with English and Chinese captions burned in. The video is hos
 | `pools.py` | entity pools (names, addresses, ...), split by a stable hash into a training half and an evaluation half |
 | `build_e2.py` | builds zh-pii-ctx-heldout from LCCC test and zh-Wikipedia contexts, using the evaluation half |
 | `build_train_n.py` | builds training passages from FineWeb-2 `cmn_Hani` contexts, using the training half; checks that no held-out name or context leaks; use `--v2` to build the released model's data |
-| `train_eval.py` | replay self-labelling with the base model, training (the released model, a matched-step replay-only ablation, and a second model family as a check), evaluation (Kaggle T4); `--addr-clean` relabels the base model's number-only "addresses" as not-an-address (v1.1) |
+| `train_eval.py` | replay self-labelling with the base model, training (the released model, a matched-step replay-only ablation, and a second model family as a check), evaluation (Kaggle T4); `--addr-clean` relabels the base model's number-only "addresses" as not-an-address (the withdrawn v1.1) |
 | `eval_rules.py` | non-model baselines (jieba nr + regex, argus-redact fast) |
 | `qwen_baseline.py` | Qwen3-8B prompted baseline |
 | `export_bench.py` | int8 ONNX export (eager attention, ORT BERT fusion, dynamic int8) and CPU latency vs the base model |
@@ -58,13 +58,13 @@ English narration, with English and Chinese captions burned in. The video is hos
 | `confirm/eval_confirm.py`, `confirm/eval_known.py` | score both models with the project decoder and with our reimplementation of the base model's Viterbi decoder; paired bootstrap |
 | `results/confirm/*.json` | raw outputs of the two scripts above |
 | `confirm/requirements.txt` | pinned versions used for zh-pii-fresh and these evaluations |
-| `addrfix/eval_addrfix.py` | v1.1 check: base model vs v1.0 vs v1.1 on all sets, two decoders, plus a count of number-only spans tagged as address |
-| `addrfix/eval_int8.py` | the same comparison for the int8 files on the current CPU |
-| `results/addrfix/*.json` | raw outputs of the two scripts above, and `bench_int8_v11.json` (int8 latency and size) |
+| `addrfix/eval_addrfix.py` | check of the withdrawn v1.1: base model vs v1.0 vs v1.1 on all sets, two decoders, plus a count of number-only spans tagged as address |
+| `addrfix/eval_int8.py` | the same comparison (including the withdrawn v1.1) for the int8 files on the current CPU |
+| `results/addrfix/*.json` | raw outputs of the two scripts above, and `bench_int8_v11.json` (int8 latency and size of the withdrawn v1.1) |
 | `postprocess/cue_filter.py` | optional post-processing (off by default): drop "address" spans that are only a number unless an address word is next to them |
 | `numaddr/gen_numaddr.py` | builds zh-pii-numaddr (standard library only, seed 20261016) |
 | `numaddr/prep_known.py` | converts zh-pii-ctx-heldout, PII Bench ZH and MSRA NER test to the evaluation format |
-| `numaddr/eval_numaddr.py`, `numaddr/compare_numaddr.py` | predictions of the base model, v1.0 and v1.1 on all test sets, then the comparison table with and without the filter; the comparison checks document counts / ids and records input hashes |
+| `numaddr/eval_numaddr.py`, `numaddr/compare_numaddr.py` | predictions of the base model, v1.0 and v1.1 (withdrawn) on all test sets, then the comparison table with and without the filter; the comparison checks document counts / ids and records input hashes |
 | `results/numaddr/compare.json` | output of `compare_numaddr.py` (table and input sha256) |
 | `results/numaddr/preds_numaddr.json.gz` | the saved predictions it was computed from (character spans only) |
 | `data/wiki_sources.jsonl` | Wikipedia article (id, title, URL) behind every Wikipedia-derived record of e2, fresh and fresh2 |
